@@ -344,6 +344,7 @@ STATUS_t CapacityMeasurement(void)
 	/* Temperature and Humidity Measurement */
 	STATUS_t Status = TemperatureMeasurement();
 	/* Wait for LOW State on V_Cap Pin */
+	_delay_ms(250);
 	uint cnt = 0;
 	while (!V_CAP_IS_UNDER_L_THR)
 	{
