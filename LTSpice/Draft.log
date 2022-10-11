@@ -8,32 +8,32 @@ Ignoring empty pin current: Ix(ic3:vcc)
 Ignoring empty pin current: Ix(ic2a:vcc)
 Ignoring empty pin current: Ix(ic3:vcc)
 
-t1: time=4.74011e-005 at 4.74011e-005
-t2: time=7.93884e-005 at 7.93884e-005
-dischargingtime: (t2-t1)*1e6=31.9873
-t3: time=0.000111403 at 0.000111403
-chargingtime: (t3-t2)*1e6=32.0144
-t4: time=4.94991e-005 at 4.94991e-005
-inttime: t4-t1=2.09797e-006
-chargingticks: (t3-t2)*16e6=512.231
-dischargingticks: (t2-t1)*16e6=511.797
+t1: time=0.000148743 at 0.000148743
+t2: time=0.000250603 at 0.000250603
+dischargingtime: (t2-t1)*1e6=101.86
+t3: time=0.000352566 at 0.000352566
+chargingtime: (t3-t2)*1e6=101.963
+t4: time=0.000156746 at 0.000156746
+inttime: t4-t1=8.00293e-006
+chargingticks: (t3-t2)*16e6=1631.4
+dischargingticks: (t2-t1)*16e6=1629.75
 
 
-Date: Sat Jul 09 13:05:46 2022
-Total elapsed time: 48.290 seconds.
+Date: Tue Oct 11 23:57:45 2022
+Total elapsed time: 110.950 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 181358
-traniter = 181339
-tranpoints = 90362
-accept = 89909
-rejected = 453
+totiter = 447649
+traniter = 447630
+tranpoints = 223442
+accept = 223121
+rejected = 321
 matrix size = 358
 fillins = 121
-solver = Alternate
-Thread vector: 141.3/59.7[4] 17.7/9.8[4] 14.6/8.7[4] 5.8/6.6[1]  2592/500
-Matrix Compiler1: 14.35 KB object code size  17.1/8.2/[4.1]
-Matrix Compiler2: 28.65 KB object code size  11.4/16.9/[7.4]
+solver = Normal
+Thread vector: 37.8/22.1[4] 8.4/4.5[4] 9.8/5.2[4] 2.1/2.5[1]  2592/500
+Matrix Compiler1: 11.94 KB object code size  8.3/4.4/[2.1]
+Matrix Compiler2: 25.18 KB object code size  4.9/7.0/[2.7]
 

@@ -5,7 +5,7 @@ syms x;
 
 % wartości zmierzone
 Meas = [
-    126.1832 147.6006 180.2216 196.8221 208.4288 231.3545 250.6058 270.1945 283.4323 310.1494 322.3885
+    126.1832 147.6006 180.2216 196.8221 208.4288 231.3545 250.6058 270.1945 283.4323 307.1494 322.3885
 ] * 1E-12;
 
 % wartości rzeczywiste
@@ -18,8 +18,8 @@ Real = [
 
 %% wyznaczenie wzoru korekcyjnego za pomocą interpolacji Lagrange'a
 INTERPOLATION_FULL_RANGE = 0;
-IntX = [Meas(2), Meas(3), Meas(7), Meas(end-2)];
-IntY = [Real(2), Real(3), Real(7), Real(end-2)];
+IntX = [Meas(1), Meas(3), Meas(6), Meas(11)];
+IntY = [Real(1), Real(3), Real(6), Real(11)];
 Poly = LagrangeInterpolation(IntX, IntY);
 start = find(Meas==IntX(1)); stop = find(Meas==IntX(end));
 Interpolation = polyval(Poly, Meas(start:stop));

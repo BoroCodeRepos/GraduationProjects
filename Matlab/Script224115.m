@@ -424,18 +424,19 @@ function MeasurementTimePlt()
         ChargingTime(R, Caxis * 1E-12);
         DischargingTime(R, Caxis * 1E-12)
     ] * 1E6;
-    subplot(2, 1, 1);
+    %subplot(2, 1, 1);
     plot(Caxis, Taxis(1,:), Caxis, Taxis(2,:));
     title("Measurement time depends on Capacity  [R = "+R * 1E-3+" kOhm]");
     legend('ChargingTime', 'DischargingTime');
     xlabel('Capacity [pF]'); ylabel('Time [us]');
-
-    Raxis = 10E3:10E3:1E6;
+    figure;
+    C = 177.28;
+    Raxis = 100E3:10E3:1E6;
     Taxis = [
         ChargingTime(Raxis, C * 1E-12);
         DischargingTime(Raxis, C * 1E-12)
     ] * 1E6;
-    subplot(2, 1, 2);
+    %subplot(2, 1, 2);
     plot(Raxis * 1E-3, Taxis(1,:), Raxis * 1E-3, Taxis(2,:));
     title("Measurement time depends on Resistance  [C = "+C+" pF]");
     legend('ChargingTime', 'DischargingTime');

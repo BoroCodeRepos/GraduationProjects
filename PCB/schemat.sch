@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -15462,7 +15461,7 @@ alf@cadsoft.de</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="D1" library="adafruit" deviceset="DIODE" device="SMA"/>
+<part name="D1" library="adafruit" deviceset="DIODE" device="SMA" value="S1A"/>
 <part name="PWR_SW" library="switch-misc" deviceset="9077-2" device="" value=""/>
 <part name="DC-IN" library="con-jack" deviceset="JACK-PLUG" device="1"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
@@ -15473,7 +15472,7 @@ alf@cadsoft.de</description>
 <part name="R9" library="resistor" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="FUSE" library="adafruit" deviceset="PTCFUSE" device="-1812"/>
+<part name="FUSE" library="adafruit" deviceset="PTCFUSE" device="-1812" value="750 mA"/>
 <part name="R1_A" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="R3_A" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="R4_A" library="pinhead" deviceset="PINHD-1X2" device=""/>
@@ -15488,11 +15487,11 @@ alf@cadsoft.de</description>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C1206K" value="100nF"/>
-<part name="FINGERPAD" library="dom-key" deviceset="FINGERPAD-2B" device=""/>
+<part name="FINGERPAD" library="dom-key" deviceset="FINGERPAD-2B" device="" value=""/>
 <part name="LCD" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="R1206" value="5k1"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R1206" value="220"/>
@@ -15553,10 +15552,10 @@ alf@cadsoft.de</description>
 <instance part="C7" gate="G$1" x="234.95" y="156.21"/>
 <instance part="P+7" gate="1" x="234.95" y="172.72"/>
 <instance part="GND19" gate="1" x="234.95" y="139.7"/>
-<instance part="R7" gate="G$1" x="184.15" y="157.48" rot="R90"/>
-<instance part="R9" gate="G$1" x="194.31" y="157.48" rot="R90"/>
-<instance part="R8" gate="G$1" x="204.47" y="157.48" rot="R90"/>
-<instance part="P+8" gate="1" x="194.31" y="172.72"/>
+<instance part="R7" gate="G$1" x="207.01" y="157.48" rot="R90"/>
+<instance part="R9" gate="G$1" x="186.69" y="157.48" rot="R90"/>
+<instance part="R8" gate="G$1" x="196.85" y="157.48" rot="R90"/>
+<instance part="P+8" gate="1" x="196.85" y="172.72"/>
 <instance part="FUSE" gate="G$1" x="43.18" y="93.98"/>
 <instance part="LCD" gate="A" x="81.28" y="153.67"/>
 <instance part="P+6" gate="1" x="71.12" y="171.45"/>
@@ -15657,8 +15656,8 @@ alf@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="184.15" y1="152.4" x2="184.15" y2="149.86" width="0.1524" layer="91"/>
-<label x="184.15" y="149.86" size="2.54" layer="95" rot="R270" xref="yes"/>
+<wire x1="207.01" y1="152.4" x2="207.01" y2="149.86" width="0.1524" layer="91"/>
+<label x="207.01" y="149.86" size="2.54" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="10"/>
@@ -15701,19 +15700,6 @@ alf@cadsoft.de</description>
 <junction x="234.95" y="165.1"/>
 </segment>
 <segment>
-<pinref part="P+8" gate="1" pin="+5V"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="194.31" y1="170.18" x2="194.31" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="194.31" y1="165.1" x2="194.31" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="194.31" y1="165.1" x2="204.47" y2="165.1" width="0.1524" layer="91"/>
-<junction x="194.31" y="165.1"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="204.47" y1="165.1" x2="204.47" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="194.31" y1="165.1" x2="184.15" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="184.15" y1="165.1" x2="184.15" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="LCD" gate="A" pin="1"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="78.74" y1="158.75" x2="71.12" y2="158.75" width="0.1524" layer="91"/>
@@ -15732,6 +15718,19 @@ alf@cadsoft.de</description>
 <pinref part="P+11" gate="1" pin="+5V"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="11.43" y1="168.91" x2="11.43" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="186.69" y1="165.1" x2="186.69" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="186.69" y1="165.1" x2="196.85" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="196.85" y1="165.1" x2="196.85" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="207.01" y1="162.56" x2="207.01" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="165.1" x2="196.85" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
+<wire x1="196.85" y1="170.18" x2="196.85" y2="165.1" width="0.1524" layer="91"/>
+<junction x="196.85" y="165.1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -15826,8 +15825,8 @@ alf@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="204.47" y1="152.4" x2="204.47" y2="149.86" width="0.1524" layer="91"/>
-<label x="204.47" y="149.86" size="2.54" layer="95" rot="R270" xref="yes"/>
+<wire x1="196.85" y1="152.4" x2="196.85" y2="149.86" width="0.1524" layer="91"/>
+<label x="196.85" y="149.86" size="2.54" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LCD" gate="A" pin="3"/>
@@ -15848,8 +15847,8 @@ alf@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="194.31" y1="152.4" x2="194.31" y2="149.86" width="0.1524" layer="91"/>
-<label x="194.31" y="149.86" size="2.54" layer="95" rot="R270" xref="yes"/>
+<wire x1="186.69" y1="152.4" x2="186.69" y2="149.86" width="0.1524" layer="91"/>
+<label x="186.69" y="149.86" size="2.54" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LCD" gate="A" pin="4"/>
