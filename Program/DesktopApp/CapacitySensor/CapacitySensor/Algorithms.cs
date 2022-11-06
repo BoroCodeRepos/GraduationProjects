@@ -163,9 +163,11 @@ namespace CapacitySensor
 
         public static double CalcHumidity(double HS1101_Capacity)
         {
-            double HS1101_min = 164.0d;
-            double HS1101_max = 201.0d;
-            double RH = (HS1101_Capacity - HS1101_min) / (HS1101_max - HS1101_min) * 100.0d;
+            //double HS1101_min = 164.0d;
+            //double HS1101_max = 201.0d;
+            //double RH = (HS1101_Capacity - HS1101_min) / (HS1101_max - HS1101_min) * 100.0d;
+            double X = HS1101_Capacity / 180.0;
+            double RH = -3465.5 * X * X * X + 10732 * X * X - 10457 * X + 3245.9;
             if (RH < 0.0) RH = 0.0;
             if (RH > 100.0) RH = 100.0;
             return RH;

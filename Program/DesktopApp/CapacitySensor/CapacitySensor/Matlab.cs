@@ -141,10 +141,10 @@ namespace CapacitySensor
             builder.Append("MeasurementTimePlt();\n");
             builder.Append("if size(Humidity, 1) > 1\n");
             builder.Append("    HumidityPlt(ChargingProbes, DischargingProbes, Humidity, Temperature);\n");
+            builder.Append("    GenerateHistogram(ChargingProbes, DischargingProbes);\n");
+            builder.Append("    GenerateRandomErrorPlot(ChargingProbes, DischargingProbes);\n");
             builder.Append("end\n");
-            builder.Append("%GenerateSignals(2);\n");
-            builder.Append("GenerateHistogram(ChargingProbes, DischargingProbes);\n");
-            builder.Append("GenerateRandomErrorPlot(ChargingProbes, DischargingProbes);\n \n");
+            builder.Append("%GenerateSignals(2);\n\n");
         }
 
         public static void AppendFunctions(StringBuilder builder)
@@ -278,8 +278,8 @@ function HumidityPlt(ChargingProbes, DischargingProbes, Humidity, Temp)
             CapacityFromCharging(Oversampling(ChargingProbes(i,:))) * 1E12...
             CapacityFromDischarging(Oversampling(DischargingProbes(i,:))) * 1E12])];
     end
-    CorrectCapacity = Correction(Capacity);
-    RH = (CorrectCapacity - HS1101_min)./ (HS1101_max - HS1101_min) * 100.0;
+    X = Correction(Capacity) / 180;
+    RH = -3465.5 * X.^3 + 10732 * X.^2 - 10457 * X + 3245.9; 
     for i = 1:1:size(RH, 2)
         if RH(i) > 100
             RH(i) = 100;
