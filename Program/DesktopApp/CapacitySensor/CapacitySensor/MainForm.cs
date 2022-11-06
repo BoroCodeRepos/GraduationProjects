@@ -14,7 +14,6 @@ namespace CapacitySensor
         Button ActiveButton { get; set; }
 
         public double C, T, RH, DP;
-        public double C2;
         private bool IsConnected = false;
 
 
@@ -48,7 +47,7 @@ namespace CapacitySensor
             CalcCapacityRange();
 
             ChartCapacity.Series["Capacity"].Points.AddXY(-1, 0);
-            ChartCapacity.Series["Capacity2"].Points.AddXY(-1, 0);
+            ChartCapacity.Series["Humidity"].Points.AddXY(-1, 0);
             ChartTemperature.Series["Temperature"].Points.AddXY(-1, 0);
             ChartTemperature.Series["Humidity"].Points.AddXY(-1, 0);
         }
@@ -161,9 +160,9 @@ namespace CapacitySensor
                     {
                         Algorithms.ParseC(Received);
                         double CapacityAfterCorrection = double.Parse(string.Format("{0:0.0}", C));
-                        double CapacityAfterCorrection2 = double.Parse(string.Format("{0:0.0}", C2));
+                        double Humidity = double.Parse(string.Format("{0:0.0}", Algorithms.CalcHumidity(C)));
                         ChartCapacity.Series["Capacity"].Points.AddXY(MeasurementsIndex + 1, CapacityAfterCorrection);
-                        ChartCapacity.Series["Capacity2"].Points.AddXY(MeasurementsIndex + 1, CapacityAfterCorrection2);
+                        ChartCapacity.Series["Humidity"].Points.AddXY(MeasurementsIndex + 1, Humidity);
                         //UpdateCapacityChart();
                         BTN_MatlabLast.Enabled = true;
                     }
@@ -435,51 +434,19 @@ namespace CapacitySensor
         }
         private void CalcCapacityRange()
         {
-            double Charging = Algorithms.Capacity(Algorithms.TCNT_Min * Algorithms.Tick,
-                (double)NUM_R_MEAS.Value, Calibration.J,
-                (double)NUM_H_THR.Value, (double)NUM_L_THR.Value, (double)NUM_H_VOUT.Value);
-            double Discharging = Algorithms.Capacity(Algorithms.TCNT_Min * Algorithms.Tick, 
-                (double)NUM_R_MEAS.Value, Calibration.J,
-                (double)NUM_L_THR.Value, (double)NUM_H_THR.Value, (double)NUM_L_VOUT.Value);
-            LBL_CMIN.Text = string.Format("{0:0.0} pF", Math.Max(Charging, Discharging));
-
-            Charging = Algorithms.Capacity(Algorithms.TCNT_Max * Algorithms.Tick,
-                (double)NUM_R_MEAS.Value, Calibration.J,
-                (double)NUM_H_THR.Value, (double)NUM_L_THR.Value, (double)NUM_H_VOUT.Value);
-            Discharging = Algorithms.Capacity(Algorithms.TCNT_Max * Algorithms.Tick,
-                (double)NUM_R_MEAS.Value, Calibration.J,
-                (double)NUM_L_THR.Value, (double)NUM_H_THR.Value, (double)NUM_L_VOUT.Value);
-            double MaxC = Math.Min(Charging, Discharging);
-            if (MaxC >= 1000.0)
-            {
-                MaxC /= 1000.0;
-                LBL_CMAX.Text = string.Format("{0:0.0} nF", MaxC);
-            }
-            else
-            {
-                LBL_CMAX.Text = string.Format("{0:0.0} pF", MaxC);
-            }
+            LBL_CMIN.Text = "120 pF";
+            LBL_CMAX.Text = "320 pF";
         }
         private void CreateCorrectionChart()
         {
             uint C_MIN = (uint)(10.0 * double.Parse(LBL_CMIN.Text.Split(' ')[0]));
             uint C_MAX = (uint)(10.0 * double.Parse(LBL_CMAX.Text.Split(' ')[0]));
             if (LBL_CMAX.Text.Contains("nF")) C_MAX *= 1000;
-            double[] A = new double[]
-            {
-                (double)NUM_A0.Value,
-                (double)NUM_A1.Value,
-                (double)NUM_A2.Value,
-                (double)NUM_A3.Value,
-            };
-            double Cx(double Cp) => A[3] * Math.Pow(Cp, 3) +
-                A[2] * Math.Pow(Cp, 2) + A[1] * Cp + A[0];
-
             CorrChart.Series[0].Points.Clear();
             for (uint i = C_MIN; i <= C_MAX; i += 100)
             {
                 double Cp = i / 10.0;
-                CorrChart.Series[0].Points.AddXY(Cp, Cx(Cp));
+                CorrChart.Series[0].Points.AddXY(Cp, Algorithms.Correction(Cp));
             }
         }
         private void UpdateTemperatureCharts()
@@ -576,7 +543,7 @@ namespace CapacitySensor
             PBAR.Enabled = true;
             BTN_MatlabLast.Enabled = false;
             ChartCapacity.Series["Capacity"].Points.Clear();
-            ChartCapacity.Series["Capacity2"].Points.Clear();
+            ChartCapacity.Series["Humidity"].Points.Clear();
             ChartTemperature.Series["Temperature"].Points.Clear();
             ChartTemperature.Series["Humidity"].Points.Clear();
             ChartTemperature.Series["Dewpoint"].Points.Clear();
@@ -642,7 +609,7 @@ namespace CapacitySensor
             MultiMeas_CMD = Device.Commands.GET_TEMP_RH;
             InitMultiMeas();
             ChartCapacity.Series["Capacity"].Points.AddXY(-1, 0);
-            ChartCapacity.Series["Capacity2"].Points.AddXY(-1, 0);
+            ChartCapacity.Series["Humidity"].Points.AddXY(-1, 0);
             DisableMeasurementButtons();
             TIM_Meas.Enabled = true;
         }
@@ -899,6 +866,7 @@ namespace CapacitySensor
                     Num.Font = new Font(currentFont, FontStyle.Regular);
                     Num.TabStop = false;
                 }
+                Calibration.SetupConstant(ToSend);
                 Footer("Settings Correction Values Successfully", Color.Green);
                 return;
             }
@@ -924,6 +892,7 @@ namespace CapacitySensor
                     Num.Font = new Font(currentFont, FontStyle.Regular);
                     Num.TabStop = false;
                 }
+                Calibration.SetupCorrection(ToSend);
                 Footer("Settings Correction Values Successfully", Color.Green);
                 return;
             }

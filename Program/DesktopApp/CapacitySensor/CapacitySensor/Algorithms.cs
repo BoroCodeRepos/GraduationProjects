@@ -11,8 +11,8 @@ namespace CapacitySensor
 
         public static double Tick = 62.5; // ns
 
-        public static int TCNT_Min = 30;
-        public static int TCNT_Max = (int)Math.Pow(2, 16 - 3);
+        public static int TCNT_Min = 50;
+        public static int TCNT_Max = 2048;
 
         public static double DewPoint(double T, double RH)
         {
@@ -77,9 +77,7 @@ namespace CapacitySensor
                     ChargingProbes.Add(Probes[i + 1]);
                 }
             }
-            //var DP = Tick * Oversampling(DischargingProbes);
-            //var CP = Tick * Oversampling(ChargingProbes);
-            List<int> ToDelete = new List<int>();
+            /*List<int> ToDelete = new List<int>();
             var max = DischargingProbes.Max();
             double correction = 0.95;
             foreach (var value in DischargingProbes)
@@ -93,28 +91,21 @@ namespace CapacitySensor
                 if (value < correction * max)
                     ToDelete.Add(value);
             foreach (var delete in ToDelete)
-                ChargingProbes.Remove(delete);
+                ChargingProbes.Remove(delete);*/
 
-            var DP = Tick * DischargingProbes.Average();
-            var CP = Tick * ChargingProbes.Average();
+            var DP = Tick * Oversampling(DischargingProbes);
+            var CP = Tick * Oversampling(ChargingProbes);
 
             var DP_Capacity = Capacity(DP, Calibration.R_MEAS, Calibration.J, Calibration.L_THR, Calibration.H_THR, Calibration.L_VOUT) * 1E3;
             var CP_Capacity = Capacity(CP, Calibration.R_MEAS, Calibration.J, Calibration.H_THR, Calibration.L_THR, Calibration.H_VOUT) * 1E3;
 
-            DP_Capacity = double.Parse(string.Format("{0:0.0}", DP_Capacity));
-            CP_Capacity = double.Parse(string.Format("{0:0.0}", CP_Capacity));
+            var CapacityCorr = Correction((DP_Capacity + CP_Capacity) / 2.0);
+            var CapacityRound = double.Parse(string.Format("{0:0.0}", CapacityCorr));
+            MainForm.Instance.C = CapacityRound;
+            MainForm.Instance.LBL_C.Text = string.Format("{0:0.0} pF", CapacityRound);
+            MainForm.Instance.LBL_C_Charts.Text = string.Format("{0:0.0} pF", CapacityRound);
 
-            //var CapacityAvg = Correction((DP_Capacity + CP_Capacity) / 2);
-            var CapacityAvg = Correction(CP_Capacity);
-
-            Console.WriteLine(string.Format("CP: {0:0.0}pF   {1}   DP: {2:0.0}pF  {3}      C: {4:0.0} pF\n", CP_Capacity, ChargingProbes.Count, DP_Capacity, DischargingProbes.Count, CapacityAvg));
-
-            MainForm.Instance.C = CapacityAvg;
-            MainForm.Instance.C2 = CapacityAvg;
-            MainForm.Instance.LBL_C.Text = string.Format("{0:0.0} pF", CapacityAvg);
-            MainForm.Instance.LBL_C_Charts.Text = string.Format("{0:0.0} pF", CapacityAvg);
-
-            double RH = double.Parse(string.Format("{0:0.0}", CalcHumidity(CapacityAvg)));
+            double RH = double.Parse(string.Format("{0:0.0}", CalcHumidity(CapacityRound)));
             string strRH = string.Format("[{0:0.0} %]", RH);
             if (MainForm.Instance.LBL_RH.Text.Contains("-"))
             {
@@ -131,15 +122,10 @@ namespace CapacitySensor
         {
             Capacity *= 1E-12;
             double CapacityCorr =
-                //Calibration.A3 * 1E19 * Math.Pow(Capacity * 1E-12, 3) +
-                //Calibration.A2 * 1E10 * Math.Pow(Capacity * 1E-12, 2) +
-                //Calibration.A1 * Capacity * 1E-12 + 
-                //Calibration.A0 * 1E-11;
-
-                -4.644339E19 * Math.Pow(Capacity, 3) +
-                2.793011E10 * Math.Pow(Capacity, 2) +
-                -4.483682 * Capacity + 
-                3.223107E-10;
+                Calibration.A3 * 1E19 * Math.Pow(Capacity, 3) +
+                Calibration.A2 * 1E10 * Math.Pow(Capacity, 2) +
+                Calibration.A1 * Capacity + 
+                Calibration.A0 * 1E-10;
 
             return CapacityCorr * 1E12;
         }

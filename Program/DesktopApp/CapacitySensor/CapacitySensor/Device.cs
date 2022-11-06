@@ -21,12 +21,12 @@ namespace CapacitySensor
             GET_CORRECTIONS = 'I',      // Get Corrections Values
             SET_CORRECTIONS = 'O',      // Set Corrections Values
             DEF_CORRECTIONS = 'P',      // Set Default Corrections Values
-            SET_L_VOUT = 'L',           // Set Signal Pin as LOW
-            SET_H_VOUT = 'H',           // Set Signal Pin as HIGH
+            SET_L_VOUT = 'L',      // Set Signal Pin as LOW
+            SET_H_VOUT = 'H',      // Set Signal Pin as HIGH
             SET_GENERATIONS = 'G',      // Set Generations on Signal Pin
-            SET_NOMINAL = 'N',          // Set Signal Pin as NOMINAL (HIGH-Z)
+            SET_NOMINAL = 'N',      // Set Signal Pin as NOMINAL (HIGH-Z)
             TRIGGER_MEAS = 'M',         // Trigger Measurement
-            GET_TEMP_RH = 'R',          // Read Temperature and Humidity
+            GET_TEMP_RH = 'R',      // Read Temperature and Humidity
             LCD_AFTERMEAS = 'W',        // Send Calculated Data To Display on LCD
 
             TEMP = 'T',       

@@ -74,9 +74,12 @@ void Init_Variables(void)
 	System.Humidity = 0.0;
 	RingBuffer_Init(&USB_Buffer, Buffer, MAX_USB_BUF_SIZE);
 	/* Constants Values from EEPROM */
-	READ_CONSTANTS__PGM;
-	READ_CORRECTIONS__PGM;
+	READ_CONSTANTS__EEMEM;
+	/* Corrections Values from EEPROM */
+	READ_CORRECTIONS__EEMEM;
 }
+//READ_CONSTANTS__PGM;
+//READ_CORRECTIONS__PGM;
 void Init_USB(void)
 {
 	/* USB initialization */
@@ -271,7 +274,7 @@ void CMD_Parse(void)
 					Corrections.A1 = strtod((const char *)RingBuffer_GetAsString(&USB_Buffer, CMD_Buffer, ' '), NULL);
 					Corrections.A2 = strtod((const char *)RingBuffer_GetAsString(&USB_Buffer, CMD_Buffer, ' '), NULL);
 					Corrections.A3 = strtod((const char *)RingBuffer_GetAsString(&USB_Buffer, CMD_Buffer, ' '), NULL);
-					UPDATE_CONSTANTS__EEMEM;
+					UPDATE_CORRECTIONS__EEMEM;
 					SEND_CONFIRMATION;
 					break;
 				}
@@ -335,7 +338,6 @@ STATUS_t CapacityMeasurement(void)
 	if (!PWR_STATUS)
 	{
 		fprintf_P(&USB_Stream, PSTR("Error: Check the power supply of the module.\r\n"));
-		//CDC_Device_SendString_P(&VirtualSerial_CDC_Interface, PSTR("Error: Check the power supply of the module.\r\n"));
 		return Status_PowerError;
 	}
 	/* Discharge Capacity */
@@ -344,7 +346,6 @@ STATUS_t CapacityMeasurement(void)
 	/* Temperature and Humidity Measurement */
 	STATUS_t Status = TemperatureMeasurement();
 	/* Wait for LOW State on V_Cap Pin */
-	_delay_ms(250);
 	uint cnt = 0;
 	while (!V_CAP_IS_UNDER_L_THR)
 	{

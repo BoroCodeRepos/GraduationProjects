@@ -26,8 +26,8 @@
 
 /* Definitions */
 #define ENABLE_NOISE_CANCELER	1		// Enable noise canceler - Input Capture Mod
-#define USE_DEFAULT_CONSTANTS 	0		// Defining Defaults Constants Values in EEPROM
-#define USE_DEFAULT_CORRECTIONS 0		// Defining Defaults Corrections Values in EEPROM
+#define USE_DEFAULT_CONSTANTS 	1		// Defining Defaults Constants Values in EEPROM
+#define USE_DEFAULT_CORRECTIONS 1		// Defining Defaults Corrections Values in EEPROM
 #define MAX_USB_BUF_SIZE 		128		// USB Buffer Size
 #define PRECISION				0.1		// Temperature and Humidity results precision
 #define AFTERPOINT  			1		// Temperature and Humidity results after points
@@ -110,16 +110,16 @@ const CONSTANTS_t PROGMEM Constants_PROGMEM =
 	.L_THR   = 1.6770,
 	.H_VOUT  = 5.0230,
 	.L_VOUT  = 0.0000,
-	.R_MEAS  = 741200, //191100
+	.R_MEAS  = 191100,
 };
 
 #if USE_DEFAULT_CORRECTIONS
 const CORRECTIONS_t EEMEM Corrections_EEMEM =
 {
-	.A0 = 0.0000,
-	.A1 = 1.0000,
-	.A2 = 0.0000,
-	.A3 = 0.0000,
+	.A0 =  3.2231,
+	.A1 = -4.4837,
+	.A2 =  2.7930,
+	.A3 = -4.6443,
 };
 #else
 const CORRECTIONS_t EEMEM Corrections_EEMEM;
@@ -127,10 +127,10 @@ const CORRECTIONS_t EEMEM Corrections_EEMEM;
 
 const CORRECTIONS_t PROGMEM Corrections_PROGMEM =
 {
-	.A0 = 0.0000,
-	.A1 = 1.0000,
-	.A2 = 0.0000,
-	.A3 = 0.0000,
+	.A0 =  3.2231,
+	.A1 = -4.4837,
+	.A2 =  2.7930,
+	.A3 = -4.6443,
 };
 
 /* USB ClassInfo Implementation */

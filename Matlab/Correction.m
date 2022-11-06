@@ -1,8 +1,7 @@
 close all; clear; clc;
 
-format short;
+format long;
 syms x;
-
 % wartości zmierzone
 Meas = [
     126.1832 147.6006 180.2216 196.8221 208.4288 231.3545 250.6058 270.1945 283.4323 307.1494 322.3885
@@ -46,7 +45,10 @@ fprintf('  y = %3.4e x^3 + %3.4e x^2 + %3.4e x + %3.4e \n', ...
     Poly(1), Poly(2), Poly(3), Poly(4));
 fprintf('  poly: [%3.4e, %3.4e, %3.4e, %3.4e] \n \n', ...
     Poly(1), Poly(2), Poly(3), Poly(4));
-
+Poly(1) * 1E-19
+Poly(2) * 1E-10
+Poly(3)
+Poly(4) * 1E10
 
 figure('Name', 'Capacitance Correction');
 Real = Real * 1E12; Meas = Meas * 1E12;
@@ -131,7 +133,7 @@ function [RetA, RetB, RetC] = FillVectors(Value, A, B, C, start, stop, maxSize)
 end
 
 function DisplayErrors(X, rel, abs, title)
-    figure(title);
+    figure('Name', title);
     subplot(2, 1, 1);
     plot(X, rel * 1E12);
     xlabel('pojemność rzeczywista [pF]');

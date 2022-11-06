@@ -41,7 +41,7 @@ namespace CapacitySensor
             string Format = "%% Zmienne globalne\n \n" +
                 "global A J C R H_THR L_THR H_VOUT L_VOUT VcapFun;\n" +
                 "% współczynniki korekcji \n" +
-                "A = [{0:0.0000} {1:0.0000} {2:0.0000} {3:0.0000}];\n" +
+                "A = [{0:0.0000}*1E19 {1:0.0000}*1E10 {2:0.0000} {3:0.0000}*1E-10];\n" +
                 "J = {4:000.##E+00};          % prąd Ibias komparatorów\n" +
                 "R = {5:000000};           % rezystancja pomiarowa\n \n" +
 
@@ -142,7 +142,9 @@ namespace CapacitySensor
             builder.Append("if size(Humidity, 1) > 1\n");
             builder.Append("    HumidityPlt(ChargingProbes, DischargingProbes, Humidity, Temperature);\n");
             builder.Append("end\n");
-            builder.Append("%GenerateSignals(2);\n \n");
+            builder.Append("%GenerateSignals(2);\n");
+            builder.Append("GenerateHistogram(ChargingProbes, DischargingProbes);\n");
+            builder.Append("GenerateRandomErrorPlot(ChargingProbes, DischargingProbes);\n \n");
         }
 
         public static void AppendFunctions(StringBuilder builder)
@@ -234,6 +236,8 @@ function PrintResults(Capacity, ChargingProbes, DischargingProbes)
     fprintf('    Measured Capacity: %3.4f pF\n\n', CapacityWithoutCorrection);
     fprintf('    Capacity With Correction: %3.4f pF\n\n', C);
     fprintf('Correction Poly: [%1.4e %1.4e %1.4e %1.4e]\n', A);
+    fprintf('Maximum random error (charging):    %3.0f ticks\n', max(max(ChargingProbes) - min(ChargingProbes)));
+    fprintf('Maximum random error (discharging): %3.0f ticks\n\n', max(max(DischargingProbes) - min(DischargingProbes)));
 end
 
 % Wyznaczenie charakterystyki czasu pomiaru
@@ -365,6 +369,47 @@ function GenerateSignals(n_periods)
     ylabel(""Voltage [V]"");
     title(""Microcontroller Signal"");
     axis([0 time(end) * 1E6 0 6]);
+end
+
+function GenerateHistogram(Charging, Discharging)
+    hist = [];
+    Capacity = ...
+        (CapacityFromCharging(Charging/16E6) + ...
+            CapacityFromDischarging(Discharging/16E6))/2 * 1E12;
+    CapCorr = [];
+    for i = 1:1:size(Capacity, 1)
+        CapCorr = [CapCorr Correction(Capacity(i))];
+    end
+    figure('Name', 'Histogram');
+    histogram(CapCorr);
+    xlabel('pojemność C [pF]');
+    ylabel('liczba wystąpień');
+end
+function GenerateRandomErrorPlot(ChargingProbes, DischargingProbes)
+    CP = []; DP = [];
+    for i = 1:1:size(ChargingProbes, 1)
+        CP = [CP mean(ChargingProbes(i, :))];
+        DP = [DP mean(DischargingProbes(i, :))];
+    end
+    N = 1:1:size(ChargingProbes, 1);
+    figure('Name', 'Charging')
+    subplot(2, 1, 1)
+    plot(N, (max(CP)-CP));
+    xlabel('numer pomiaru');
+    ylabel('błąd losowy [cykle zegara]');
+    subplot(2, 1, 2)
+    plot(N, (max(CP)-CP)/max(CP)*100);
+    xlabel('numer pomiaru');
+    ylabel('random error [%]');
+    figure('Name', 'Discharging')
+    subplot(2, 1, 1)
+    plot(N, (max(DP)-DP));
+    xlabel('numer pomiaru');
+    ylabel('random error [ticks]');
+    subplot(2, 1, 2)
+    plot(N, (max(DP)-DP)/max(DP)*100);
+    xlabel('numer pomiaru');
+    ylabel('random error [%]');
 end
 ".Replace(Environment.NewLine, "\n")
              );
