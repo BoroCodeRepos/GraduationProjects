@@ -315,6 +315,8 @@ CapacityWithoutCorrection = mean(Capacity);
 C = Correction(CapacityWithoutCorrection);              
 
 %WartoscRzeczywista = 177.28 + 22.091;
+max([max(ChargingProbes) - min(ChargingProbes)])
+max([max(DischargingProbes) - min(DischargingProbes)])
  
 %% Twój kod
 

@@ -313,6 +313,8 @@ display("Capacity Average Value (discharging): " + mean(Capacity(2,:)) * 1E12 + 
 display(mean([mean(Capacity(1,:)) mean(Capacity(2,:))]) * 1E12 + " pF")
 
 WartoscRzeczywista = 252.61
+max([max(ChargingProbes) - min(ChargingProbes)])
+max([max(DischargingProbes) - min(DischargingProbes)])
  
 %% Main Loop
  

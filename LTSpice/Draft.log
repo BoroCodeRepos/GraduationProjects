@@ -8,32 +8,41 @@ Ignoring empty pin current: Ix(ic3:vcc)
 Ignoring empty pin current: Ix(ic2a:vcc)
 Ignoring empty pin current: Ix(ic3:vcc)
 
-t1: time=0.000148743 at 0.000148743
-t2: time=0.000250603 at 0.000250603
-dischargingtime: (t2-t1)*1e6=101.86
-t3: time=0.000352566 at 0.000352566
-chargingtime: (t3-t2)*1e6=101.963
-t4: time=0.000156746 at 0.000156746
-inttime: t4-t1=8.00293e-006
-chargingticks: (t3-t2)*16e6=1631.4
-dischargingticks: (t2-t1)*16e6=1629.75
+
+Measurement "t1" FAIL'ed
+
+Measurement "t2" FAIL'ed
+
+Measurement "dischargingtime" FAIL'ed
+
+Measurement "t3" FAIL'ed
+
+Measurement "chargingtime" FAIL'ed
+
+Measurement "t4" FAIL'ed
+
+Measurement "inttime" FAIL'ed
+
+Measurement "chargingticks" FAIL'ed
+
+Measurement "dischargingticks" FAIL'ed
 
 
-Date: Tue Oct 11 23:57:45 2022
-Total elapsed time: 110.950 seconds.
+Date: Sat Nov 05 12:58:15 2022
+Total elapsed time: 76.392 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 447649
-traniter = 447630
-tranpoints = 223442
-accept = 223121
-rejected = 321
+totiter = 444851
+traniter = 444832
+tranpoints = 222374
+accept = 222337
+rejected = 37
 matrix size = 358
 fillins = 121
 solver = Normal
-Thread vector: 37.8/22.1[4] 8.4/4.5[4] 9.8/5.2[4] 2.1/2.5[1]  2592/500
-Matrix Compiler1: 11.94 KB object code size  8.3/4.4/[2.1]
-Matrix Compiler2: 25.18 KB object code size  4.9/7.0/[2.7]
+Thread vector: 50.7/22.8[4] 8.5/6.1[4] 11.9/9.1[4] 2.3/3.6[1]  2592/500
+Matrix Compiler1: 11.94 KB object code size  9.1/4.9/[2.1]
+Matrix Compiler2: 25.18 KB object code size  6.2/6.8/[3.3]
 

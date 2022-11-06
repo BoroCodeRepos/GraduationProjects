@@ -314,9 +314,15 @@ CapacityWithoutCorrection = mean(Capacity);
 % pojemność właściwa - po korekcji
 C = Correction(CapacityWithoutCorrection);              
 
-%WartoscRzeczywista = 177.28 + 22.091;
+WartoscRzeczywista = 177.28 + 22.091
+max(max(ChargingProbes) - min(ChargingProbes))
+max(max(DischargingProbes) - min(DischargingProbes))
  
 %% Twój kod
+Real = [
+     95.4870 116.6560 149.5600 165.7383 177.2800 199.3710 220.5100 240.7840 252.6100 276.2010 293.1200
+] * 1E-12;
+DischargingTime(741200, Real)
 
 
 
@@ -419,25 +425,29 @@ end
 function MeasurementTimePlt()
     global R C;
     figure('Name', 'Time of measurements');
-    Caxis = (100:20:300);
+    Caxis = (100:50:300);
     Taxis = [
         ChargingTime(R, Caxis * 1E-12);
         DischargingTime(R, Caxis * 1E-12)
     ] * 1E6;
     %subplot(2, 1, 1);
-    plot(Caxis, Taxis(1,:), Caxis, Taxis(2,:));
+    p = plot(Caxis, Taxis(1,:), Caxis, Taxis(2,:));
+    p(1).LineWidth = 2;
+    p(2).LineWidth = 2;
     title("Measurement time depends on Capacity  [R = "+R * 1E-3+" kOhm]");
     legend('ChargingTime', 'DischargingTime');
     xlabel('Capacity [pF]'); ylabel('Time [us]');
     figure;
     C = 177.28;
-    Raxis = 100E3:10E3:1E6;
+    Raxis = 100E3:100E3:1E6;
     Taxis = [
         ChargingTime(Raxis, C * 1E-12);
         DischargingTime(Raxis, C * 1E-12)
     ] * 1E6;
     %subplot(2, 1, 2);
-    plot(Raxis * 1E-3, Taxis(1,:), Raxis * 1E-3, Taxis(2,:));
+    p = plot(Raxis * 1E-3, Taxis(1,:), Raxis * 1E-3, Taxis(2,:));
+    p(1).LineWidth = 2;
+    p(2).LineWidth = 2;
     title("Measurement time depends on Resistance  [C = "+C+" pF]");
     legend('ChargingTime', 'DischargingTime');
     xlabel('Resistance [kOhm]'); ylabel('Time [us]');
@@ -525,14 +535,16 @@ function GenerateSignals(n_periods)
     % Przebieg napięcia na pojemności
     figure('Name', 'Measurement System Signals');
     subplot(3, 1, 1);
-    plot(time, VCAP(1, 1:size(time, 2)));
+    p = plot(time, VCAP(1, 1:size(time, 2)));
+    p(1).LineWidth = 2;
     xlabel("Time t [s]"); ylabel("Capacitor Voltage [V]");
     title("Capacitor Voltage Plot");
     axis([0 time(end) L_THR H_THR]);
     
     % Przebieg przekroczenia progów napięcia: 
     subplot(3, 1, 2);
-    plot(time, S_THR(1, 1:size(time, 2)));
+    p = plot(time, S_THR(1, 1:size(time, 2)));
+    p(1).LineWidth = 2;
     xlabel("Time t [s]"); ylabel("Voltage [V]");
     title("Signal of exceeding the voltage threshold [S-THR]");
     axis([0 time(end) 0 6]);

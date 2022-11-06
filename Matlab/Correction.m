@@ -10,16 +10,30 @@ Meas = [
 
 % wartości rzeczywiste
 Real = [
-     98.4870 119.6560 149.5600 164.7383 177.2800 199.3710 221.8100 240.7840 252.6100 274.7010 293.1200
+     95.4870 116.6560 149.5600 165.7383 177.2800 199.3710 220.5100 240.7840 252.6100 276.2010 293.1200
 ] * 1E-12;
+
+% błąd losowy ładowania pojemności
+LosC = [
+     2 2 6 22 15 11 6 20 34 15 7
+] / 16E6;
+LosCP = LosC ./ [0.0491    0.0599    0.0768    0.0851    0.0911    0.1024    0.1133    0.1237    0.1298    0.1419    0.1506] * 1E-1
+
+% błąd losowy rozładowania pojemności
+LosD = [
+     2 2 11 13 9 8 11 32 42 28 12
+] / 16E6;
+LosDP = LosD ./ [0.0490    0.0598    0.0767    0.0850    0.0909    0.1023    0.1131    0.1235    0.1296    0.1417    0.1504] * 1E-1
 
 %% wyznaczenie wzoru korekcyjnego za pomocą regresji liniowej
 [a, b, Regression] = LinearRegression(Meas, Real);
 
 %% wyznaczenie wzoru korekcyjnego za pomocą interpolacji Lagrange'a
-INTERPOLATION_FULL_RANGE = 0;
-IntX = [Meas(1), Meas(3), Meas(6), Meas(11)];
-IntY = [Real(1), Real(3), Real(6), Real(11)];
+INTERPOLATION_FULL_RANGE = 1;
+%IntN = [1, 3, 5, 11];
+IntN = [1, 2, 5, 11];
+IntX = [Meas(IntN(1)), Meas(IntN(2)), Meas(IntN(3)), Meas(IntN(4))];
+IntY = [Real(IntN(1)), Real(IntN(2)), Real(IntN(3)), Real(IntN(4))];
 Poly = LagrangeInterpolation(IntX, IntY);
 start = find(Meas==IntX(1)); stop = find(Meas==IntX(end));
 Interpolation = polyval(Poly, Meas(start:stop));
@@ -47,6 +61,7 @@ else
     %% wyznaczenie interpolacji w całym mierzonym zakresie
     Int = polyval(Poly, Meas * 1E-12) * 1E12;
     [Ierr, Ierr_abs] = Error(Int, Real);
+    Ierr = Ierr * 1E-12;
     p = plot(Meas, Real, Meas, Regression, Meas, Int);
 end
 p(1).Marker = 'o';
@@ -67,10 +82,13 @@ fprintf(' ( Interpolation ) max error: %3.1f pF  (%3.1f %%) \n\n', ...
 
 err = [Rerr * 1E12; Rerr_abs; Ierr * 1E12; Ierr_abs];
 
+DisplayErrors(Real, Rerr, Rerr_abs, 'relative');
+DisplayErrors(Real, Ierr, Ierr_abs, 'interpolation');
+
 %% wyznaczenie tablic pomiarowych
 fprintf(' [real value]\t[measurement]\t[regression]\t[interpolation]\t[REG rel err]\t[INT rel err]\t[REG abs err]\t[INT abs err]\n');
 for i = 1:1:size(Meas, 2)
-    fprintf('   %3.4f\t \t  %3.4f \t\t  %3.4f \t\t   %3.4f\t\t  %3.4e \t  %3.4e \t  %3.4e \t  %3.4e\n', ...
+    fprintf('   %3.4f\t \t  %3.4f \t\t  %3.4f \t\t   %3.4f\t\t  %3.4f \t  %3.4f \t  %3.4f \t  %3.4f\n', ...
         Real(i), Meas(i), Regression(i), Int(i), err(1, i), err(3, i), err(2, i), err(4,i));
 end
 
@@ -94,7 +112,7 @@ function Poly = LagrangeInterpolation(IntX, IntY)
 end
 % Funkcja wyznaczająca błędy pomiarowe
 function [relative, absolute] = Error(Meas, Real)
-    relative = abs(Meas - Real);
+    relative = Meas - Real;
     absolute = relative ./ Real * 100;
 end
 
@@ -110,4 +128,16 @@ function [RetA, RetB, RetC] = FillVectors(Value, A, B, C, start, stop, maxSize)
         RetB = [RetB Value];
         RetC = [RetC Value];
     end
+end
+
+function DisplayErrors(X, rel, abs, title)
+    figure(title);
+    subplot(2, 1, 1);
+    plot(X, rel * 1E12);
+    xlabel('pojemność rzeczywista [pF]');
+    ylabel('błąd bezwzględny [pF]');
+    subplot(2, 1, 2);
+    plot(X, abs);
+    xlabel('pojemność rzeczywista [pF]');
+    ylabel('błąd względny [%]');
 end
