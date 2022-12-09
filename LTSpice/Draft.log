@@ -1,9 +1,0 @@
-Circuit: * C:\Users\Arek\Desktop\Praca Dyplomowa\LTSpice\Draft.asc
-
-Warning: Multiple definitions of model "pnp1" Type: BJT
-Warning: Multiple definitions of model "npn1" Type: BJT
-Direct Newton iteration for .op point succeeded.
-Ignoring empty pin current: Ix(ic2a:vcc)
-Ignoring empty pin current: Ix(ic3:vcc)
-Ignoring empty pin current: Ix(ic2a:vcc)
-Ignoring empty pin current: Ix(ic3:vcc)
