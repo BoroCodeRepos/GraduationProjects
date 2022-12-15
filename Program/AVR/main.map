@@ -1,0 +1,2385 @@
+Archive member included because of file (symbol)
+
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              obj/main.o (__subsf3)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              obj/main.o (__divsf3)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                              obj/main.o (__fixsfsi)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o) (__fixunssfsi)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              obj/SHTC3.o (__floatunsisf)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              obj/main.o (__mulsf3)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                              obj/main.o (__divmodhi4)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                              obj/master.o (__udivmodsi4)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o (exit)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              obj/main.o (__do_copy_data)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              obj/main.o (__do_clear_bss)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                              obj/main.o (dtostrf)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+                              obj/main.o (strtod)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+                              obj/main.o (strtoul)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o) (isspace)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                              obj/main.o (memcpy_P)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+                              obj/CDCClassDevice.o (__strlen_P)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o) (strncasecmp_P)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+                              obj/HIDClassDevice.o (memcmp)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                              obj/HIDClassDevice.o (memcpy)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                              obj/HIDClassDevice.o (memset)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
+                              obj/main.o (fprintf_P)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o) (__eqsf2)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o) (__fp_cmp)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o) (vfprintf)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32u4.o)
+                              obj/main.o (__eerd_block_m32u4)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32u4.o)
+                              obj/EndpointStream_AVR8.o (__eerd_byte_m32u4)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_block_atmega32u4.o)
+                              obj/main.o (__eeupd_block_m32u4)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32u4.o)
+                              obj/EndpointStream_AVR8.o (__eeupd_byte_m32u4)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o) (errno)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o) (dtoa_prf)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o) (__ftoa_engine)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o) (__ctype_isfalse)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o) (__mulsi3)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o) (__muluhisi3)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o) (__prologue_saves__)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o) (__epilogue_restores__)
+c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o) (__umulhisi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+USB_IsInitialized   0x1               obj/USBTask.o
+errno               0x2               c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+USB_Device_ConfigurationNumber
+                    0x1               obj/DeviceStandardReq.o
+System              0x10e             obj/main.o
+USB_Device_CurrentlySelfPowered
+                    0x1               obj/DeviceStandardReq.o
+USB_ControlRequest  0x8               obj/USBTask.o
+USB_Device_RemoteWakeupEnabled
+                    0x1               obj/DeviceStandardReq.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ .text          0x00000000        0x0 obj/main.o
+ .text          0x00000000        0x0 obj/Descriptors.o
+ .data          0x00000000        0x0 obj/Descriptors.o
+ .bss           0x00000000        0x0 obj/Descriptors.o
+ .text          0x00000000        0x0 obj/master.o
+ .data          0x00000000        0x0 obj/master.o
+ .text.twi_write_buf
+                0x00000000       0x54 obj/master.o
+ .text.twi_read_buf
+                0x00000000       0x60 obj/master.o
+ .text          0x00000000        0x0 obj/HD44780.o
+ .data          0x00000000        0x0 obj/HD44780.o
+ .text.lcd_backlight_off
+                0x00000000       0x18 obj/HD44780.o
+ .text.lcd_str  0x00000000       0x18 obj/HD44780.o
+ .text.lcd_double
+                0x00000000       0x68 obj/HD44780.o
+ .text.lcd_float
+                0x00000000        0x4 obj/HD44780.o
+ .text          0x00000000        0x0 obj/SHTC3.o
+ .data          0x00000000        0x0 obj/SHTC3.o
+ .text.sht_low_pwr
+                0x00000000        0x6 obj/SHTC3.o
+ .text          0x00000000        0x0 obj/RingBuffer.o
+ .data          0x00000000        0x0 obj/RingBuffer.o
+ .bss           0x00000000        0x0 obj/RingBuffer.o
+ .text.RingBuffer_Capacity
+                0x00000000        0x8 obj/RingBuffer.o
+ .text.RingBuffer_LastInsert
+                0x00000000       0x18 obj/RingBuffer.o
+ .text          0x00000000        0x0 obj/HIDParser.o
+ .data          0x00000000        0x0 obj/HIDParser.o
+ .bss           0x00000000        0x0 obj/HIDParser.o
+ .text.USB_ProcessHIDReport
+                0x00000000      0x6cc obj/HIDParser.o
+ .text.USB_GetHIDReportItemInfo
+                0x00000000       0xbc obj/HIDParser.o
+ .text.USB_SetHIDReportItemInfo
+                0x00000000       0xc0 obj/HIDParser.o
+ .text.USB_GetHIDReportSize
+                0x00000000       0x56 obj/HIDParser.o
+ .debug_info    0x00000000      0x739 obj/HIDParser.o
+ .debug_abbrev  0x00000000      0x21a obj/HIDParser.o
+ .debug_loc     0x00000000      0xadb obj/HIDParser.o
+ .debug_aranges
+                0x00000000       0x38 obj/HIDParser.o
+ .debug_ranges  0x00000000       0xd0 obj/HIDParser.o
+ .debug_line    0x00000000      0x58c obj/HIDParser.o
+ .debug_str     0x00000000      0x6c3 obj/HIDParser.o
+ .comment       0x00000000       0x31 obj/HIDParser.o
+ .debug_frame   0x00000000      0x11c obj/HIDParser.o
+ .text          0x00000000        0x0 obj/Device_AVR8.o
+ .data          0x00000000        0x0 obj/Device_AVR8.o
+ .bss           0x00000000        0x0 obj/Device_AVR8.o
+ .text.USB_Device_SendRemoteWakeup
+                0x00000000       0x2c obj/Device_AVR8.o
+ .debug_info    0x00000000       0xd2 obj/Device_AVR8.o
+ .debug_abbrev  0x00000000       0x80 obj/Device_AVR8.o
+ .debug_aranges
+                0x00000000       0x20 obj/Device_AVR8.o
+ .debug_ranges  0x00000000       0x10 obj/Device_AVR8.o
+ .debug_line    0x00000000      0x11e obj/Device_AVR8.o
+ .debug_str     0x00000000      0x1ff obj/Device_AVR8.o
+ .comment       0x00000000       0x31 obj/Device_AVR8.o
+ .debug_frame   0x00000000       0x24 obj/Device_AVR8.o
+ .text          0x00000000        0x0 obj/EndpointStream_AVR8.o
+ .data          0x00000000        0x0 obj/EndpointStream_AVR8.o
+ .bss           0x00000000        0x0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Discard_Stream
+                0x00000000       0x6a obj/EndpointStream_AVR8.o
+ .text.Endpoint_Null_Stream
+                0x00000000       0x6a obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Stream_LE
+                0x00000000       0x96 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Stream_BE
+                0x00000000       0xa0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_LE
+                0x00000000       0x96 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_BE
+                0x00000000       0xa0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_BE
+                0x00000000       0xa2 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_LE
+                0x00000000       0x9c obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_BE
+                0x00000000       0xa4 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_LE
+                0x00000000       0x9c obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_BE
+                0x00000000       0xa4 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_Stream_BE
+                0x00000000       0xcc obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_LE
+                0x00000000       0x7c obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_BE
+                0x00000000       0x7e obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_PStream_BE
+                0x00000000       0xca obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_LE
+                0x00000000       0xf0 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_BE
+                0x00000000       0xfc obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_LE
+                0x00000000       0x90 obj/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_BE
+                0x00000000       0x8e obj/EndpointStream_AVR8.o
+ .text          0x00000000        0x0 obj/Endpoint_AVR8.o
+ .data          0x00000000        0x0 obj/Endpoint_AVR8.o
+ .bss           0x00000000        0x0 obj/Endpoint_AVR8.o
+ .text.Endpoint_ClearEndpoints
+                0x00000000       0x28 obj/Endpoint_AVR8.o
+ .text          0x00000000        0x0 obj/Host_AVR8.o
+ .data          0x00000000        0x0 obj/Host_AVR8.o
+ .bss           0x00000000        0x0 obj/Host_AVR8.o
+ .debug_info    0x00000000       0x56 obj/Host_AVR8.o
+ .debug_abbrev  0x00000000       0x26 obj/Host_AVR8.o
+ .debug_aranges
+                0x00000000       0x18 obj/Host_AVR8.o
+ .debug_line    0x00000000       0x1a obj/Host_AVR8.o
+ .debug_str     0x00000000      0x19e obj/Host_AVR8.o
+ .comment       0x00000000       0x31 obj/Host_AVR8.o
+ .text          0x00000000        0x0 obj/PipeStream_AVR8.o
+ .data          0x00000000        0x0 obj/PipeStream_AVR8.o
+ .bss           0x00000000        0x0 obj/PipeStream_AVR8.o
+ .debug_info    0x00000000       0x56 obj/PipeStream_AVR8.o
+ .debug_abbrev  0x00000000       0x26 obj/PipeStream_AVR8.o
+ .debug_aranges
+                0x00000000       0x18 obj/PipeStream_AVR8.o
+ .debug_line    0x00000000       0x1a obj/PipeStream_AVR8.o
+ .debug_str     0x00000000      0x1a4 obj/PipeStream_AVR8.o
+ .comment       0x00000000       0x31 obj/PipeStream_AVR8.o
+ .text          0x00000000        0x0 obj/Pipe_AVR8.o
+ .data          0x00000000        0x0 obj/Pipe_AVR8.o
+ .bss           0x00000000        0x0 obj/Pipe_AVR8.o
+ .debug_info    0x00000000       0x56 obj/Pipe_AVR8.o
+ .debug_abbrev  0x00000000       0x26 obj/Pipe_AVR8.o
+ .debug_aranges
+                0x00000000       0x18 obj/Pipe_AVR8.o
+ .debug_line    0x00000000       0x1a obj/Pipe_AVR8.o
+ .debug_str     0x00000000      0x19e obj/Pipe_AVR8.o
+ .comment       0x00000000       0x31 obj/Pipe_AVR8.o
+ .text          0x00000000        0x0 obj/USBController_AVR8.o
+ .data          0x00000000        0x0 obj/USBController_AVR8.o
+ .bss           0x00000000        0x0 obj/USBController_AVR8.o
+ .text.USB_Disable
+                0x00000000       0x34 obj/USBController_AVR8.o
+ .text          0x00000000        0x0 obj/USBInterrupt_AVR8.o
+ .data          0x00000000        0x0 obj/USBInterrupt_AVR8.o
+ .bss           0x00000000        0x0 obj/USBInterrupt_AVR8.o
+ .text          0x00000000        0x0 obj/ConfigDescriptors.o
+ .data          0x00000000        0x0 obj/ConfigDescriptors.o
+ .bss           0x00000000        0x0 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptor
+                0x00000000       0x3c obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfType
+                0x00000000       0x38 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeBefore
+                0x00000000       0x46 obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeAfter
+                0x00000000       0x3e obj/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorComp
+                0x00000000       0x66 obj/ConfigDescriptors.o
+ .debug_info    0x00000000      0x3d5 obj/ConfigDescriptors.o
+ .debug_abbrev  0x00000000      0x185 obj/ConfigDescriptors.o
+ .debug_loc     0x00000000      0x59f obj/ConfigDescriptors.o
+ .debug_aranges
+                0x00000000       0x40 obj/ConfigDescriptors.o
+ .debug_ranges  0x00000000       0x30 obj/ConfigDescriptors.o
+ .debug_line    0x00000000      0x1e8 obj/ConfigDescriptors.o
+ .debug_str     0x00000000      0x3e7 obj/ConfigDescriptors.o
+ .comment       0x00000000       0x31 obj/ConfigDescriptors.o
+ .debug_frame   0x00000000       0xfc obj/ConfigDescriptors.o
+ .text          0x00000000        0x0 obj/DeviceStandardReq.o
+ .data          0x00000000        0x0 obj/DeviceStandardReq.o
+ .bss           0x00000000        0x0 obj/DeviceStandardReq.o
+ .text          0x00000000        0x0 obj/Events.o
+ .data          0x00000000        0x0 obj/Events.o
+ .bss           0x00000000        0x0 obj/Events.o
+ .text.USB_Event_Stub_2
+                0x00000000        0x2 obj/Events.o
+ .text.USB_Event_Stub_3
+                0x00000000        0x2 obj/Events.o
+ .text          0x00000000        0x0 obj/HostStandardReq.o
+ .data          0x00000000        0x0 obj/HostStandardReq.o
+ .bss           0x00000000        0x0 obj/HostStandardReq.o
+ .debug_info    0x00000000       0x56 obj/HostStandardReq.o
+ .debug_abbrev  0x00000000       0x26 obj/HostStandardReq.o
+ .debug_aranges
+                0x00000000       0x18 obj/HostStandardReq.o
+ .debug_line    0x00000000       0x1a obj/HostStandardReq.o
+ .debug_str     0x00000000      0x19f obj/HostStandardReq.o
+ .comment       0x00000000       0x31 obj/HostStandardReq.o
+ .text          0x00000000        0x0 obj/USBTask.o
+ .data          0x00000000        0x0 obj/USBTask.o
+ .bss           0x00000000        0x0 obj/USBTask.o
+ .text          0x00000000        0x0 obj/AudioClassDevice.o
+ .data          0x00000000        0x0 obj/AudioClassDevice.o
+ .bss           0x00000000        0x0 obj/AudioClassDevice.o
+ .text.Audio_Device_ConfigureEndpoints
+                0x00000000       0x32 obj/AudioClassDevice.o
+ .text.Audio_Device_Event_Stub
+                0x00000000        0x2 obj/AudioClassDevice.o
+ .text.Audio_Device_ProcessControlRequest
+                0x00000000      0x2e4 obj/AudioClassDevice.o
+ .debug_info    0x00000000      0x850 obj/AudioClassDevice.o
+ .debug_abbrev  0x00000000      0x1f0 obj/AudioClassDevice.o
+ .debug_loc     0x00000000      0x37c obj/AudioClassDevice.o
+ .debug_aranges
+                0x00000000       0x30 obj/AudioClassDevice.o
+ .debug_ranges  0x00000000       0x20 obj/AudioClassDevice.o
+ .debug_line    0x00000000      0x416 obj/AudioClassDevice.o
+ .debug_str     0x00000000      0x6ab obj/AudioClassDevice.o
+ .comment       0x00000000       0x31 obj/AudioClassDevice.o
+ .debug_frame   0x00000000       0xa8 obj/AudioClassDevice.o
+ .text          0x00000000        0x0 obj/CCIDClassDevice.o
+ .data          0x00000000        0x0 obj/CCIDClassDevice.o
+ .bss           0x00000000        0x0 obj/CCIDClassDevice.o
+ .text.CCID_CheckStatusNoError
+                0x00000000        0xc obj/CCIDClassDevice.o
+ .text.CCID_Device_ProcessControlRequest
+                0x00000000       0x72 obj/CCIDClassDevice.o
+ .text.CCID_Device_ConfigureEndpoints
+                0x00000000       0x30 obj/CCIDClassDevice.o
+ .text.CCID_Device_USBTask
+                0x00000000      0x3d4 obj/CCIDClassDevice.o
+ .debug_info    0x00000000      0xd6b obj/CCIDClassDevice.o
+ .debug_abbrev  0x00000000      0x312 obj/CCIDClassDevice.o
+ .debug_loc     0x00000000      0x659 obj/CCIDClassDevice.o
+ .debug_aranges
+                0x00000000       0x38 obj/CCIDClassDevice.o
+ .debug_ranges  0x00000000       0x40 obj/CCIDClassDevice.o
+ .debug_line    0x00000000      0x59f obj/CCIDClassDevice.o
+ .debug_str     0x00000000      0x9d2 obj/CCIDClassDevice.o
+ .comment       0x00000000       0x31 obj/CCIDClassDevice.o
+ .debug_frame   0x00000000       0xbc obj/CCIDClassDevice.o
+ .text          0x00000000        0x0 obj/CDCClassDevice.o
+ .data          0x00000000        0x0 obj/CDCClassDevice.o
+ .bss           0x00000000        0x0 obj/CDCClassDevice.o
+ .text.CDC_Device_SendString
+                0x00000000       0x40 obj/CDCClassDevice.o
+ .text.CDC_Device_SendData
+                0x00000000       0x32 obj/CDCClassDevice.o
+ .text.CDC_Device_SendData_P
+                0x00000000       0x32 obj/CDCClassDevice.o
+ .text.CDC_Device_BytesReceived
+                0x00000000       0x58 obj/CDCClassDevice.o
+ .text.CDC_Device_getchar_Blocking
+                0x00000000       0x30 obj/CDCClassDevice.o
+ .rodata        0x00000000        0x8 obj/CDCClassDevice.o
+ .text.CDC_Device_SendControlLineStateChange
+                0x00000000       0x8c obj/CDCClassDevice.o
+ .text.CDC_Device_CreateBlockingStream
+                0x00000000       0x26 obj/CDCClassDevice.o
+ .text          0x00000000        0x0 obj/HIDClassDevice.o
+ .data          0x00000000        0x0 obj/HIDClassDevice.o
+ .bss           0x00000000        0x0 obj/HIDClassDevice.o
+ .text.HID_Device_ProcessControlRequest
+                0x00000000      0x278 obj/HIDClassDevice.o
+ .text.HID_Device_ConfigureEndpoints
+                0x00000000       0x28 obj/HIDClassDevice.o
+ .text.HID_Device_USBTask
+                0x00000000      0x17a obj/HIDClassDevice.o
+ .debug_info    0x00000000      0x901 obj/HIDClassDevice.o
+ .debug_abbrev  0x00000000      0x21a obj/HIDClassDevice.o
+ .debug_loc     0x00000000      0x43e obj/HIDClassDevice.o
+ .debug_aranges
+                0x00000000       0x30 obj/HIDClassDevice.o
+ .debug_ranges  0x00000000       0x20 obj/HIDClassDevice.o
+ .debug_line    0x00000000      0x4df obj/HIDClassDevice.o
+ .debug_str     0x00000000      0x6f6 obj/HIDClassDevice.o
+ .comment       0x00000000       0x31 obj/HIDClassDevice.o
+ .debug_frame   0x00000000       0xe4 obj/HIDClassDevice.o
+ .text          0x00000000        0x0 obj/MassStorageClassDevice.o
+ .data          0x00000000        0x0 obj/MassStorageClassDevice.o
+ .bss           0x00000000        0x0 obj/MassStorageClassDevice.o
+ .text.MS_Device_ProcessControlRequest
+                0x00000000       0x86 obj/MassStorageClassDevice.o
+ .text.MS_Device_ConfigureEndpoints
+                0x00000000       0x3e obj/MassStorageClassDevice.o
+ .text.MS_Device_USBTask
+                0x00000000      0x232 obj/MassStorageClassDevice.o
+ .debug_info    0x00000000      0x8eb obj/MassStorageClassDevice.o
+ .debug_abbrev  0x00000000      0x26d obj/MassStorageClassDevice.o
+ .debug_loc     0x00000000      0x2ac obj/MassStorageClassDevice.o
+ .debug_aranges
+                0x00000000       0x30 obj/MassStorageClassDevice.o
+ .debug_ranges  0x00000000       0x20 obj/MassStorageClassDevice.o
+ .debug_line    0x00000000      0x48a obj/MassStorageClassDevice.o
+ .debug_str     0x00000000      0x7f7 obj/MassStorageClassDevice.o
+ .comment       0x00000000       0x31 obj/MassStorageClassDevice.o
+ .debug_frame   0x00000000       0x80 obj/MassStorageClassDevice.o
+ .text          0x00000000        0x0 obj/MIDIClassDevice.o
+ .data          0x00000000        0x0 obj/MIDIClassDevice.o
+ .bss           0x00000000        0x0 obj/MIDIClassDevice.o
+ .text.MIDI_Device_ConfigureEndpoints
+                0x00000000       0x32 obj/MIDIClassDevice.o
+ .text.MIDI_Device_SendEventPacket
+                0x00000000       0x44 obj/MIDIClassDevice.o
+ .text.MIDI_Device_Flush
+                0x00000000       0x36 obj/MIDIClassDevice.o
+ .text.MIDI_Device_USBTask
+                0x00000000       0x20 obj/MIDIClassDevice.o
+ .text.MIDI_Device_ReceiveEventPacket
+                0x00000000       0x48 obj/MIDIClassDevice.o
+ .debug_info    0x00000000      0x5cc obj/MIDIClassDevice.o
+ .debug_abbrev  0x00000000      0x201 obj/MIDIClassDevice.o
+ .debug_loc     0x00000000      0x314 obj/MIDIClassDevice.o
+ .debug_aranges
+                0x00000000       0x40 obj/MIDIClassDevice.o
+ .debug_ranges  0x00000000       0x30 obj/MIDIClassDevice.o
+ .debug_line    0x00000000      0x340 obj/MIDIClassDevice.o
+ .debug_str     0x00000000      0x66c obj/MIDIClassDevice.o
+ .comment       0x00000000       0x31 obj/MIDIClassDevice.o
+ .debug_frame   0x00000000       0x70 obj/MIDIClassDevice.o
+ .text          0x00000000        0x0 obj/PrinterClassDevice.o
+ .data          0x00000000        0x0 obj/PrinterClassDevice.o
+ .bss           0x00000000        0x0 obj/PrinterClassDevice.o
+ .text.PRNT_Device_ConfigureEndpoints
+                0x00000000       0x38 obj/PrinterClassDevice.o
+ .text.PRNT_Device_SendString
+                0x00000000       0x30 obj/PrinterClassDevice.o
+ .text.PRNT_Device_SendData
+                0x00000000       0x22 obj/PrinterClassDevice.o
+ .text.PRNT_Device_SendByte
+                0x00000000       0x3e obj/PrinterClassDevice.o
+ .text.PRNT_Device_putchar
+                0x00000000       0x22 obj/PrinterClassDevice.o
+ .text.PRNT_Device_Flush
+                0x00000000       0x4c obj/PrinterClassDevice.o
+ .text.PRNT_Device_USBTask
+                0x00000000       0x9a obj/PrinterClassDevice.o
+ .text.PRNT_Device_BytesReceived
+                0x00000000       0x48 obj/PrinterClassDevice.o
+ .text.PRNT_Device_ReceiveByte
+                0x00000000       0x58 obj/PrinterClassDevice.o
+ .text.PRNT_Device_getchar
+                0x00000000       0x14 obj/PrinterClassDevice.o
+ .text.PRNT_Device_getchar_Blocking
+                0x00000000       0x30 obj/PrinterClassDevice.o
+ .text.PRNT_Device_CreateStream
+                0x00000000       0x26 obj/PrinterClassDevice.o
+ .text.PRNT_Device_CreateBlockingStream
+                0x00000000       0x26 obj/PrinterClassDevice.o
+ .text.PRNT_Device_Event_Stub
+                0x00000000        0x2 obj/PrinterClassDevice.o
+ .text.PRNT_Device_ProcessControlRequest
+                0x00000000       0xe6 obj/PrinterClassDevice.o
+ .debug_info    0x00000000      0xcc0 obj/PrinterClassDevice.o
+ .debug_abbrev  0x00000000      0x301 obj/PrinterClassDevice.o
+ .debug_loc     0x00000000      0x84e obj/PrinterClassDevice.o
+ .debug_aranges
+                0x00000000       0x90 obj/PrinterClassDevice.o
+ .debug_ranges  0x00000000       0x80 obj/PrinterClassDevice.o
+ .debug_line    0x00000000      0x6a9 obj/PrinterClassDevice.o
+ .debug_str     0x00000000      0x935 obj/PrinterClassDevice.o
+ .comment       0x00000000       0x31 obj/PrinterClassDevice.o
+ .debug_frame   0x00000000      0x13c obj/PrinterClassDevice.o
+ .text          0x00000000        0x0 obj/RNDISClassDevice.o
+ .data          0x00000000        0x0 obj/RNDISClassDevice.o
+ .bss           0x00000000        0x0 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_ProcessControlRequest
+                0x00000000      0x506 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_ConfigureEndpoints
+                0x00000000       0x64 obj/RNDISClassDevice.o
+ .rodata        0x00000000        0x8 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_USBTask
+                0x00000000       0x7e obj/RNDISClassDevice.o
+ .text.RNDIS_Device_IsPacketReceived
+                0x00000000       0x26 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_ReadPacket
+                0x00000000       0xb4 obj/RNDISClassDevice.o
+ .text.RNDIS_Device_SendPacket
+                0x00000000       0xd2 obj/RNDISClassDevice.o
+ .progmem.data  0x00000000       0x6c obj/RNDISClassDevice.o
+ .debug_info    0x00000000     0x10ca obj/RNDISClassDevice.o
+ .debug_abbrev  0x00000000      0x34c obj/RNDISClassDevice.o
+ .debug_loc     0x00000000      0xdde obj/RNDISClassDevice.o
+ .debug_aranges
+                0x00000000       0x48 obj/RNDISClassDevice.o
+ .debug_ranges  0x00000000       0x88 obj/RNDISClassDevice.o
+ .debug_line    0x00000000      0x6a8 obj/RNDISClassDevice.o
+ .debug_str     0x00000000      0xd66 obj/RNDISClassDevice.o
+ .comment       0x00000000       0x31 obj/RNDISClassDevice.o
+ .debug_frame   0x00000000      0x10c obj/RNDISClassDevice.o
+ .text          0x00000000        0x0 obj/AndroidAccessoryClassHost.o
+ .data          0x00000000        0x0 obj/AndroidAccessoryClassHost.o
+ .bss           0x00000000        0x0 obj/AndroidAccessoryClassHost.o
+ .debug_info    0x00000000       0x56 obj/AndroidAccessoryClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/AndroidAccessoryClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/AndroidAccessoryClassHost.o
+ .debug_line    0x00000000       0x1a obj/AndroidAccessoryClassHost.o
+ .debug_str     0x00000000      0x1af obj/AndroidAccessoryClassHost.o
+ .comment       0x00000000       0x31 obj/AndroidAccessoryClassHost.o
+ .text          0x00000000        0x0 obj/AudioClassHost.o
+ .data          0x00000000        0x0 obj/AudioClassHost.o
+ .bss           0x00000000        0x0 obj/AudioClassHost.o
+ .debug_info    0x00000000       0x56 obj/AudioClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/AudioClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/AudioClassHost.o
+ .debug_line    0x00000000       0x1a obj/AudioClassHost.o
+ .debug_str     0x00000000      0x1a4 obj/AudioClassHost.o
+ .comment       0x00000000       0x31 obj/AudioClassHost.o
+ .text          0x00000000        0x0 obj/CDCClassHost.o
+ .data          0x00000000        0x0 obj/CDCClassHost.o
+ .bss           0x00000000        0x0 obj/CDCClassHost.o
+ .debug_info    0x00000000       0x56 obj/CDCClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/CDCClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/CDCClassHost.o
+ .debug_line    0x00000000       0x1a obj/CDCClassHost.o
+ .debug_str     0x00000000      0x1a2 obj/CDCClassHost.o
+ .comment       0x00000000       0x31 obj/CDCClassHost.o
+ .text          0x00000000        0x0 obj/HIDClassHost.o
+ .data          0x00000000        0x0 obj/HIDClassHost.o
+ .bss           0x00000000        0x0 obj/HIDClassHost.o
+ .debug_info    0x00000000       0x56 obj/HIDClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/HIDClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/HIDClassHost.o
+ .debug_line    0x00000000       0x1a obj/HIDClassHost.o
+ .debug_str     0x00000000      0x1a2 obj/HIDClassHost.o
+ .comment       0x00000000       0x31 obj/HIDClassHost.o
+ .text          0x00000000        0x0 obj/MassStorageClassHost.o
+ .data          0x00000000        0x0 obj/MassStorageClassHost.o
+ .bss           0x00000000        0x0 obj/MassStorageClassHost.o
+ .debug_info    0x00000000       0x56 obj/MassStorageClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/MassStorageClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/MassStorageClassHost.o
+ .debug_line    0x00000000       0x1a obj/MassStorageClassHost.o
+ .debug_str     0x00000000      0x1aa obj/MassStorageClassHost.o
+ .comment       0x00000000       0x31 obj/MassStorageClassHost.o
+ .text          0x00000000        0x0 obj/MIDIClassHost.o
+ .data          0x00000000        0x0 obj/MIDIClassHost.o
+ .bss           0x00000000        0x0 obj/MIDIClassHost.o
+ .debug_info    0x00000000       0x56 obj/MIDIClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/MIDIClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/MIDIClassHost.o
+ .debug_line    0x00000000       0x1a obj/MIDIClassHost.o
+ .debug_str     0x00000000      0x1a3 obj/MIDIClassHost.o
+ .comment       0x00000000       0x31 obj/MIDIClassHost.o
+ .text          0x00000000        0x0 obj/PrinterClassHost.o
+ .data          0x00000000        0x0 obj/PrinterClassHost.o
+ .bss           0x00000000        0x0 obj/PrinterClassHost.o
+ .debug_info    0x00000000       0x56 obj/PrinterClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/PrinterClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/PrinterClassHost.o
+ .debug_line    0x00000000       0x1a obj/PrinterClassHost.o
+ .debug_str     0x00000000      0x1a6 obj/PrinterClassHost.o
+ .comment       0x00000000       0x31 obj/PrinterClassHost.o
+ .text          0x00000000        0x0 obj/RNDISClassHost.o
+ .data          0x00000000        0x0 obj/RNDISClassHost.o
+ .bss           0x00000000        0x0 obj/RNDISClassHost.o
+ .debug_info    0x00000000       0x56 obj/RNDISClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/RNDISClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/RNDISClassHost.o
+ .debug_line    0x00000000       0x1a obj/RNDISClassHost.o
+ .debug_str     0x00000000      0x1a4 obj/RNDISClassHost.o
+ .comment       0x00000000       0x31 obj/RNDISClassHost.o
+ .text          0x00000000        0x0 obj/StillImageClassHost.o
+ .data          0x00000000        0x0 obj/StillImageClassHost.o
+ .bss           0x00000000        0x0 obj/StillImageClassHost.o
+ .debug_info    0x00000000       0x56 obj/StillImageClassHost.o
+ .debug_abbrev  0x00000000       0x26 obj/StillImageClassHost.o
+ .debug_aranges
+                0x00000000       0x18 obj/StillImageClassHost.o
+ .debug_line    0x00000000       0x1a obj/StillImageClassHost.o
+ .debug_str     0x00000000      0x1a9 obj/StillImageClassHost.o
+ .comment       0x00000000       0x31 obj/StillImageClassHost.o
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .text.avr-libc
+                0x00000000       0x1a c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text.avr-libc
+                0x00000000       0x12 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ .text.avr-libc
+                0x00000000        0xe c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32u4.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32u4.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32u4.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32u4.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32u4.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32u4.o)
+ .text.avr-libc
+                0x00000000       0x10 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32u4.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_block_atmega32u4.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_block_atmega32u4.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_block_atmega32u4.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32u4.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32u4.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32u4.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+LOAD obj/main.o
+LOAD obj/Descriptors.o
+LOAD obj/master.o
+LOAD obj/HD44780.o
+LOAD obj/SHTC3.o
+LOAD obj/RingBuffer.o
+LOAD obj/HIDParser.o
+LOAD obj/Device_AVR8.o
+LOAD obj/EndpointStream_AVR8.o
+LOAD obj/Endpoint_AVR8.o
+LOAD obj/Host_AVR8.o
+LOAD obj/PipeStream_AVR8.o
+LOAD obj/Pipe_AVR8.o
+LOAD obj/USBController_AVR8.o
+LOAD obj/USBInterrupt_AVR8.o
+LOAD obj/ConfigDescriptors.o
+LOAD obj/DeviceStandardReq.o
+LOAD obj/Events.o
+LOAD obj/HostStandardReq.o
+LOAD obj/USBTask.o
+LOAD obj/AudioClassDevice.o
+LOAD obj/CCIDClassDevice.o
+LOAD obj/CDCClassDevice.o
+LOAD obj/HIDClassDevice.o
+LOAD obj/MassStorageClassDevice.o
+LOAD obj/MIDIClassDevice.o
+LOAD obj/PrinterClassDevice.o
+LOAD obj/RNDISClassDevice.o
+LOAD obj/AndroidAccessoryClassHost.o
+LOAD obj/AudioClassHost.o
+LOAD obj/CDCClassHost.o
+LOAD obj/HIDClassHost.o
+LOAD obj/MassStorageClassHost.o
+LOAD obj/MIDIClassHost.o
+LOAD obj/PrinterClassHost.o
+LOAD obj/RNDISClassHost.o
+LOAD obj/StillImageClassHost.o
+LOAD c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+START GROUP
+LOAD c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega32u4.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x3ae0
+ *(.vectors)
+ .vectors       0x00000000       0xac c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000000ac                . = ALIGN (0x2)
+                0x000000ac                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000ac        0x0 linker stubs
+ *(.trampolines*)
+                0x000000ac                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data  0x000000ac      0x2bd obj/main.o
+                0x00000345                Corrections_PROGMEM
+                0x00000355                Constants_PROGMEM
+ .progmem.data  0x00000369       0xce obj/Descriptors.o
+                0x00000369                ProductString
+                0x000003a3                ManufacturerString
+                0x000003e3                LanguageString
+                0x000003e7                ConfigurationDescriptor
+                0x00000425                DeviceDescriptor
+ .progmem.data  0x00000437       0x3b c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .progmem.data  0x00000472       0xfa c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                0x0000056c                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000056c                __ctors_start = .
+ *(.ctors)
+                0x0000056c                __ctors_end = .
+                0x0000056c                __dtors_start = .
+ *(.dtors)
+                0x0000056c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000056c        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+                0x0000056c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000056c        0xc c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000578       0x16 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x00000578                __do_copy_data
+ .init4         0x0000058e       0x10 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000058e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000059e        0x6 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x000005a4        0x2 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+                0x000005a4                __vector_38
+                0x000005a4                __vector_22
+                0x000005a4                __vector_28
+                0x000005a4                __vector_1
+                0x000005a4                __vector_32
+                0x000005a4                __vector_34
+                0x000005a4                __vector_24
+                0x000005a4                __vector_12
+                0x000005a4                __bad_interrupt
+                0x000005a4                __vector_6
+                0x000005a4                __vector_31
+                0x000005a4                __vector_35
+                0x000005a4                __vector_39
+                0x000005a4                __vector_3
+                0x000005a4                __vector_23
+                0x000005a4                __vector_30
+                0x000005a4                __vector_25
+                0x000005a4                __vector_13
+                0x000005a4                __vector_17
+                0x000005a4                __vector_19
+                0x000005a4                __vector_7
+                0x000005a4                __vector_41
+                0x000005a4                __vector_27
+                0x000005a4                __vector_5
+                0x000005a4                __vector_33
+                0x000005a4                __vector_37
+                0x000005a4                __vector_4
+                0x000005a4                __vector_9
+                0x000005a4                __vector_2
+                0x000005a4                __vector_21
+                0x000005a4                __vector_15
+                0x000005a4                __vector_36
+                0x000005a4                __vector_29
+                0x000005a4                __vector_40
+                0x000005a4                __vector_8
+                0x000005a4                __vector_26
+                0x000005a4                __vector_14
+                0x000005a4                __vector_18
+                0x000005a4                __vector_20
+                0x000005a4                __vector_42
+                0x000005a6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.DisableInputCapture
+                0x000005a6       0x16 obj/main.o
+ .text.dtostr   0x000005bc       0x38 obj/main.o
+ .text.TemperatureMeasurement
+                0x000005f4      0x158 obj/main.o
+ .text.startup.main
+                0x0000074c      0xa20 obj/main.o
+                0x0000074c                main
+ .text.__vector_16
+                0x0000116c       0x66 obj/main.o
+                0x0000116c                __vector_16
+ .text.EVENT_USB_Device_Connect
+                0x000011d2        0x4 obj/main.o
+                0x000011d2                EVENT_USB_Device_Connect
+ .text.EVENT_USB_Device_Disconnect
+                0x000011d6       0x10 obj/main.o
+                0x000011d6                EVENT_USB_Device_Disconnect
+ .text.EVENT_USB_Device_ConfigurationChanged
+                0x000011e6       0x14 obj/main.o
+                0x000011e6                EVENT_USB_Device_ConfigurationChanged
+ .text.EVENT_USB_Device_ControlRequest
+                0x000011fa        0x8 obj/main.o
+                0x000011fa                EVENT_USB_Device_ControlRequest
+ .text.EVENT_CDC_Device_ControLineStateChanged
+                0x00001202       0x20 obj/main.o
+                0x00001202                EVENT_CDC_Device_ControLineStateChanged
+ .text.CALLBACK_USB_GetDescriptor
+                0x00001222       0x60 obj/Descriptors.o
+                0x00001222                CALLBACK_USB_GetDescriptor
+ .text.twi_set_bit_rate
+                0x00001282       0x24 obj/master.o
+                0x00001282                twi_set_bit_rate
+ .text.twi_init
+                0x000012a6        0xa obj/master.o
+                0x000012a6                twi_init
+ .text.twi_error
+                0x000012b0        0xa obj/master.o
+                0x000012b0                twi_error
+ .text.twi_status
+                0x000012ba        0x6 obj/master.o
+                0x000012ba                twi_status
+ .text.twi_start
+                0x000012c0       0x18 obj/master.o
+                0x000012c0                twi_start
+ .text.twi_stop
+                0x000012d8        0x8 obj/master.o
+                0x000012d8                twi_stop
+ .text.twi_write_sla
+                0x000012e0       0x40 obj/master.o
+                0x000012e0                twi_write_sla
+ .text.twi_detect
+                0x00001320       0x22 obj/master.o
+                0x00001320                twi_detect
+ .text.twi_write
+                0x00001342       0x1c obj/master.o
+                0x00001342                twi_write
+ .text.twi_read
+                0x0000135e       0x54 obj/master.o
+                0x0000135e                twi_read
+ .text.lcd_send
+                0x000013b2       0xa8 obj/HD44780.o
+ .text.lcd_cls  0x0000145a       0x14 obj/HD44780.o
+                0x0000145a                lcd_cls
+ .text.lcd_locate
+                0x0000146e       0x24 obj/HD44780.o
+                0x0000146e                lcd_locate
+ .text.lcd_create_stream
+                0x00001492       0x1a obj/HD44780.o
+                0x00001492                lcd_create_stream
+ .text.lcd_backlight_on
+                0x000014ac       0x16 obj/HD44780.o
+                0x000014ac                lcd_backlight_on
+ .text.lcd_init
+                0x000014c2       0xac obj/HD44780.o
+                0x000014c2                lcd_init
+ .text.lcd_char
+                0x0000156e        0x4 obj/HD44780.o
+                0x0000156e                lcd_char
+ .text.lcd_char_stream
+                0x00001572        0x8 obj/HD44780.o
+ .text.lcd_str_P
+                0x0000157a       0x1a obj/HD44780.o
+                0x0000157a                lcd_str_P
+ .text.sht_checkCRC
+                0x00001594       0x48 obj/SHTC3.o
+ .text.sht_command
+                0x000015dc       0x1a obj/SHTC3.o
+ .text.sht_checkID
+                0x000015f6       0x54 obj/SHTC3.o
+                0x000015f6                sht_checkID
+ .text.sht_init
+                0x0000164a       0x34 obj/SHTC3.o
+                0x0000164a                sht_init
+ .text.sht_meas
+                0x0000167e      0x14e obj/SHTC3.o
+                0x0000167e                sht_meas
+ .text.sht_temperature
+                0x000017cc       0x12 obj/SHTC3.o
+                0x000017cc                sht_temperature
+ .text.sht_humidity
+                0x000017de       0x12 obj/SHTC3.o
+                0x000017de                sht_humidity
+ .text.RingBuffer_Init
+                0x000017f0       0x18 obj/RingBuffer.o
+                0x000017f0                RingBuffer_Init
+ .text.RingBuffer_Clear
+                0x00001808       0x10 obj/RingBuffer.o
+                0x00001808                RingBuffer_Clear
+ .text.RingBuffer_Insert
+                0x00001818       0x40 obj/RingBuffer.o
+                0x00001818                RingBuffer_Insert
+ .text.RingBuffer_Get
+                0x00001858       0x48 obj/RingBuffer.o
+                0x00001858                RingBuffer_Get
+ .text.RingBuffer_GetAsString
+                0x000018a0       0x6a obj/RingBuffer.o
+                0x000018a0                RingBuffer_GetAsString
+ .text.RingBuffer_IsFull
+                0x0000190a       0x28 obj/RingBuffer.o
+                0x0000190a                RingBuffer_IsFull
+ .text.RingBuffer_Size
+                0x00001932        0x8 obj/RingBuffer.o
+                0x00001932                RingBuffer_Size
+ .text.Endpoint_Write_PStream_LE
+                0x0000193a       0x96 obj/EndpointStream_AVR8.o
+                0x0000193a                Endpoint_Write_PStream_LE
+ .text.Endpoint_Write_Control_Stream_LE
+                0x000019d0       0xb8 obj/EndpointStream_AVR8.o
+                0x000019d0                Endpoint_Write_Control_Stream_LE
+ .text.Endpoint_Write_Control_PStream_LE
+                0x00001a88       0xbe obj/EndpointStream_AVR8.o
+                0x00001a88                Endpoint_Write_Control_PStream_LE
+ .text.Endpoint_ConfigureEndpoint_Prv
+                0x00001b46       0x28 obj/Endpoint_AVR8.o
+                0x00001b46                Endpoint_ConfigureEndpoint_Prv
+ .text.Endpoint_ConfigureEndpointTable
+                0x00001b6e       0x7a obj/Endpoint_AVR8.o
+                0x00001b6e                Endpoint_ConfigureEndpointTable
+ .text.Endpoint_ClearStatusStage
+                0x00001be8       0x3a obj/Endpoint_AVR8.o
+                0x00001be8                Endpoint_ClearStatusStage
+ .text.Endpoint_WaitUntilReady
+                0x00001c22       0x64 obj/Endpoint_AVR8.o
+                0x00001c22                Endpoint_WaitUntilReady
+ .text.USB_ResetInterface
+                0x00001c86       0x7e obj/USBController_AVR8.o
+                0x00001c86                USB_ResetInterface
+ .text.USB_Init
+                0x00001d04       0x20 obj/USBController_AVR8.o
+                0x00001d04                USB_Init
+ .text.USB_INT_DisableAllInterrupts
+                0x00001d24       0x10 obj/USBInterrupt_AVR8.o
+                0x00001d24                USB_INT_DisableAllInterrupts
+ .text.USB_INT_ClearAllInterrupts
+                0x00001d34        0xa obj/USBInterrupt_AVR8.o
+                0x00001d34                USB_INT_ClearAllInterrupts
+ .text.__vector_10
+                0x00001d3e      0x18c obj/USBInterrupt_AVR8.o
+                0x00001d3e                __vector_10
+ .text.__vector_11
+                0x00001eca       0x86 obj/USBInterrupt_AVR8.o
+                0x00001eca                __vector_11
+ .text.USB_Device_ProcessControlRequest
+                0x00001f50      0x2be obj/DeviceStandardReq.o
+                0x00001f50                USB_Device_ProcessControlRequest
+ .text.USB_Event_Stub
+                0x0000220e        0x2 obj/Events.o
+                0x0000220e                USB_Event_Stub
+                0x0000220e                EVENT_USB_Device_Suspend
+                0x0000220e                EVENT_USB_Device_StartOfFrame
+                0x0000220e                EVENT_USB_Device_Reset
+                0x0000220e                EVENT_USB_Device_WakeUp
+ .text.USB_USBTask
+                0x00002210       0x32 obj/USBTask.o
+                0x00002210                USB_USBTask
+ .text.CDC_Device_ConfigureEndpoints
+                0x00002242       0x4a obj/CDCClassDevice.o
+                0x00002242                CDC_Device_ConfigureEndpoints
+ .text.CDC_Device_SendString_P
+                0x0000228c       0x4c obj/CDCClassDevice.o
+                0x0000228c                CDC_Device_SendString_P
+ .text.CDC_Device_SendByte
+                0x000022d8       0x54 obj/CDCClassDevice.o
+                0x000022d8                CDC_Device_SendByte
+ .text.CDC_Device_putchar
+                0x0000232c       0x20 obj/CDCClassDevice.o
+ .text.CDC_Device_Flush
+                0x0000234c       0x5a obj/CDCClassDevice.o
+                0x0000234c                CDC_Device_Flush
+ .text.CDC_Device_USBTask
+                0x000023a6       0x2a obj/CDCClassDevice.o
+                0x000023a6                CDC_Device_USBTask
+ .text.CDC_Device_ReceiveByte
+                0x000023d0       0x68 obj/CDCClassDevice.o
+                0x000023d0                CDC_Device_ReceiveByte
+ .text.CDC_Device_getchar
+                0x00002438       0x12 obj/CDCClassDevice.o
+ .text.CDC_Device_CreateStream
+                0x0000244a       0x26 obj/CDCClassDevice.o
+                0x0000244a                CDC_Device_CreateStream
+ .text.CDC_Device_Event_Stub
+                0x00002470        0x2 obj/CDCClassDevice.o
+                0x00002470                CDC_Device_Event_Stub
+                0x00002470                EVENT_CDC_Device_LineEncodingChanged
+ .text.CDC_Device_Event_Stub_2
+                0x00002472        0x2 obj/CDCClassDevice.o
+                0x00002472                EVENT_CDC_Device_BreakSent
+                0x00002472                CDC_Device_Event_Stub_2
+ .text.CDC_Device_ProcessControlRequest
+                0x00002474      0x160 obj/CDCClassDevice.o
+                0x00002474                CDC_Device_ProcessControlRequest
+ .text.avr-libc.fplib
+                0x000025d4        0xa c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x000025d4                __subsf3
+                0x000025d6                __addsf3
+ .text.avr-libc.fplib
+                0x000025de       0xc0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x000025f8                __addsf3x
+ .text.avr-libc.fplib
+                0x0000269e        0x4 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x0000269e                __divsf3
+ .text.avr-libc.fplib
+                0x000026a2       0xcc c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x000026b8                __divsf3x
+                0x000026bc                __divsf3_pse
+ .text.avr-libc.fplib
+                0x0000276e        0xa c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                0x0000276e                __fixsfsi
+ .text.avr-libc.fplib
+                0x00002778       0x58 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x00002778                __fixunssfsi
+ .text.avr-libc.fplib
+                0x000027d0       0x7a c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x000027d0                __floatunsisf
+                0x000027d4                __floatsisf
+ .text.avr-libc.fplib
+                0x0000284a        0xc c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x0000284a                __fp_inf
+ .text.avr-libc.fplib
+                0x00002856        0x6 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00002856                __fp_nan
+ .text.avr-libc.fplib
+                0x0000285c        0xe c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x0000285c                __fp_pscA
+ .text.avr-libc.fplib
+                0x0000286a        0xe c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x0000286a                __fp_pscB
+ .text.avr-libc.fplib
+                0x00002878       0x22 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00002878                __fp_round
+ .text.avr-libc.fplib
+                0x0000289a       0x44 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x0000289a                __fp_split3
+                0x000028aa                __fp_splitA
+ .text.avr-libc.fplib
+                0x000028de        0xe c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x000028de                __fp_zero
+                0x000028e0                __fp_szero
+ .text.avr-libc.fplib
+                0x000028ec        0x4 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x000028ec                __mulsf3
+ .text.avr-libc.fplib
+                0x000028f0       0xc2 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00002904                __mulsf3x
+                0x00002908                __mulsf3_pse
+ .text.libgcc.div
+                0x000029b2       0x26 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                0x000029b2                _div
+                0x000029b2                __divmodhi4
+ .text.libgcc.div
+                0x000029d8       0x44 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x000029d8                __udivmodsi4
+ .text.libgcc.div
+                0x00002a1c       0x28 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x00002a1c                __udivmodhi4
+ .text.avr-libc
+                0x00002a44       0x40 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                0x00002a44                dtostrf
+ .text.avr-libc
+                0x00002a84      0x2b0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+                0x00002a84                strtod
+ .text.avr-libc
+                0x00002d34      0x222 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+                0x00002d34                strtoul
+ .text.avr-libc
+                0x00002f56       0x10 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+                0x00002f56                isspace
+ .text.avr-libc
+                0x00002f66       0x12 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                0x00002f66                memcpy_P
+ .text.avr-libc
+                0x00002f78       0x12 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+                0x00002f78                __strlen_P
+ .text.avr-libc
+                0x00002f8a       0x30 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+                0x00002f8a                strncasecmp_P
+ .text.avr-libc
+                0x00002fba       0x30 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
+                0x00002fba                fprintf_P
+ .text.avr-libc.fplib
+                0x00002fea        0x8 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+                0x00002fea                __nesf2
+                0x00002fea                __eqsf2
+                0x00002fea                __cmpsf2
+                0x00002fea                __ltsf2
+                0x00002fea                __lesf2
+ .text.avr-libc.fplib
+                0x00002ff2       0x48 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
+                0x00002ff2                __fp_cmp
+ .text.avr-libc
+                0x0000303a      0x386 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x0000303a                vfprintf
+ .text.avr-libc
+                0x000033c0       0x20 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32u4.o)
+                0x000033c0                __eerd_block_m32u4
+                0x000033c4                __eerd_blraw_m32u4
+ .text.avr-libc
+                0x000033e0       0x1e c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_block_atmega32u4.o)
+                0x000033e0                __eeupd_block_m32u4
+ .text.avr-libc
+                0x000033fe       0x24 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32u4.o)
+                0x000033fe                __eeupd_byte_m32u4
+                0x00003400                __eeupd_r18_m32u4
+ .text.avr-libc
+                0x00003422      0x2fa c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                0x00003422                dtoa_prf
+ .text.avr-libc
+                0x0000371c      0x1b0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                0x0000371c                __ftoa_engine
+ .text.avr-libc
+                0x000038cc        0x6 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                0x000038cc                __ctype_isfalse
+                0x000038d0                __ctype_istrue
+ .text.avr-libc
+                0x000038d2       0x16 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x000038d2                strnlen_P
+ .text.avr-libc
+                0x000038e8       0x16 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x000038e8                strnlen
+ .text.avr-libc
+                0x000038fe       0x64 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x000038fe                fputc
+ .text.avr-libc
+                0x00003962       0xbc c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x00003962                __ultoa_invert
+ .text.libgcc.mul
+                0x00003a1e       0x1e c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+                0x00003a1e                __mulsi3
+ .text.libgcc.mul
+                0x00003a3c       0x14 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00003a3c                __muluhisi3
+ .text.libgcc.prologue
+                0x00003a50       0x38 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x00003a50                __prologue_saves__
+ .text.libgcc.prologue
+                0x00003a88       0x36 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x00003a88                __epilogue_restores__
+ .text.libgcc.mul
+                0x00003abe       0x1e c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00003abe                __umulhisi3
+                0x00003adc                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003adc        0x0 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00003adc                _exit
+                0x00003adc                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003adc        0x4 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00003ae0                _etext = .
+
+.data           0x00800100       0x1c load address 0x00003ae0
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100       0x1b obj/main.o
+                0x00800100                VirtualSerial_CDC_Interface
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080011c                . = ALIGN (0x2)
+ *fill*         0x0080011b        0x1 
+                0x0080011c                _edata = .
+                0x0080011c                PROVIDE (__data_end, .)
+
+.bss            0x0080011c      0x288
+                0x0080011c                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080011c      0x15f obj/main.o
+ .bss           0x0080027b        0x2 obj/master.o
+ .bss           0x0080027d        0x1 obj/HD44780.o
+ .bss           0x0080027e        0xa obj/SHTC3.o
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800288      0x10e obj/main.o
+                0x00800288                System
+ COMMON         0x00800396        0x3 obj/DeviceStandardReq.o
+                0x00800396                USB_Device_ConfigurationNumber
+                0x00800397                USB_Device_CurrentlySelfPowered
+                0x00800398                USB_Device_RemoteWakeupEnabled
+ COMMON         0x00800399        0x9 obj/USBTask.o
+                0x00800399                USB_IsInitialized
+                0x0080039a                USB_ControlRequest
+ COMMON         0x008003a2        0x2 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+                0x008003a2                errno
+                0x008003a4                PROVIDE (__bss_end, .)
+                0x00003ae0                __data_load_start = LOADADDR (.data)
+                0x00003afc                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008003a4        0x0
+                0x008003a4                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008003a4                PROVIDE (__noinit_end, .)
+                0x008003a4                _end = .
+                0x008003a4                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000       0x24
+ *(.eeprom*)
+ .eeprom        0x00810000       0x24 obj/main.o
+                0x00810000                Corrections_EEMEM
+                0x00810010                Constants_EEMEM
+                0x00810024                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x8c
+ *(.comment)
+ .comment       0x00000000       0x30 obj/main.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 obj/Descriptors.o
+ .comment       0x00000000       0x31 obj/master.o
+ .comment       0x00000000       0x31 obj/HD44780.o
+ .comment       0x00000000       0x31 obj/SHTC3.o
+ .comment       0x00000000       0x31 obj/RingBuffer.o
+ .comment       0x00000000       0x31 obj/EndpointStream_AVR8.o
+ .comment       0x00000000       0x31 obj/Endpoint_AVR8.o
+ .comment       0x00000000       0x31 obj/USBController_AVR8.o
+ .comment       0x00000000       0x31 obj/USBInterrupt_AVR8.o
+ .comment       0x00000000       0x31 obj/DeviceStandardReq.o
+ .comment       0x00000000       0x31 obj/Events.o
+ .comment       0x00000000       0x31 obj/USBTask.o
+ .comment       0x00000000       0x31 obj/CDCClassDevice.o
+ .comment       0x00000030       0x30 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .comment       0x00000000       0x31 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+ .comment       0x00000000       0x31 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
+ .comment       0x00000060       0x2c c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                 0x2d (size before relaxing)
+ .comment       0x00000000       0x2d c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .comment       0x00000000       0x31 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .comment       0x00000000       0x31 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x4c8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x68 obj/main.o
+ .debug_aranges
+                0x00000068       0x20 obj/Descriptors.o
+ .debug_aranges
+                0x00000088       0x78 obj/master.o
+ .debug_aranges
+                0x00000100       0x80 obj/HD44780.o
+ .debug_aranges
+                0x00000180       0x58 obj/SHTC3.o
+ .debug_aranges
+                0x000001d8       0x60 obj/RingBuffer.o
+ .debug_aranges
+                0x00000238       0xc8 obj/EndpointStream_AVR8.o
+ .debug_aranges
+                0x00000300       0x40 obj/Endpoint_AVR8.o
+ .debug_aranges
+                0x00000340       0x30 obj/USBController_AVR8.o
+ .debug_aranges
+                0x00000370       0x38 obj/USBInterrupt_AVR8.o
+ .debug_aranges
+                0x000003a8       0x20 obj/DeviceStandardReq.o
+ .debug_aranges
+                0x000003c8       0x30 obj/Events.o
+ .debug_aranges
+                0x000003f8       0x20 obj/USBTask.o
+ .debug_aranges
+                0x00000418       0xb0 obj/CDCClassDevice.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x971a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x9f4 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ .debug_info    0x000009f4     0x21cd obj/main.o
+ .debug_info    0x00002bc1      0x799 obj/Descriptors.o
+ .debug_info    0x0000335a      0x4b7 obj/master.o
+ .debug_info    0x00003811      0xb04 obj/HD44780.o
+ .debug_info    0x00004315      0x959 obj/SHTC3.o
+ .debug_info    0x00004c6e      0x333 obj/RingBuffer.o
+ .debug_info    0x00004fa1     0x17a6 obj/EndpointStream_AVR8.o
+ .debug_info    0x00006747      0x596 obj/Endpoint_AVR8.o
+ .debug_info    0x00006cdd      0x4d5 obj/USBController_AVR8.o
+ .debug_info    0x000071b2      0x7d5 obj/USBInterrupt_AVR8.o
+ .debug_info    0x00007987      0xa2f obj/DeviceStandardReq.o
+ .debug_info    0x000083b6       0xde obj/Events.o
+ .debug_info    0x00008494      0x25b obj/USBTask.o
+ .debug_info    0x000086ef     0x102b obj/CDCClassDevice.o
+
+.debug_abbrev   0x00000000     0x284e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x96a c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ .debug_abbrev  0x0000096a      0x47d obj/main.o
+ .debug_abbrev  0x00000de7      0x141 obj/Descriptors.o
+ .debug_abbrev  0x00000f28      0x22f obj/master.o
+ .debug_abbrev  0x00001157      0x30d obj/HD44780.o
+ .debug_abbrev  0x00001464      0x297 obj/SHTC3.o
+ .debug_abbrev  0x000016fb      0x14a obj/RingBuffer.o
+ .debug_abbrev  0x00001845      0x1d1 obj/EndpointStream_AVR8.o
+ .debug_abbrev  0x00001a16      0x205 obj/Endpoint_AVR8.o
+ .debug_abbrev  0x00001c1b      0x191 obj/USBController_AVR8.o
+ .debug_abbrev  0x00001dac      0x20c obj/USBInterrupt_AVR8.o
+ .debug_abbrev  0x00001fb8      0x295 obj/DeviceStandardReq.o
+ .debug_abbrev  0x0000224d       0x99 obj/Events.o
+ .debug_abbrev  0x000022e6      0x16b obj/USBTask.o
+ .debug_abbrev  0x00002451      0x3fd obj/CDCClassDevice.o
+
+.debug_line     0x00000000     0x4753
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ .debug_line    0x0000001a      0x9a4 obj/main.o
+ .debug_line    0x000009be      0x1bd obj/Descriptors.o
+ .debug_line    0x00000b7b      0x2d8 obj/master.o
+ .debug_line    0x00000e53      0x40b obj/HD44780.o
+ .debug_line    0x0000125e      0x348 obj/SHTC3.o
+ .debug_line    0x000015a6      0x27e obj/RingBuffer.o
+ .debug_line    0x00001824     0x13ea obj/EndpointStream_AVR8.o
+ .debug_line    0x00002c0e      0x3e7 obj/Endpoint_AVR8.o
+ .debug_line    0x00002ff5      0x2d3 obj/USBController_AVR8.o
+ .debug_line    0x000032c8      0x4e4 obj/USBInterrupt_AVR8.o
+ .debug_line    0x000037ac      0x46b obj/DeviceStandardReq.o
+ .debug_line    0x00003c17       0xb3 obj/Events.o
+ .debug_line    0x00003cca      0x168 obj/USBTask.o
+ .debug_line    0x00003e32      0x921 obj/CDCClassDevice.o
+
+.debug_frame    0x00000000      0xd68
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x124 obj/main.o
+ .debug_frame   0x00000124       0x24 obj/Descriptors.o
+ .debug_frame   0x00000148      0x120 obj/master.o
+ .debug_frame   0x00000268      0x160 obj/HD44780.o
+ .debug_frame   0x000003c8       0xe8 obj/SHTC3.o
+ .debug_frame   0x000004b0       0xe4 obj/RingBuffer.o
+ .debug_frame   0x00000594      0x3bc obj/EndpointStream_AVR8.o
+ .debug_frame   0x00000950       0x78 obj/Endpoint_AVR8.o
+ .debug_frame   0x000009c8       0x58 obj/USBController_AVR8.o
+ .debug_frame   0x00000a20       0xec obj/USBInterrupt_AVR8.o
+ .debug_frame   0x00000b0c       0x3c obj/DeviceStandardReq.o
+ .debug_frame   0x00000b48       0x44 obj/Events.o
+ .debug_frame   0x00000b8c       0x2c obj/USBTask.o
+ .debug_frame   0x00000bb8      0x1b0 obj/CDCClassDevice.o
+
+.debug_str      0x00000000     0x33cf
+ *(.debug_str)
+ .debug_str     0x00000000      0x371 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ .debug_str     0x00000371      0xd13 obj/main.o
+                                0xe0e (size before relaxing)
+ .debug_str     0x00001084      0x936 obj/Descriptors.o
+                                0xb71 (size before relaxing)
+ .debug_str     0x000019ba       0xb6 obj/master.o
+                                0x2d7 (size before relaxing)
+ .debug_str     0x00001a70      0x29e obj/HD44780.o
+                                0x56a (size before relaxing)
+ .debug_str     0x00001d0e      0x1e8 obj/SHTC3.o
+                                0x4d3 (size before relaxing)
+ .debug_str     0x00001ef6       0x64 obj/RingBuffer.o
+                                0x28f (size before relaxing)
+ .debug_str     0x00001f5a      0x678 obj/EndpointStream_AVR8.o
+                                0x852 (size before relaxing)
+ .debug_str     0x000025d2      0x2ad obj/Endpoint_AVR8.o
+                                0x5ee (size before relaxing)
+ .debug_str     0x0000287f      0x287 obj/USBController_AVR8.o
+                                0x550 (size before relaxing)
+ .debug_str     0x00002b06      0x18a obj/USBInterrupt_AVR8.o
+                                0x5cf (size before relaxing)
+ .debug_str     0x00002c90      0x418 obj/DeviceStandardReq.o
+                                0x9a0 (size before relaxing)
+ .debug_str     0x000030a8       0x50 obj/Events.o
+                                0x1cf (size before relaxing)
+ .debug_str     0x000030f8       0x3c obj/USBTask.o
+                                0x376 (size before relaxing)
+ .debug_str     0x00003134      0x29b obj/CDCClassDevice.o
+                                0xa7b (size before relaxing)
+
+.debug_loc      0x00000000     0x5075
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x65f obj/main.o
+ .debug_loc     0x0000065f      0x186 obj/Descriptors.o
+ .debug_loc     0x000007e5      0x426 obj/master.o
+ .debug_loc     0x00000c0b      0x76d obj/HD44780.o
+ .debug_loc     0x00001378      0x540 obj/SHTC3.o
+ .debug_loc     0x000018b8      0x2cf obj/RingBuffer.o
+ .debug_loc     0x00001b87     0x1f65 obj/EndpointStream_AVR8.o
+ .debug_loc     0x00003aec      0x2de obj/Endpoint_AVR8.o
+ .debug_loc     0x00003dca       0xd5 obj/USBController_AVR8.o
+ .debug_loc     0x00003e9f      0x3f4 obj/USBInterrupt_AVR8.o
+ .debug_loc     0x00004293      0x2f6 obj/DeviceStandardReq.o
+ .debug_loc     0x00004589       0x49 obj/USBTask.o
+ .debug_loc     0x000045d2      0xaa3 obj/CDCClassDevice.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x630
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xe8 obj/main.o
+ .debug_ranges  0x000000e8       0x28 obj/Descriptors.o
+ .debug_ranges  0x00000110       0x68 obj/master.o
+ .debug_ranges  0x00000178       0x70 obj/HD44780.o
+ .debug_ranges  0x000001e8       0x60 obj/SHTC3.o
+ .debug_ranges  0x00000248       0x50 obj/RingBuffer.o
+ .debug_ranges  0x00000298      0x1f8 obj/EndpointStream_AVR8.o
+ .debug_ranges  0x00000490       0x60 obj/Endpoint_AVR8.o
+ .debug_ranges  0x000004f0       0x20 obj/USBController_AVR8.o
+ .debug_ranges  0x00000510       0x28 obj/USBInterrupt_AVR8.o
+ .debug_ranges  0x00000538       0x28 obj/DeviceStandardReq.o
+ .debug_ranges  0x00000560       0x20 obj/Events.o
+ .debug_ranges  0x00000580       0x10 obj/USBTask.o
+ .debug_ranges  0x00000590       0xa0 obj/CDCClassDevice.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(main.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+Audio_Device_ConfigureEndpoints                   obj/AudioClassDevice.o
+Audio_Device_Event_Stub                           obj/AudioClassDevice.o
+Audio_Device_ProcessControlRequest                obj/AudioClassDevice.o
+CALLBACK_Audio_Device_GetSetEndpointProperty      obj/AudioClassDevice.o
+CALLBACK_Audio_Device_GetSetInterfaceProperty     obj/AudioClassDevice.o
+CALLBACK_CCID_Abort                               obj/CCIDClassDevice.o
+CALLBACK_CCID_GetParameters_T0                    obj/CCIDClassDevice.o
+CALLBACK_CCID_GetSlotStatus                       obj/CCIDClassDevice.o
+CALLBACK_CCID_IccPowerOff                         obj/CCIDClassDevice.o
+CALLBACK_CCID_IccPowerOn                          obj/CCIDClassDevice.o
+CALLBACK_CCID_SetParameters_T0                    obj/CCIDClassDevice.o
+CALLBACK_CCID_XfrBlock                            obj/CCIDClassDevice.o
+CALLBACK_HIDParser_FilterHIDReportItem            obj/HIDParser.o
+CALLBACK_HID_Device_CreateHIDReport               obj/HIDClassDevice.o
+CALLBACK_HID_Device_ProcessHIDReport              obj/HIDClassDevice.o
+CALLBACK_MS_Device_SCSICommandReceived            obj/MassStorageClassDevice.o
+CALLBACK_USB_GetDescriptor                        obj/Descriptors.o
+                                                  obj/DeviceStandardReq.o
+CCID_CheckStatusNoError                           obj/CCIDClassDevice.o
+CCID_Device_ConfigureEndpoints                    obj/CCIDClassDevice.o
+CCID_Device_ProcessControlRequest                 obj/CCIDClassDevice.o
+CCID_Device_USBTask                               obj/CCIDClassDevice.o
+CDC_Device_BytesReceived                          obj/CDCClassDevice.o
+CDC_Device_ConfigureEndpoints                     obj/CDCClassDevice.o
+                                                  obj/main.o
+CDC_Device_CreateBlockingStream                   obj/CDCClassDevice.o
+CDC_Device_CreateStream                           obj/CDCClassDevice.o
+                                                  obj/main.o
+CDC_Device_Event_Stub                             obj/CDCClassDevice.o
+CDC_Device_Event_Stub_2                           obj/CDCClassDevice.o
+CDC_Device_Flush                                  obj/CDCClassDevice.o
+CDC_Device_ProcessControlRequest                  obj/CDCClassDevice.o
+                                                  obj/main.o
+CDC_Device_ReceiveByte                            obj/CDCClassDevice.o
+                                                  obj/main.o
+CDC_Device_SendByte                               obj/CDCClassDevice.o
+CDC_Device_SendControlLineStateChange             obj/CDCClassDevice.o
+CDC_Device_SendData                               obj/CDCClassDevice.o
+CDC_Device_SendData_P                             obj/CDCClassDevice.o
+CDC_Device_SendString                             obj/CDCClassDevice.o
+CDC_Device_SendString_P                           obj/CDCClassDevice.o
+                                                  obj/main.o
+CDC_Device_USBTask                                obj/CDCClassDevice.o
+                                                  obj/main.o
+ConfigurationDescriptor                           obj/Descriptors.o
+Constants_EEMEM                                   obj/main.o
+Constants_PROGMEM                                 obj/main.o
+Corrections_EEMEM                                 obj/main.o
+Corrections_PROGMEM                               obj/main.o
+DeviceDescriptor                                  obj/Descriptors.o
+EVENT_Audio_Device_StreamStartStop                obj/AudioClassDevice.o
+EVENT_CDC_Device_BreakSent                        obj/CDCClassDevice.o
+EVENT_CDC_Device_ControLineStateChanged           obj/main.o
+EVENT_CDC_Device_LineEncodingChanged              obj/CDCClassDevice.o
+EVENT_PRNT_Device_SoftReset                       obj/PrinterClassDevice.o
+EVENT_USB_Device_ConfigurationChanged             obj/main.o
+                                                  obj/DeviceStandardReq.o
+EVENT_USB_Device_Connect                          obj/main.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_ControlRequest                   obj/main.o
+                                                  obj/DeviceStandardReq.o
+EVENT_USB_Device_Disconnect                       obj/main.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_Reset                            obj/Events.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_StartOfFrame                     obj/Events.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_Suspend                          obj/Events.o
+                                                  obj/USBInterrupt_AVR8.o
+EVENT_USB_Device_WakeUp                           obj/Events.o
+                                                  obj/USBInterrupt_AVR8.o
+Endpoint_ClearEndpoints                           obj/Endpoint_AVR8.o
+Endpoint_ClearStatusStage                         obj/Endpoint_AVR8.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/AudioClassDevice.o
+                                                  obj/DeviceStandardReq.o
+Endpoint_ConfigureEndpointTable                   obj/Endpoint_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MIDIClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/CCIDClassDevice.o
+                                                  obj/AudioClassDevice.o
+Endpoint_ConfigureEndpoint_Prv                    obj/Endpoint_AVR8.o
+                                                  obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+Endpoint_Discard_Stream                           obj/EndpointStream_AVR8.o
+Endpoint_Null_Stream                              obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_BE                  obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_LE                  obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_BE                   obj/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_LE                   obj/EndpointStream_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/AudioClassDevice.o
+Endpoint_Read_EStream_BE                          obj/EndpointStream_AVR8.o
+Endpoint_Read_EStream_LE                          obj/EndpointStream_AVR8.o
+Endpoint_Read_Stream_BE                           obj/EndpointStream_AVR8.o
+Endpoint_Read_Stream_LE                           obj/EndpointStream_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/MIDIClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/CCIDClassDevice.o
+Endpoint_WaitUntilReady                           obj/Endpoint_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MIDIClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_BE                 obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_LE                 obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_BE                 obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_LE                 obj/EndpointStream_AVR8.o
+                                                  obj/DeviceStandardReq.o
+Endpoint_Write_Control_Stream_BE                  obj/EndpointStream_AVR8.o
+Endpoint_Write_Control_Stream_LE                  obj/EndpointStream_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/AudioClassDevice.o
+                                                  obj/DeviceStandardReq.o
+Endpoint_Write_EStream_BE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_EStream_LE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_PStream_BE                         obj/EndpointStream_AVR8.o
+Endpoint_Write_PStream_LE                         obj/EndpointStream_AVR8.o
+                                                  obj/CDCClassDevice.o
+Endpoint_Write_Stream_BE                          obj/EndpointStream_AVR8.o
+Endpoint_Write_Stream_LE                          obj/EndpointStream_AVR8.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MIDIClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/CCIDClassDevice.o
+HID_Device_ConfigureEndpoints                     obj/HIDClassDevice.o
+HID_Device_ProcessControlRequest                  obj/HIDClassDevice.o
+HID_Device_USBTask                                obj/HIDClassDevice.o
+LanguageString                                    obj/Descriptors.o
+MIDI_Device_ConfigureEndpoints                    obj/MIDIClassDevice.o
+MIDI_Device_Flush                                 obj/MIDIClassDevice.o
+MIDI_Device_ReceiveEventPacket                    obj/MIDIClassDevice.o
+MIDI_Device_SendEventPacket                       obj/MIDIClassDevice.o
+MIDI_Device_USBTask                               obj/MIDIClassDevice.o
+MS_Device_ConfigureEndpoints                      obj/MassStorageClassDevice.o
+MS_Device_ProcessControlRequest                   obj/MassStorageClassDevice.o
+MS_Device_USBTask                                 obj/MassStorageClassDevice.o
+ManufacturerString                                obj/Descriptors.o
+PRNT_Device_BytesReceived                         obj/PrinterClassDevice.o
+PRNT_Device_ConfigureEndpoints                    obj/PrinterClassDevice.o
+PRNT_Device_CreateBlockingStream                  obj/PrinterClassDevice.o
+PRNT_Device_CreateStream                          obj/PrinterClassDevice.o
+PRNT_Device_Event_Stub                            obj/PrinterClassDevice.o
+PRNT_Device_Flush                                 obj/PrinterClassDevice.o
+PRNT_Device_ProcessControlRequest                 obj/PrinterClassDevice.o
+PRNT_Device_ReceiveByte                           obj/PrinterClassDevice.o
+PRNT_Device_SendByte                              obj/PrinterClassDevice.o
+PRNT_Device_SendData                              obj/PrinterClassDevice.o
+PRNT_Device_SendString                            obj/PrinterClassDevice.o
+PRNT_Device_USBTask                               obj/PrinterClassDevice.o
+ProductString                                     obj/Descriptors.o
+RNDIS_Device_ConfigureEndpoints                   obj/RNDISClassDevice.o
+RNDIS_Device_IsPacketReceived                     obj/RNDISClassDevice.o
+RNDIS_Device_ProcessControlRequest                obj/RNDISClassDevice.o
+RNDIS_Device_ReadPacket                           obj/RNDISClassDevice.o
+RNDIS_Device_SendPacket                           obj/RNDISClassDevice.o
+RNDIS_Device_USBTask                              obj/RNDISClassDevice.o
+RingBuffer_Capacity                               obj/RingBuffer.o
+RingBuffer_Clear                                  obj/RingBuffer.o
+                                                  obj/main.o
+RingBuffer_Get                                    obj/RingBuffer.o
+RingBuffer_GetAsString                            obj/RingBuffer.o
+                                                  obj/main.o
+RingBuffer_Init                                   obj/RingBuffer.o
+                                                  obj/main.o
+RingBuffer_Insert                                 obj/RingBuffer.o
+                                                  obj/main.o
+RingBuffer_IsFull                                 obj/RingBuffer.o
+                                                  obj/main.o
+RingBuffer_LastInsert                             obj/RingBuffer.o
+RingBuffer_Size                                   obj/RingBuffer.o
+                                                  obj/main.o
+System                                            obj/main.o
+USB_ControlRequest                                obj/USBTask.o
+                                                  obj/RNDISClassDevice.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/MassStorageClassDevice.o
+                                                  obj/HIDClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/CCIDClassDevice.o
+                                                  obj/AudioClassDevice.o
+                                                  obj/DeviceStandardReq.o
+                                                  obj/Endpoint_AVR8.o
+                                                  obj/EndpointStream_AVR8.o
+USB_Device_ConfigurationNumber                    obj/DeviceStandardReq.o
+                                                  obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+USB_Device_CurrentlySelfPowered                   obj/DeviceStandardReq.o
+                                                  obj/USBController_AVR8.o
+USB_Device_ProcessControlRequest                  obj/DeviceStandardReq.o
+                                                  obj/USBTask.o
+                                                  obj/USBInterrupt_AVR8.o
+USB_Device_RemoteWakeupEnabled                    obj/DeviceStandardReq.o
+                                                  obj/USBController_AVR8.o
+USB_Device_SendRemoteWakeup                       obj/Device_AVR8.o
+USB_Disable                                       obj/USBController_AVR8.o
+USB_Event_Stub                                    obj/Events.o
+USB_Event_Stub_2                                  obj/Events.o
+USB_Event_Stub_3                                  obj/Events.o
+USB_GetHIDReportItemInfo                          obj/HIDParser.o
+USB_GetHIDReportSize                              obj/HIDParser.o
+USB_GetNextDescriptorComp                         obj/ConfigDescriptors.o
+USB_GetNextDescriptorOfType                       obj/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeAfter                  obj/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeBefore                 obj/ConfigDescriptors.o
+USB_INT_ClearAllInterrupts                        obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+USB_INT_DisableAllInterrupts                      obj/USBInterrupt_AVR8.o
+                                                  obj/USBController_AVR8.o
+USB_Init                                          obj/USBController_AVR8.o
+                                                  obj/main.o
+USB_IsInitialized                                 obj/USBTask.o
+                                                  obj/USBController_AVR8.o
+USB_ProcessHIDReport                              obj/HIDParser.o
+USB_ResetInterface                                obj/USBController_AVR8.o
+USB_SetHIDReportItemInfo                          obj/HIDParser.o
+USB_USBTask                                       obj/USBTask.o
+                                                  obj/PrinterClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/main.o
+VirtualSerial_CDC_Interface                       obj/main.o
+__FUSE_REGION_LENGTH__                            c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__addsf3                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                                                  obj/main.o
+__addsf3x                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+__bad_interrupt                                   c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__bss_end                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+__cmpsf2                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+__ctype_isfalse                                   c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+__ctype_istrue                                    c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+__data_end                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+__data_start                                      c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+__divmodhi4                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                                                  obj/main.o
+__divsf3                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                                                  obj/SHTC3.o
+                                                  obj/main.o
+__divsf3_pse                                      c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+__divsf3x                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+__do_clear_bss                                    c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+                                                  obj/USBTask.o
+                                                  obj/DeviceStandardReq.o
+                                                  obj/SHTC3.o
+                                                  obj/HD44780.o
+                                                  obj/master.o
+                                                  obj/main.o
+__do_copy_data                                    c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                                                  obj/RNDISClassDevice.o
+                                                  obj/CDCClassDevice.o
+                                                  obj/main.o
+__eerd_block_m32u4                                c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32u4.o)
+                                                  obj/main.o
+__eerd_blraw_m32u4                                c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32u4.o)
+__eerd_byte_m32u4                                 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32u4.o)
+                                                  obj/EndpointStream_AVR8.o
+__eeupd_block_m32u4                               c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_block_atmega32u4.o)
+                                                  obj/main.o
+__eeupd_byte_m32u4                                c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32u4.o)
+                                                  obj/EndpointStream_AVR8.o
+__eeupd_r18_m32u4                                 c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32u4.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(eeupd_block_atmega32u4.o)
+__epilogue_restores__                             c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+__eqsf2                                           c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+__fixsfsi                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                                                  obj/main.o
+__fixunssfsi                                      c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+__floatsisf                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                                                  obj/main.o
+__floatunsisf                                     c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+                                                  obj/SHTC3.o
+__fp_cmp                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+__fp_inf                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_nan                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_pscA                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_pscB                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_round                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+__fp_split3                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_splitA                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+__fp_szero                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+__fp_zero                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__ftoa_engine                                     c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+__heap_end                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__init                                            c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__lesf2                                           c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+__ltsf2                                           c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+__mulsf3                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+                                                  obj/SHTC3.o
+                                                  obj/main.o
+__mulsf3_pse                                      c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+__mulsf3x                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+__mulsi3                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+__muluhisi3                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+__nesf2                                           c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+__prologue_saves__                                c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+__stack                                           c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__strlen_P                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+                                                  obj/CDCClassDevice.o
+__subsf3                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                                                  obj/SHTC3.o
+                                                  obj/main.o
+__udivmodhi4                                      c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+__udivmodsi4                                      c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+                                                  obj/master.o
+__ultoa_invert                                    c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+__umulhisi3                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+__vector_1                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_10                                       obj/USBInterrupt_AVR8.o
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_11                                       obj/USBInterrupt_AVR8.o
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_12                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_13                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_14                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_15                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_16                                       obj/main.o
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_17                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_18                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_19                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_2                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_20                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_21                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_22                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_23                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_24                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_25                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_26                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_27                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_28                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_29                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_3                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_30                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_31                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_32                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_33                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_34                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_35                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_36                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_37                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_38                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_39                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_4                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_40                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_41                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_42                                       c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_5                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_6                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_7                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_8                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_9                                        c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vector_default                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+__vectors                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+_div                                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+_exit                                             c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+dtoa_prf                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+dtostrf                                           c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                                                  obj/HD44780.o
+                                                  obj/main.o
+errno                                             c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+exit                                              c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+fprintf_P                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
+                                                  obj/main.o
+fputc                                             c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+isspace                                           c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+lcd_backlight_off                                 obj/HD44780.o
+lcd_backlight_on                                  obj/HD44780.o
+lcd_char                                          obj/HD44780.o
+lcd_cls                                           obj/HD44780.o
+                                                  obj/main.o
+lcd_create_stream                                 obj/HD44780.o
+                                                  obj/main.o
+lcd_double                                        obj/HD44780.o
+lcd_float                                         obj/HD44780.o
+lcd_init                                          obj/HD44780.o
+                                                  obj/main.o
+lcd_locate                                        obj/HD44780.o
+                                                  obj/main.o
+lcd_str                                           obj/HD44780.o
+lcd_str_P                                         obj/HD44780.o
+                                                  obj/main.o
+main                                              obj/main.o
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega32u4.o
+memcmp                                            c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+                                                  obj/HIDClassDevice.o
+memcpy                                            c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                                                  obj/RNDISClassDevice.o
+                                                  obj/HIDClassDevice.o
+memcpy_P                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                                                  obj/RNDISClassDevice.o
+                                                  obj/main.o
+memset                                            c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                                                  obj/HIDClassDevice.o
+sht_checkID                                       obj/SHTC3.o
+sht_humidity                                      obj/SHTC3.o
+                                                  obj/main.o
+sht_init                                          obj/SHTC3.o
+                                                  obj/main.o
+sht_low_pwr                                       obj/SHTC3.o
+sht_meas                                          obj/SHTC3.o
+                                                  obj/main.o
+sht_temperature                                   obj/SHTC3.o
+                                                  obj/main.o
+strncasecmp_P                                     c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+strnlen                                           c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+strnlen_P                                         c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+strtod                                            c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+                                                  obj/main.o
+strtoul                                           c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtoul.o)
+                                                  obj/main.o
+twi_detect                                        obj/master.o
+                                                  obj/main.o
+twi_error                                         obj/master.o
+                                                  obj/main.o
+twi_init                                          obj/master.o
+                                                  obj/main.o
+twi_read                                          obj/master.o
+                                                  obj/SHTC3.o
+twi_read_buf                                      obj/master.o
+twi_set_bit_rate                                  obj/master.o
+twi_start                                         obj/master.o
+                                                  obj/SHTC3.o
+                                                  obj/HD44780.o
+twi_status                                        obj/master.o
+                                                  obj/main.o
+twi_stop                                          obj/master.o
+                                                  obj/SHTC3.o
+                                                  obj/HD44780.o
+twi_write                                         obj/master.o
+                                                  obj/SHTC3.o
+                                                  obj/HD44780.o
+twi_write_buf                                     obj/master.o
+twi_write_sla                                     obj/master.o
+                                                  obj/SHTC3.o
+                                                  obj/HD44780.o
+vfprintf                                          c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                                  c:/users/arek/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fprintf_p.o)
