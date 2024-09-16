@@ -17,3 +17,13 @@ C:\Users\Arek\source\repos\CapacitySensor\CapacitySensor\obj\Debug\CapacitySenso
 C:\Users\Arek\source\repos\CapacitySensor\CapacitySensor\obj\Debug\CapacitySensor.csproj.CoreCompileInputs.cache
 C:\Users\Arek\source\repos\CapacitySensor\CapacitySensor\obj\Debug\CapacitySensor2.exe
 C:\Users\Arek\source\repos\CapacitySensor\CapacitySensor\obj\Debug\CapacitySensor2.pdb
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\obj\Debug\CapacitySensor.csproj.AssemblyReference.cache
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\obj\Debug\CapacitySensor.MainForm.resources
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\obj\Debug\CapacitySensor2.Properties.Resources.resources
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\obj\Debug\CapacitySensor.csproj.GenerateResource.cache
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\obj\Debug\CapacitySensor.csproj.CoreCompileInputs.cache
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\obj\Debug\CapacitySensor2.exe
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\obj\Debug\CapacitySensor2.pdb
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\bin\Debug\CapacitySensor2.exe.config
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\bin\Debug\CapacitySensor2.exe
+C:\Users\boro\Desktop\MGR\Program\DesktopApp\CapacitySensor\bin\Debug\CapacitySensor2.pdb

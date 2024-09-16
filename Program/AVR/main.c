@@ -1,5 +1,8 @@
 #include "main.h"
 
+volatile uint8_t  timer_ovf, stop_meas, m_gate;
+volatile uint16_t pulses_ts, n_ts, n_ts_first;
+
 /* Main Function */
 int main(void)
 {
@@ -50,13 +53,11 @@ void Init_Pheripherals(void)
 	if (System.IsSHTRegistered)
 	{
 		sht_init();
-		LED2_ON;
 	}
 	if (System.IsLCDRegistered)
 	{
 		lcd_init();
 		lcd_create_stream(&LCD_Stream);
-		LED3_ON;
 	}
 }
 void Init_Variables(void)
@@ -91,12 +92,17 @@ void Init_USB(void)
 }
 void Init_InputCapture(void)
 {
-#if ENABLE_NOISE_CANCELER
-	/* Input Capture Noise Canceler For ICP1 */
-	sbi(TCCR1B, ICNC1);
-#endif
-	/* Input Capture Edge Select - Rising Edge */
-	sbi(TCCR1B, ICES1);
+	// Timer0 - square wave generator
+	TCCR0A = 0x42;                   // Toggle OC0A on Compare Match, CTC Mode
+	TCCR0B = 0x00;                   // Stop Timer0; 0x05 start Timer0 - clk/1024 (from prescaler)
+	OCR0A = 0x27;                    // T = 5.12 ms, at f = 16 MHz, N = 1024
+
+	// Timer1 - frequency meter
+	TCCR1A = 0x00;                  // Normal port operation
+	TCCR1B = 0xC0;                  // Input Capture Noise Canceler, rising edge, stop Timer1; 0xC7 - start Timer1 - External clock source on T1 pin, clock on rising edge
+	TCNT1 = 0x00;                   // Clear Timer/Counter1
+
+	TIMSK1 = 0x21;                  // Input Capture Interrupt Enable, Overflow Interrupt Enable
 }
 void Init_Message(void)
 {
@@ -213,33 +219,14 @@ void CMD_Parse(void)
 					}
 					break;
 				}
-				case SET_H_VOUT:		/* Set Signal Pin as HIGH */
+				case ENABLE_MEAS_CIRCUIT:		/* Set Signal Pin as HIGH */
 				{
-					DisableGenerations();
-					SET_GEN_STATE;
-					MEASURING_SYSTEM_ON;
-					SEND_CONFIRMATION;
-					break;
-				}
-				case SET_L_VOUT: 		/* Set Signal Pin as LOW */
-				{
-					DisableGenerations();
-					CLR_GEN_STATE;
-					MEASURING_SYSTEM_ON;
-					SEND_CONFIRMATION;
-					break;
-				}
-				case SET_GENERATIONS: 	/* Set Generation on Signal Pin */
-				{
-					EnableGenerations();
 					MEASURING_SYSTEM_ON;
 					SEND_CONFIRMATION;
 					break;
 				}
 				case SET_NOMINAL:		/* Set Signal Pin as Nominal (HIGH-Z) */
 				{
-					DisableGenerations();
-					CLR_GEN_STATE;
 					MEASURING_SYSTEM_OFF;
 					SEND_CONFIRMATION;
 					break;
@@ -334,66 +321,51 @@ void CMD_Parse(void)
 /* Capacity Measuring Function */
 STATUS_t CapacityMeasurement(void)
 {
-	/* Check Power Status */
-	if (!PWR_STATUS)
-	{
-		fprintf_P(&USB_Stream, PSTR("Error: Check the power supply of the module.\r\n"));
-		return Status_PowerError;
-	}
-	/* Discharge Capacity */
-	CLR_GEN_STATE;
 	MEASURING_SYSTEM_ON;
-	/* Temperature and Humidity Measurement */
-	STATUS_t Status = TemperatureMeasurement();
-	/* Wait for LOW State on V_Cap Pin */
-	uint cnt = 0;
-	while (!V_CAP_IS_UNDER_L_THR)
-	{
-		_delay_us(100);
-		cnt++;
-		if (cnt > 100)
-		{
-			fprintf_P(&USB_Stream, PSTR("Error: Discharging the tested capacity is unattainable.\r\n"));
-			return Status_DischargeTimeout;
-		}
-	}
-	/* Measurement conditions ready - capacity discharged, power supply checked, temperature measured */
-	/* Set sample index to 0 */
-	System.SampleIdx = 0;
-	System.IsMeasurementEnd = false;
-	EnableInputCapture();
-	SET_GEN_STATE;
-	/* Waiting for end measurement */
-	cnt = 0;
-	while (!System.IsMeasurementEnd)
-	{
-		_delay_us(100);
-		cnt++;
-		if (cnt > 5000)
-		{
-			DisableInputCapture();
-			CLR_GEN_STATE;
-			MEASURING_SYSTEM_OFF;
-			fprintf_P(&USB_Stream, PSTR("Error: Measurement timeout the tested capacity.\r\n"));
-			return Status_MeasurementTimeout;
-		}
-	}
-	/* Measurement End - Disable measuring system */
-	DisableInputCapture();
-	CLR_GEN_STATE;
+
+	TCNT0 = 0x00;                   // Clear Timer/Counter0
+	TCNT1 = 0x00;                   // Clear Timer/Counter1
+	GTCCR = 0x01;                   // Prescaler Reset for Synchronous Timer/Counters
+	TCCR0B = 0x05;                  // Start Timer0 - clk/1024 (from prescaler)
+	TCCR1B = 0xC7;                  // Input Capture Noise Canceler, rising edge, start Timer1 - External clock source on T1 pin, clock on rising edge
+
+	timer_ovf = 0;
+	stop_meas = 0;
+	m_gate = 0;
+
+		// In this time:
+		// TIMER1_CAPT interrupt service saves the number of measured impulses m_ts at T1 input and increments m_gate
+		// if m_ts > 2^15 the measurement is finished
+		// or TIMER1_OVF interrupt service stops measurement
+
+
+	while(stop_meas == 0) {};
+
+	pulses_ts = n_ts - n_ts_first;
+
+	m_gate--;						// decrement the number of the open gate interval
+
+	TCCR1B = 0xC0;                  // Input Capture Noise Canceler, rising edge, stop Timer1
+	TCCR0B = 0x00;                  // Stop Timer0
+
 	MEASURING_SYSTEM_OFF;
-	/* Data presentation */
+
+	STATUS_t Status = TemperatureMeasurement();
 	if (Status == Status_OK)
 	{
 		fprintf_P(&USB_Stream, PSTR("%c %s "), SEND_TEMP, dtostr(System.Temperature, AFTERPOINT));
 		fprintf_P(&USB_Stream, PSTR("%c %s "), SEND_RH, dtostr(System.Humidity, AFTERPOINT));
 	}
-	fprintf_P(&USB_Stream, PSTR("%c "), SEND_SP);
-	for (byte i = 0; i < MAX_SAMPLES_BUF_SIZE - 1; i++)
-	{
-		fprintf_P(&USB_Stream, PSTR("%u "), System.Samples[i]);
-	}
-	fprintf_P(&USB_Stream, PSTR("%u\r\n"), System.Samples[MAX_SAMPLES_BUF_SIZE - 1]);
+
+	fprintf_P(&USB_Stream, PSTR("%c %u %u "), SEND_SP, pulses_ts, m_gate);
+
+	/* Calculate Frequency */
+	double Freq = (double)pulses_ts;
+	Freq = Freq / 0.00512;
+	Freq = Freq / m_gate;
+
+	fprintf_P(&USB_Stream, PSTR("%s\r\n"), dtostr(Freq, 3));
+
 	return Status_OK;
 }
 
@@ -454,13 +426,25 @@ void DisableInputCapture(void)
 /* Input Capture Interrupt */
 ISR(TIMER1_CAPT_vect, ISR_BLOCK)
 {
-	System.Samples[System.SampleIdx++] = ICR1;
-	if (System.SampleIdx == MAX_SAMPLES_BUF_SIZE)
+	n_ts = ICR1;
+	if (m_gate == 0)
 	{
-		System.IsMeasurementEnd = true;
+		n_ts_first = n_ts;
 	}
-	TOG_GEN_STATE;
-	TCNT1 = 0;
+	if (n_ts > 0xFFFF)
+	{
+		stop_meas = 1;
+	}
+	else
+	{
+		m_gate++;
+	}
+}
+
+ISR(TIMER1_OVF_vect)
+{
+	timer_ovf = 1;
+	stop_meas = 1;
 }
 
 /* Base Conversions Functions */
@@ -480,8 +464,8 @@ double Round(double N, double Precision)
 }
 char * dtostr(double N, byte AfterPoint)
 {
-	static char double_buf[20];
-	dtostrf(N, -20, AfterPoint, double_buf);
+	static char double_buf[40];
+	dtostrf(N, -39, AfterPoint, double_buf);
 	for (byte i = 0; i < 20; i++)
 	{
 		if (double_buf[i] == ' ')

@@ -75,9 +75,6 @@ namespace CapacitySensor
             builder.Append("Flaplace(Cap, Res, s, Vout, Vcstart, Vcstop, Jbias) = ...\n");
             builder.Append("    (Cap * Vcstart + Vout / Res / s - Jbias / s) / (1 / Res + s * Cap);\n");
             builder.Append("VcapFun = ilaplace(Flaplace) == Vcstop;\n \n");
-
-            builder.Append("% maksymalny zakres badanych pojemności\n");
-            builder.Append("[C_min, C_max] = CapacityRange(TCNT_min, TCNT_max);\n \n");
         }
 
         public static void AppendMeasurementsVariables(StringBuilder builder)
@@ -91,12 +88,8 @@ namespace CapacitySensor
             bool HasTemp = ParseLogList(List, DischargingProbes, ChargingProbes, 
                 Temperature, Humidity);
 
-            builder.Append("%% Measurements Results\n \nDischargingProbes = [\n");
+            builder.Append("%% Measurements Results\n \nFreq = [\n");
             foreach (string DP in DischargingProbes) builder.Append("    " + DP);
-            builder.Append("];\n \n");
-
-            builder.Append("ChargingProbes = [\n");
-            foreach (string CP in ChargingProbes) builder.Append("    " + CP);
             builder.Append("];\n \n");
 
             if (HasTemp && Temperature.Count == ChargingProbes.Count)
@@ -117,14 +110,12 @@ namespace CapacitySensor
             }
 
             builder.Append("% wyniki pojedynczych pomiarów\n");
-            builder.Append("Capacity = [ \n");
-            builder.Append("    % pierwszy wiersz - pojemności z czasu ładowania\n");
-            builder.Append("    CapacityFromCharging(Oversampling(ChargingProbes));\n");
-            builder.Append("    % wiersz drugi - pojemności z czasu rozładowania\n");
-            builder.Append("    CapacityFromDischarging(Oversampling(DischargingProbes)) \n");
-            builder.Append("] * 1E12;\n \n");
+            builder.Append("Ceoff1 = R * log((H_THR-H_VOUT+J*R)/(L_THR-H_VOUT+J*R));\n");
+            builder.Append("Ceoff2 = R * log((L_THR-L_VOUT+J*R)/(H_THR-L_VOUT+J*R));\n");
+            builder.Append("Capacity = [ -1 / (Ceoff1 + Ceoff2) ./ Freq ]; %* 1E12;\n");
+            builder.Append("Correction(Capacity)\n");
             builder.Append("% średnia wartość pojemności\n");
-            builder.Append("CapacityWithoutCorrection = mean(Capacity);\n");
+            builder.Append("CapacityWithoutCorrection = mean(Capacity);\n \n");
             builder.Append("% pojemność właściwa - po korekcji\n");
             builder.Append("C = Correction(CapacityWithoutCorrection); \n \n");
         }
@@ -137,12 +128,12 @@ namespace CapacitySensor
         public static void AppendCharts(StringBuilder builder)
         {
             builder.Append("%% Wyznaczenie charakterystyk\n");
-            builder.Append("PrintResults(Capacity, ChargingProbes, DischargingProbes);\n");
-            builder.Append("MeasurementTimePlt();\n");
+            builder.Append("PrintResults(Capacity);\n");
+            builder.Append("%MeasurementTimePlt();\n");
             builder.Append("if size(Humidity, 1) > 1\n");
-            builder.Append("    HumidityPlt(ChargingProbes, DischargingProbes, Humidity, Temperature);\n");
-            builder.Append("    GenerateHistogram(ChargingProbes, DischargingProbes);\n");
-            builder.Append("    GenerateRandomErrorPlot(ChargingProbes, DischargingProbes);\n");
+            builder.Append("    HumidityPlt(Capacity, Humidity, Temperature);\n");
+            builder.Append("    GenerateHistogram(Capacity);\n");
+            builder.Append("    %GenerateRandomErrorPlot(ChargingProbes, DischargingProbes);\n");
             builder.Append("end\n");
             builder.Append("%GenerateSignals(2);\n\n");
         }
@@ -214,9 +205,9 @@ end
 function Cout = Correction(Cin)
     global A;
     C = Cin;
-    if Cin > 1
-        C = Cin * 1E-12;
-    end
+    %if Cin > 1
+    %    C = Cin * 1E-12;
+    %end
     Cout = polyval(A, C) * 1E12;
 end
  
@@ -226,18 +217,12 @@ function DP = DewPoint(T, RH)
 end
 
 % Wyświetl komunikaty
-function PrintResults(Capacity, ChargingProbes, DischargingProbes)
+function PrintResults(Capacity)
     global C A;
     CapacityWithoutCorrection = mean(Capacity);
-    fprintf('Capacity Average Value (charging):    %3.4f pF     [ %3.4f us ]\n', ...
-        mean(Capacity(1,:)), Oversampling(ChargingProbes) * 1E6);
-    fprintf('Capacity Average Value (discharging): %3.4f pF     [ %3.4f us ]\n\n', ...
-        mean(Capacity(2,:)), Oversampling(DischargingProbes) * 1E6);
     fprintf('    Measured Capacity: %3.4f pF\n\n', CapacityWithoutCorrection);
     fprintf('    Capacity With Correction: %3.4f pF\n\n', C);
     fprintf('Correction Poly: [%1.4e %1.4e %1.4e %1.4e]\n', A);
-    fprintf('Maximum random error (charging):    %3.0f ticks\n', max(max(ChargingProbes) - min(ChargingProbes)));
-    fprintf('Maximum random error (discharging): %3.0f ticks\n\n', max(max(DischargingProbes) - min(DischargingProbes)));
 end
 
 % Wyznaczenie charakterystyki czasu pomiaru
@@ -268,18 +253,14 @@ function MeasurementTimePlt()
 end
 
 % Wyznaczenie charakterystyki wilgotności(czujnik HS1101)
-function HumidityPlt(ChargingProbes, DischargingProbes, Humidity, Temp)
+function HumidityPlt(Capacity, Humidity, Temp)
     HS1101_min = 161; HS1101_max = 193;
-    Capacity = [];
     DP = [];
     for i = 1:1:size(Humidity, 1)
         DP = [DP DewPoint(Temp(i), Humidity(i))];
-        Capacity = [Capacity mean([...
-            CapacityFromCharging(Oversampling(ChargingProbes(i,:))) * 1E12...
-            CapacityFromDischarging(Oversampling(DischargingProbes(i,:))) * 1E12])];
     end
-    X = Correction(Capacity) / 180;
-    RH = -3465.5 * X.^3 + 10732 * X.^2 - 10457 * X + 3245.9; 
+    X = Correction(Capacity) ./ 180;
+    RH = -3465.5 .* X.^3 + 10732 .* X.^2 - 10457 .* X + 3255.9; 
     for i = 1:1:size(RH, 2)
         if RH(i) > 100
             RH(i) = 100;
@@ -371,11 +352,8 @@ function GenerateSignals(n_periods)
     axis([0 time(end) * 1E6 0 6]);
 end
 
-function GenerateHistogram(Charging, Discharging)
+function GenerateHistogram(Capacity)
     hist = [];
-    Capacity = ...
-        (CapacityFromCharging(Charging/16E6) + ...
-            CapacityFromDischarging(Discharging/16E6))/2 * 1E12;
     CapCorr = [];
     for i = 1:1:size(Capacity, 1)
         CapCorr = [CapCorr Correction(Capacity(i))];

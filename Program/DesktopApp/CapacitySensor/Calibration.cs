@@ -1,4 +1,6 @@
-﻿namespace CapacitySensor
+﻿using System;
+
+namespace CapacitySensor
 {
     public static class Calibration
     {
@@ -14,7 +16,8 @@
 
         public static void SetupConstant(string Received)
         {
-            var Parts = Received.Replace('.', ',').Split(' ');
+            Console.WriteLine(Received);
+            var Parts = Received.Split(' ');
             H_THR   = double.Parse(Parts[0]);
             L_THR   = double.Parse(Parts[1]);
             H_VOUT  = double.Parse(Parts[2]);
@@ -24,7 +27,7 @@
 
         public static void SetupCorrection(string Received)
         {
-            var Parts = Received.Replace('.', ',').Split(' ');
+            var Parts = Received.Split(' ');
             A0 = double.Parse(Parts[0]);
             A1 = double.Parse(Parts[1]);
             A2 = double.Parse(Parts[2]);

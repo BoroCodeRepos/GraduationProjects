@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -10,6 +10,7 @@ namespace CapacitySensor
         public static List<int> DischargingProbes = new List<int>();
 
         public static double Tick = 62.5; // ns
+        public static double Gate = 0.0052;
 
         public static int TCNT_Min = 50;
         public static int TCNT_Max = 2048;
@@ -21,7 +22,7 @@ namespace CapacitySensor
         public static void ParseT(string Received)
         {
             double T = 0.0, RH = 0.0;
-            var Parts = Received.Replace('.', ',').Split(' ');
+            var Parts = Received.Split(' ');
             if (Received[0] == (char)Device.Commands.TEMP)
             {
                 double.TryParse(Parts[1], out T);
@@ -55,57 +56,26 @@ namespace CapacitySensor
         public static void ParseC(string Received)
         {
             var Samples = Received.Split(' ');
-            var SamplesIndex = (Received[0] == (char)Device.Commands.SAMPLES) ? 2 : 6;
+            var SamplesIndex = (Received[0] == (char)Device.Commands.SAMPLES) ? 1 : 5;
 
             DischargingProbes.Clear();
             ChargingProbes.Clear();
 
-            int Size = Samples.Length - SamplesIndex;
-            int[] Probes = new int[Size];
+            var Pulses = double.Parse(Samples[SamplesIndex]);
+            var Gates  = double.Parse(Samples[SamplesIndex+1]);
+            var Freq   = Pulses / Gates / Gate;
 
-            for (int i = SamplesIndex; i < Samples.Length; i++)
-                Probes[i - SamplesIndex] = int.Parse(Samples[i]);
+            var capacity = Capacity(Freq) * 1E12;
 
-            for (int i = 0; i < Size - 1; i++)
-            {
-                if (i % 2 == 1)
-                {
-                    DischargingProbes.Add(Probes[i + 1]);
-                }
-                else
-                {
-                    ChargingProbes.Add(Probes[i + 1]);
-                }
-            }
-            /*List<int> ToDelete = new List<int>();
-            var max = DischargingProbes.Max();
-            double correction = 0.95;
-            foreach (var value in DischargingProbes)
-                if (value < correction * max)
-                    ToDelete.Add(value);
-            foreach (var delete in ToDelete)
-                DischargingProbes.Remove(delete);
-            ToDelete.Clear();
-            max = ChargingProbes.Max();
-            foreach (var value in ChargingProbes)
-                if (value < correction * max)
-                    ToDelete.Add(value);
-            foreach (var delete in ToDelete)
-                ChargingProbes.Remove(delete);*/
+            Console.WriteLine(string.Format("Freq {0:0.0} Hz, Capacity {1:0.000000} pF", Freq, capacity));
 
-            var DP = Tick * Oversampling(DischargingProbes);
-            var CP = Tick * Oversampling(ChargingProbes);
-
-            var DP_Capacity = Capacity(DP, Calibration.R_MEAS, Calibration.J, Calibration.L_THR, Calibration.H_THR, Calibration.L_VOUT) * 1E3;
-            var CP_Capacity = Capacity(CP, Calibration.R_MEAS, Calibration.J, Calibration.H_THR, Calibration.L_THR, Calibration.H_VOUT) * 1E3;
-
-            var CapacityCorr = Correction((DP_Capacity + CP_Capacity) / 2.0);
-            var CapacityRound = double.Parse(string.Format("{0:0.0}", CapacityCorr));
+            var CapacityCorr = capacity;// Correction(capacity);
+            var CapacityRound = double.Parse(string.Format("{0:0.000}", CapacityCorr));
             MainForm.Instance.C = CapacityRound;
             MainForm.Instance.LBL_C.Text = string.Format("{0:0.0} pF", CapacityRound);
             MainForm.Instance.LBL_C_Charts.Text = string.Format("{0:0.0} pF", CapacityRound);
 
-            double RH = double.Parse(string.Format("{0:0.0}", CalcHumidity(CapacityRound)));
+            double RH = double.Parse(string.Format("{0:0.0}", CalcHumidity(CapacityCorr)));
             string strRH = string.Format("[{0:0.0} %]", RH);
             if (MainForm.Instance.LBL_RH.Text.Contains("-"))
             {
@@ -155,17 +125,25 @@ namespace CapacitySensor
         {
             return -CX * RM * Math.Log((VCapStop - VOut + JC * RM)/(VCapStart - VOut + JC * RM));
         }
-        public static double Capacity(double T, double RM, double JC,
-            double VCapStop, double VCapStart, double VOut)
+        public static double Capacity(double Freq/*, double RM, double JC, double VCapStop, double VCapStart, double VOut*/)
         {
-            return -T / RM / Math.Log((VCapStop - VOut + JC * RM) / (VCapStart - VOut + JC * RM));
+            double CeoffCharging = Calibration.R_MEAS *
+                Math.Log(
+                    (Calibration.H_THR - Calibration.H_VOUT + Calibration.J * Calibration.R_MEAS) /
+                    (Calibration.L_THR - Calibration.H_VOUT + Calibration.J * Calibration.R_MEAS)
+                );
+            double CeoffDischarging = Calibration.R_MEAS *
+                Math.Log(
+                    (Calibration.L_THR - Calibration.L_VOUT + Calibration.J * Calibration.R_MEAS) /
+                    (Calibration.H_THR - Calibration.L_VOUT + Calibration.J * Calibration.R_MEAS)
+                );
+
+            return -1 / Freq / (CeoffCharging + CeoffDischarging);
+            //return -T / RM / Math.Log((VCapStop - VOut + JC * RM) / (VCapStart - VOut + JC * RM));
         }
 
         public static double CalcHumidity(double HS1101_Capacity)
         {
-            //double HS1101_min = 164.0d;
-            //double HS1101_max = 201.0d;
-            //double RH = (HS1101_Capacity - HS1101_min) / (HS1101_max - HS1101_min) * 100.0d;
             double X = HS1101_Capacity / 180.0;
             double RH = -3465.5 * X * X * X + 10732 * X * X - 10457 * X + 3245.9;
             if (RH < 0.0) RH = 0.0;

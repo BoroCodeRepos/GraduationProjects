@@ -10,28 +10,25 @@ namespace CapacitySensor
     {
         static SerialPort COM;
 
-        const string CAPTION  = "CapacitySensor_PG_2022/2023";
+        const string CAPTION  = "CapacitySensor_PG_2023/2024";
         const string MANUFACT = "S179991 Borowicki Arkadiusz PG";
 
         public enum Commands
         {
-            GET_CONSTANTS = 'A',        // Get Constants Values
-            SET_CONSTANTS = 'S',        // Set Constants Values
-            DEF_CONSTANTS = 'D',        // Set Default Constants Values
-            GET_CORRECTIONS = 'I',      // Get Corrections Values
-            SET_CORRECTIONS = 'O',      // Set Corrections Values
-            DEF_CORRECTIONS = 'P',      // Set Default Corrections Values
-            SET_L_VOUT = 'L',      // Set Signal Pin as LOW
-            SET_H_VOUT = 'H',      // Set Signal Pin as HIGH
-            SET_GENERATIONS = 'G',      // Set Generations on Signal Pin
-            SET_NOMINAL = 'N',      // Set Signal Pin as NOMINAL (HIGH-Z)
-            TRIGGER_MEAS = 'M',         // Trigger Measurement
-            GET_TEMP_RH = 'R',      // Read Temperature and Humidity
-            LCD_AFTERMEAS = 'W',        // Send Calculated Data To Display on LCD
-
-            TEMP = 'T',       
-            RH = 'H',      
-            SAMPLES = 'C',		
+            GET_CONSTANTS        = 'A',     // Get Constants Values
+            SET_CONSTANTS        = 'S',     // Set Constants Values
+            DEF_CONSTANTS        = 'D',     // Set Default Constants Values
+            GET_CORRECTIONS      = 'I',     // Get Corrections Values
+            SET_CORRECTIONS      = 'O',     // Set Corrections Values
+            DEF_CORRECTIONS      = 'P',     // Set Default Corrections Values
+            ENABLE_MEAS_CIRCUIT  = 'L',     // Enable Power On Meas Circuit
+            SET_NOMINAL          = 'N',     // Disable Power On Meas Circuit
+            TRIGGER_MEAS         = 'M',     // Trigger Measurement
+            GET_TEMP_RH          = 'R',     // Read Temperature and Humidity
+            LCD_AFTERMEAS        = 'W',     // Send Calculated Data To LCD	
+            TEMP                 = 'T',
+            RH                   = 'R',
+            SAMPLES              = 'C',
         }
 
         public static void Initialize()
@@ -57,6 +54,9 @@ namespace CapacitySensor
 
         public static bool IsAvailable(out string PortName)
         {
+            PortName = "COM10";
+            return true;
+
             using (ManagementClass Entity = new ManagementClass("Win32_PnPEntity"))
             {
                 foreach (ManagementObject Inst in Entity.GetInstances())
@@ -72,6 +72,8 @@ namespace CapacitySensor
                     string DeviceID = Inst.GetPropertyValue("PnpDeviceID").ToString();
                     string RegPath = "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Enum\\" + DeviceID + "\\Device Parameters";
                     string Name = Registry.GetValue(RegPath, "PortName", "").ToString();
+
+                    Logs.Create(Logs.From.PC, Logs.Type.Info, $"{Caption} {Manufact}");
 
                     int Pos = Caption.IndexOf(" (COM");
                     if (Pos > 0)

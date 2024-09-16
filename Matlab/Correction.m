@@ -4,13 +4,18 @@ format short;
 syms x;
 % wartości zmierzone
 Meas = [
-    %126.1832  147.6006 180.2216 196.8221 208.4288 231.3545 250.6058 270.1945 283.4323 307.1494 322.3885
-    126.1832  147.6006 180.2216 196.8221 208.4288 231.3545 250.6058 270.1945 283.4323 307.1494 322.3885
+    % LT1711 0,186%
+    %62.5    81.8    109.9    129.8    158    183.8    225.3    253.9    291.43    391    422    492.6    662.5 % [1, 3, 10, 13];
+    % LT1713 0,142%
+    63.5 83.3 112.2 132.5 161.3 187.9 230.6 260 298.8 401 433.3 506 681.6   % [1, 4, 10, 13]; 0,15%
+    % LTC6752
+    %62.7 82.0 110.2 130.1 158.3 184.1 225.6 254.2 291.8 392.2 425.1 496.5 667.3 % [1, 6, 11, 13];
+
 ] * 1E-12;
 
 % wartości rzeczywiste
 Real = [
-     95.4870 116.6560 149.5600 165.7383 177.2800 199.3710 220.5100 240.7840 252.6100 276.2010 293.1200
+    48.024, 68.454, 98.487, 119.656, 149.56, 177.28, 221.81, 252.61, 293.12, 400.22, 433.94, 509.92, 693.93
 ] * 1E-12;
 
 
@@ -27,8 +32,8 @@ L_VOUT = 0.0000;      % napięcie stanu logicznego '0' na wyjściu bufora
 
 %% wyznaczenie wzoru korekcyjnego za pomocą interpolacji Lagrange'a
 INTERPOLATION_FULL_RANGE = 1;
-IntN = [2, 3, 6, 11];
-%IntN = [2, 5, 8, 10];
+%IntN = [1, 4, 11, 13];
+IntN = [1, 4, 10, 13];
 IntX = [Meas(IntN(1)), Meas(IntN(2)), Meas(IntN(3)), Meas(IntN(4))];
 IntY = [Real(IntN(1)), Real(IntN(2)), Real(IntN(3)), Real(IntN(4))];
 Poly = LagrangeInterpolation(IntX, IntY);
@@ -59,7 +64,7 @@ if INTERPOLATION_FULL_RANGE == 0
     %plot(Meas, Regression);
     %subplot(3, 1, 3);
     %plot(IntX * 1E12, polyval(Poly, IntX) * 1E12);
-    p = plot(Meas, Real, Meas, Regression, IntX * 1E12, polyval(Poly, IntX) * 1E12 - 30);
+    p = plot(Meas, Real, Meas, Regression, IntX * 1E12, polyval(Poly, IntX) * 1E12);
 else
     %% wyznaczenie interpolacji w całym mierzonym zakresie
     Int = polyval(Poly, Meas * 1E-12) * 1E12;
@@ -68,11 +73,11 @@ else
     figure('Name', 'Corrections');
     subplot(2, 1, 1);
     plot(Regression,Real);
-    xlim([90 300]);
+    xlim([40 700]);
     ylabel('pojemność po korekcji regresją liniową [pF]'); xlabel('rzeczywista pojemność C [pF]');
     subplot(2, 1, 2);
     plot(Int, Real);
-    xlim([90 300]);
+    xlim([40 700]);
     ylabel("pojemność po korekcji interpolacją Lagrange'a [pF]"); xlabel('rzeczywista pojemność C [pF]');
     %p = plot(Meas, Real, Meas, Regression, Meas, Int);
 end
@@ -121,9 +126,9 @@ for i = 1:1:size(Meas, 2)
     fprintf('   %3.4f\t \t %3.3f\t  %3.4f \t\t   %3.4f\t\t  %3.4f \t  %3.4f \t  %3.4f \t  %3.4f\n', ...
         Real(i), Meas(i), Regression(i), Int(i), err(1, i), err(3, i), err(2, i), err(4,i));
 end
-Int'
-err(3,:)'
-err(4,:)'
+%Int'
+%err(3,:)'
+%err(4,:)'
 
 % Funkcja Regresji liniowej
 function [a, b, Y] = LinearRegression(x, y)
@@ -171,12 +176,12 @@ function DisplayErrors(X, rel, abs, title)
     figure('Name', title);
     subplot(2, 1, 1);
     plot(X, rel * 1E12);
-    xlim([90 300]);
+    xlim([40 700]);
     xlabel('pojemność wzorcowa [pF]');
     ylabel('błąd bezwzględny [pF]');
     subplot(2, 1, 2);
     plot(X, abs);
-    xlim([90 300]);
+    xlim([40 700]);
     xlabel('pojemność rzeczywista [pF]');
     ylabel('błąd względny [%]');
 end

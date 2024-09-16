@@ -6,6 +6,7 @@
  */
 
 #include "master.h"
+#include "../system.h"
 
 
 static TWI_SR_t TWI_SR;
@@ -21,6 +22,9 @@ void twi_init(TWI_SCL_FREQ_t freq)
 	// init status register
 	TWI_SR.error = false;
 	TWI_SR.status = 0;
+
+	DDRD  |= (1 << PD0) | (1 << PD1);
+	PORTD |= (1 << PD0) | (1 << PD1);
 
 	twi_set_bit_rate(freq);
 }

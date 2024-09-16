@@ -4,20 +4,18 @@
 #include "common.h"
 
 /* OUTPUTS */
-#define SIG_GEN_PORT 	 B
-#define SIG_WORK_PORT	 B
-#define SIG_GEN		  	PB7
-#define SIG_WORK		PB6
+#define SIG_WORK_PORT	  C
+#define SIG_WORK		 PC6
+#define SIG_TIM_OC0A_PORT B
+#define SIG_TIM_OC0A     PB7
 
 /* INPUTS */
-#define SIG_S_THR_PORT   D
-#define SIG_H_THR_PORT   D
-#define SIG_L_THR_PORT   D
-#define SIG_PWR_PORT	 D
-#define SIG_S_THR		PD4
-#define SIG_H_THR       PD2
-#define SIG_L_THR		PD3
-#define SIG_PWR			PD6
+#define SIG_TIM_ICP1_PORT     D
+#define SIG_TIM_ICP1         PD7
+#define SIG_OPAMP_OUT_PORT    D
+#define SIG_OPAMP_OUT        PD6
+#define SIG_PWR_PORT	      F
+#define SIG_PWR			     PF7
 
 /* LEDS STATE MANAGEMENT */
 #define LED1_ON 		sbi(PORTC, PC7)
@@ -44,26 +42,22 @@
 
 /* PINS DIRECTION */
 #define SET_PORTS_DIR						\
-	sbi(DDR(SIG_WORK_PORT), SIG_WORK);		\
-	sbi(DDR(SIG_GEN_PORT), SIG_GEN);		\
-	sbi(DDRC, PC7);							\
-	sbi(DDRD, PD5);							\
+	sbi(DDR(SIG_WORK_PORT), SIG_WORK);      \
+	sbi(DDR(SIG_TIM_OC0A_PORT), SIG_TIM_OC0A); \
+	sbi(DDRC, PC7);	\
+	sbi(DDRD, PD5);	\
 	sbi(DDRB, PB0)
 
 /* INTERNAL PULL-UPS */
 #define SET_INTERNAL_PULLUPS				\
-	sbi(PORT(SIG_S_THR_PORT), SIG_S_THR);	\
-	sbi(PORT(SIG_H_THR_PORT), SIG_H_THR);	\
-	sbi(PORT(SIG_L_THR_PORT), SIG_L_THR)
+	sbi(PORT(SIG_TIM_ICP1_PORT), SIG_TIM_ICP1);   \
+	sbi(PORT(SIG_OPAMP_OUT_PORT), SIG_OPAMP_OUT);
+
 
 /* BASIC OPERATION */
 #define MEASURING_SYSTEM_ON		cbi(PORT(SIG_WORK_PORT), SIG_WORK)
 #define MEASURING_SYSTEM_OFF	sbi(PORT(SIG_WORK_PORT), SIG_WORK)
-#define SET_GEN_STATE			sbi(PORT(SIG_GEN_PORT), SIG_GEN)
-#define CLR_GEN_STATE			cbi(PORT(SIG_GEN_PORT), SIG_GEN)
-#define TOG_GEN_STATE			tbi(PORT(SIG_GEN_PORT), SIG_GEN)
 #define PWR_STATUS 				( bit_is_set(PIN(SIG_PWR_PORT), SIG_PWR) )
-#define V_CAP_IS_UNDER_L_THR	( bit_is_set(PIN(SIG_H_THR_PORT), SIG_H_THR) && bit_is_clear(PIN(SIG_L_THR_PORT), SIG_L_THR) )
 
 /* COMMAND MACROS */
 #define	SEND_CONSTANT_VALUES													\
@@ -149,9 +143,7 @@ typedef enum
 	GET_CORRECTIONS = 'I',  	// Get Corrections Values
 	SET_CORRECTIONS = 'O',  	// Set Corrections Values
 	DEF_CORRECTIONS = 'P',  	// Set Default Corrections Values
-	SET_L_VOUT 		= 'L',      // Set Signal Pin as LOW
-	SET_H_VOUT 		= 'H',      // Set Signal Pin as HIGH
-	SET_GENERATIONS = 'G',  	// Set Generations on Signal Pin
+	ENABLE_MEAS_CIRCUIT = 'L',  // Enable Measurement Circuit
 	SET_NOMINAL 	= 'N',      // Set Signal Pin as NOMINAL (HIGH-Z)
 	TRIGGER_MEAS 	= 'M',     	// Trigger Measurement
 	GET_TEMP_RH 	= 'R',      // Read Temperature and Humidity

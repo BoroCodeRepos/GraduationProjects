@@ -63,4 +63,4 @@ HKR,,EnumPropPages32,,"msports.dll,SerialPortPropPageProvider"
 ;------------------------------------------------------------------------------
 [Strings]
 MFGNAME="S179991 Borowicki Arkadiusz PG"
-DESCRIPTION="CapacitySensor_PG_2022/2023"
+DESCRIPTION="CapacitySensor_PG_2023/2024"

@@ -25,7 +25,7 @@ obj/USBController_AVR8.o: LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c \
  LUFA/Drivers/USB/Core/AVR8/../AVR8/../USBTask.h \
  LUFA/Drivers/USB/Core/AVR8/../AVR8/../USBInterrupt.h \
  LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/USBInterrupt_AVR8.h \
- c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h \
+ c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h \
  LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../USBMode.h \
  LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../Events.h \
  LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../USBController.h \
@@ -95,7 +95,7 @@ LUFA/Drivers/USB/Core/AVR8/../AVR8/../USBInterrupt.h:
 
 LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/USBInterrupt_AVR8.h:
 
-c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h:
+c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h:
 
 LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../USBMode.h:
 

@@ -31,18 +31,18 @@ namespace CapacitySensor
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea19 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series37 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title7 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea20 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series38 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series39 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea21 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series40 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series41 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series42 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel6 = new System.Windows.Forms.Panel();
             this.LBL_PBAR = new System.Windows.Forms.Label();
             this.PBAR = new System.Windows.Forms.ProgressBar();
@@ -86,9 +86,6 @@ namespace CapacitySensor
             this.PageGenerals = new System.Windows.Forms.TabPage();
             this.panel23 = new System.Windows.Forms.Panel();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.LBL_GEN3 = new System.Windows.Forms.Label();
-            this.LBL_GEN2 = new System.Windows.Forms.Label();
-            this.LBL_GEN1 = new System.Windows.Forms.Label();
             this.BTN_Calibrate = new System.Windows.Forms.Button();
             this.panel25 = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
@@ -336,6 +333,9 @@ namespace CapacitySensor
             this.BTN_Send = new System.Windows.Forms.Button();
             this.PageAbout = new System.Windows.Forms.TabPage();
             this.TIM_Meas = new System.Windows.Forms.Timer(this.components);
+            this.LBL_GEN3 = new System.Windows.Forms.Label();
+            this.LBL_GEN2 = new System.Windows.Forms.Label();
+            this.LBL_GEN1 = new System.Windows.Forms.Label();
             this.panel6.SuspendLayout();
             this.PanelTitle.SuspendLayout();
             this.PanelTop.SuspendLayout();
@@ -407,10 +407,9 @@ namespace CapacitySensor
             this.panel6.Controls.Add(this.LBL_Connection);
             this.panel6.Controls.Add(this.LBL_Footer);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(267, 713);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4);
+            this.panel6.Location = new System.Drawing.Point(200, 580);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1066, 25);
+            this.panel6.Size = new System.Drawing.Size(800, 20);
             this.panel6.TabIndex = 3;
             // 
             // LBL_PBAR
@@ -418,10 +417,9 @@ namespace CapacitySensor
             this.LBL_PBAR.Dock = System.Windows.Forms.DockStyle.Right;
             this.LBL_PBAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LBL_PBAR.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LBL_PBAR.Location = new System.Drawing.Point(579, 0);
-            this.LBL_PBAR.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_PBAR.Location = new System.Drawing.Point(435, 0);
             this.LBL_PBAR.Name = "LBL_PBAR";
-            this.LBL_PBAR.Size = new System.Drawing.Size(87, 25);
+            this.LBL_PBAR.Size = new System.Drawing.Size(65, 20);
             this.LBL_PBAR.TabIndex = 3;
             this.LBL_PBAR.Text = "1/60";
             this.LBL_PBAR.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -431,10 +429,9 @@ namespace CapacitySensor
             // 
             this.PBAR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PBAR.Location = new System.Drawing.Point(433, 4);
-            this.PBAR.Margin = new System.Windows.Forms.Padding(4);
+            this.PBAR.Location = new System.Drawing.Point(325, 3);
             this.PBAR.Name = "PBAR";
-            this.PBAR.Size = new System.Drawing.Size(130, 17);
+            this.PBAR.Size = new System.Drawing.Size(98, 14);
             this.PBAR.TabIndex = 2;
             this.PBAR.Visible = false;
             // 
@@ -443,10 +440,9 @@ namespace CapacitySensor
             this.LBL_Connection.Dock = System.Windows.Forms.DockStyle.Right;
             this.LBL_Connection.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LBL_Connection.ForeColor = System.Drawing.Color.Maroon;
-            this.LBL_Connection.Location = new System.Drawing.Point(666, 0);
-            this.LBL_Connection.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Connection.Location = new System.Drawing.Point(500, 0);
             this.LBL_Connection.Name = "LBL_Connection";
-            this.LBL_Connection.Size = new System.Drawing.Size(400, 25);
+            this.LBL_Connection.Size = new System.Drawing.Size(300, 20);
             this.LBL_Connection.TabIndex = 1;
             this.LBL_Connection.Text = "Device: Disconnected";
             this.LBL_Connection.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -457,9 +453,8 @@ namespace CapacitySensor
             this.LBL_Footer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LBL_Footer.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.LBL_Footer.Location = new System.Drawing.Point(0, 0);
-            this.LBL_Footer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBL_Footer.Name = "LBL_Footer";
-            this.LBL_Footer.Size = new System.Drawing.Size(400, 25);
+            this.LBL_Footer.Size = new System.Drawing.Size(300, 20);
             this.LBL_Footer.TabIndex = 0;
             this.LBL_Footer.Text = "Try to connect device to PC";
             this.LBL_Footer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -481,9 +476,8 @@ namespace CapacitySensor
             this.BTN_Close.ForeColor = System.Drawing.Color.MintCream;
             this.BTN_Close.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Close.Image")));
             this.BTN_Close.Location = new System.Drawing.Point(0, 0);
-            this.BTN_Close.Margin = new System.Windows.Forms.Padding(4);
             this.BTN_Close.Name = "BTN_Close";
-            this.BTN_Close.Size = new System.Drawing.Size(93, 62);
+            this.BTN_Close.Size = new System.Drawing.Size(70, 50);
             this.BTN_Close.TabIndex = 3;
             this.BTN_Close.UseVisualStyleBackColor = false;
             this.BTN_Close.Visible = false;
@@ -495,10 +489,9 @@ namespace CapacitySensor
             this.PanelTitle.Controls.Add(this.LBL_Title);
             this.PanelTitle.Controls.Add(this.BTN_Close);
             this.PanelTitle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelTitle.Location = new System.Drawing.Point(267, 31);
-            this.PanelTitle.Margin = new System.Windows.Forms.Padding(4);
+            this.PanelTitle.Location = new System.Drawing.Point(200, 25);
             this.PanelTitle.Name = "PanelTitle";
-            this.PanelTitle.Size = new System.Drawing.Size(1066, 62);
+            this.PanelTitle.Size = new System.Drawing.Size(800, 50);
             this.PanelTitle.TabIndex = 2;
             this.PanelTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelTop_MouseDown);
             this.PanelTitle.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PanelTop_MouseMove);
@@ -510,10 +503,9 @@ namespace CapacitySensor
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LBL_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LBL_Title.ForeColor = System.Drawing.Color.MintCream;
-            this.LBL_Title.Location = new System.Drawing.Point(133, 0);
-            this.LBL_Title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Title.Location = new System.Drawing.Point(100, 0);
             this.LBL_Title.Name = "LBL_Title";
-            this.LBL_Title.Size = new System.Drawing.Size(794, 62);
+            this.LBL_Title.Size = new System.Drawing.Size(596, 50);
             this.LBL_Title.TabIndex = 4;
             this.LBL_Title.Text = "HOME";
             this.LBL_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -531,10 +523,9 @@ namespace CapacitySensor
             this.BTN_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_Exit.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.BTN_Exit.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Exit.Image")));
-            this.BTN_Exit.Location = new System.Drawing.Point(1019, 0);
-            this.BTN_Exit.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Exit.Location = new System.Drawing.Point(765, 0);
             this.BTN_Exit.Name = "BTN_Exit";
-            this.BTN_Exit.Size = new System.Drawing.Size(47, 31);
+            this.BTN_Exit.Size = new System.Drawing.Size(35, 25);
             this.BTN_Exit.TabIndex = 0;
             this.BTN_Exit.UseVisualStyleBackColor = false;
             this.BTN_Exit.Click += new System.EventHandler(this.BTN_Exit_Click);
@@ -549,10 +540,9 @@ namespace CapacitySensor
             this.BTN_Minimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_Minimize.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.BTN_Minimize.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Minimize.Image")));
-            this.BTN_Minimize.Location = new System.Drawing.Point(972, 0);
-            this.BTN_Minimize.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Minimize.Location = new System.Drawing.Point(730, 0);
             this.BTN_Minimize.Name = "BTN_Minimize";
-            this.BTN_Minimize.Size = new System.Drawing.Size(47, 31);
+            this.BTN_Minimize.Size = new System.Drawing.Size(35, 25);
             this.BTN_Minimize.TabIndex = 1;
             this.BTN_Minimize.UseVisualStyleBackColor = false;
             this.BTN_Minimize.Click += new System.EventHandler(this.BTN_Minimize_Click);
@@ -567,10 +557,9 @@ namespace CapacitySensor
             this.BTN_Maximize.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_Maximize.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.BTN_Maximize.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Maximize.Image")));
-            this.BTN_Maximize.Location = new System.Drawing.Point(925, 0);
-            this.BTN_Maximize.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Maximize.Location = new System.Drawing.Point(695, 0);
             this.BTN_Maximize.Name = "BTN_Maximize";
-            this.BTN_Maximize.Size = new System.Drawing.Size(47, 31);
+            this.BTN_Maximize.Size = new System.Drawing.Size(35, 25);
             this.BTN_Maximize.TabIndex = 2;
             this.BTN_Maximize.UseVisualStyleBackColor = false;
             this.BTN_Maximize.Click += new System.EventHandler(this.BTN_Maximize_Click);
@@ -581,13 +570,13 @@ namespace CapacitySensor
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.MintCream;
-            this.label1.Location = new System.Drawing.Point(333, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(250, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(394, 31);
+            this.label1.Size = new System.Drawing.Size(296, 25);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Capacity Sensor";
+            this.label1.Text = "Capacitance Sensor";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelTop_MouseDown);
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PanelTop_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.PanelTop_MouseUp);
@@ -600,10 +589,9 @@ namespace CapacitySensor
             this.PanelTop.Controls.Add(this.BTN_Minimize);
             this.PanelTop.Controls.Add(this.BTN_Exit);
             this.PanelTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelTop.Location = new System.Drawing.Point(267, 0);
-            this.PanelTop.Margin = new System.Windows.Forms.Padding(4);
+            this.PanelTop.Location = new System.Drawing.Point(200, 0);
             this.PanelTop.Name = "PanelTop";
-            this.PanelTop.Size = new System.Drawing.Size(1066, 31);
+            this.PanelTop.Size = new System.Drawing.Size(800, 25);
             this.PanelTop.TabIndex = 1;
             this.PanelTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelTop_MouseDown);
             this.PanelTop.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PanelTop_MouseMove);
@@ -615,9 +603,8 @@ namespace CapacitySensor
             this.PanelLogo.Controls.Add(this.pictureBox1);
             this.PanelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelLogo.Location = new System.Drawing.Point(0, 0);
-            this.PanelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.PanelLogo.Name = "PanelLogo";
-            this.PanelLogo.Size = new System.Drawing.Size(267, 92);
+            this.PanelLogo.Size = new System.Drawing.Size(200, 75);
             this.PanelLogo.TabIndex = 0;
             // 
             // pictureBox1
@@ -625,9 +612,8 @@ namespace CapacitySensor
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(267, 92);
+            this.pictureBox1.Size = new System.Drawing.Size(200, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -645,9 +631,8 @@ namespace CapacitySensor
             this.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelMenu.ForeColor = System.Drawing.Color.Gainsboro;
             this.PanelMenu.Location = new System.Drawing.Point(0, 0);
-            this.PanelMenu.Margin = new System.Windows.Forms.Padding(4);
             this.PanelMenu.Name = "PanelMenu";
-            this.PanelMenu.Size = new System.Drawing.Size(267, 738);
+            this.PanelMenu.Size = new System.Drawing.Size(200, 600);
             this.PanelMenu.TabIndex = 0;
             // 
             // BTN_About
@@ -660,11 +645,10 @@ namespace CapacitySensor
             this.BTN_About.ForeColor = System.Drawing.Color.Gainsboro;
             this.BTN_About.Image = ((System.Drawing.Image)(resources.GetObject("BTN_About.Image")));
             this.BTN_About.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_About.Location = new System.Drawing.Point(0, 462);
-            this.BTN_About.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_About.Location = new System.Drawing.Point(0, 375);
             this.BTN_About.Name = "BTN_About";
-            this.BTN_About.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.BTN_About.Size = new System.Drawing.Size(267, 74);
+            this.BTN_About.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.BTN_About.Size = new System.Drawing.Size(200, 60);
             this.BTN_About.TabIndex = 11;
             this.BTN_About.Text = "              About";
             this.BTN_About.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -681,11 +665,10 @@ namespace CapacitySensor
             this.BTN_Logs.ForeColor = System.Drawing.Color.Gainsboro;
             this.BTN_Logs.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Logs.Image")));
             this.BTN_Logs.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Logs.Location = new System.Drawing.Point(0, 388);
-            this.BTN_Logs.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Logs.Location = new System.Drawing.Point(0, 315);
             this.BTN_Logs.Name = "BTN_Logs";
-            this.BTN_Logs.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.BTN_Logs.Size = new System.Drawing.Size(267, 74);
+            this.BTN_Logs.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.BTN_Logs.Size = new System.Drawing.Size(200, 60);
             this.BTN_Logs.TabIndex = 10;
             this.BTN_Logs.Text = "              Logs";
             this.BTN_Logs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -702,11 +685,10 @@ namespace CapacitySensor
             this.BTN_Charts.ForeColor = System.Drawing.Color.Gainsboro;
             this.BTN_Charts.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Charts.Image")));
             this.BTN_Charts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Charts.Location = new System.Drawing.Point(0, 314);
-            this.BTN_Charts.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Charts.Location = new System.Drawing.Point(0, 255);
             this.BTN_Charts.Name = "BTN_Charts";
-            this.BTN_Charts.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.BTN_Charts.Size = new System.Drawing.Size(267, 74);
+            this.BTN_Charts.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.BTN_Charts.Size = new System.Drawing.Size(200, 60);
             this.BTN_Charts.TabIndex = 9;
             this.BTN_Charts.Text = "              Charts";
             this.BTN_Charts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -723,11 +705,10 @@ namespace CapacitySensor
             this.BTN_Measurement.ForeColor = System.Drawing.Color.Gainsboro;
             this.BTN_Measurement.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Measurement.Image")));
             this.BTN_Measurement.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Measurement.Location = new System.Drawing.Point(0, 240);
-            this.BTN_Measurement.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Measurement.Location = new System.Drawing.Point(0, 195);
             this.BTN_Measurement.Name = "BTN_Measurement";
-            this.BTN_Measurement.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.BTN_Measurement.Size = new System.Drawing.Size(267, 74);
+            this.BTN_Measurement.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.BTN_Measurement.Size = new System.Drawing.Size(200, 60);
             this.BTN_Measurement.TabIndex = 8;
             this.BTN_Measurement.Text = "              Measurement";
             this.BTN_Measurement.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -744,11 +725,10 @@ namespace CapacitySensor
             this.BTN_Calibration.ForeColor = System.Drawing.Color.Gainsboro;
             this.BTN_Calibration.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Calibration.Image")));
             this.BTN_Calibration.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Calibration.Location = new System.Drawing.Point(0, 166);
-            this.BTN_Calibration.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Calibration.Location = new System.Drawing.Point(0, 135);
             this.BTN_Calibration.Name = "BTN_Calibration";
-            this.BTN_Calibration.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.BTN_Calibration.Size = new System.Drawing.Size(267, 74);
+            this.BTN_Calibration.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.BTN_Calibration.Size = new System.Drawing.Size(200, 60);
             this.BTN_Calibration.TabIndex = 7;
             this.BTN_Calibration.Text = "              Calibration";
             this.BTN_Calibration.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -765,11 +745,11 @@ namespace CapacitySensor
             this.BTN_Generals.ForeColor = System.Drawing.Color.Gainsboro;
             this.BTN_Generals.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Generals.Image")));
             this.BTN_Generals.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Generals.Location = new System.Drawing.Point(0, 92);
+            this.BTN_Generals.Location = new System.Drawing.Point(0, 75);
             this.BTN_Generals.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_Generals.Name = "BTN_Generals";
-            this.BTN_Generals.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.BTN_Generals.Size = new System.Drawing.Size(267, 74);
+            this.BTN_Generals.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.BTN_Generals.Size = new System.Drawing.Size(200, 60);
             this.BTN_Generals.TabIndex = 6;
             this.BTN_Generals.Text = "              Generals";
             this.BTN_Generals.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -788,13 +768,13 @@ namespace CapacitySensor
             this.TCTRL.Controls.Add(this.PageAbout);
             this.TCTRL.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TCTRL.ItemSize = new System.Drawing.Size(100, 30);
-            this.TCTRL.Location = new System.Drawing.Point(267, 93);
+            this.TCTRL.Location = new System.Drawing.Point(200, 75);
             this.TCTRL.Margin = new System.Windows.Forms.Padding(0);
             this.TCTRL.Multiline = true;
             this.TCTRL.Name = "TCTRL";
             this.TCTRL.Padding = new System.Drawing.Point(0, 0);
             this.TCTRL.SelectedIndex = 0;
-            this.TCTRL.Size = new System.Drawing.Size(1066, 620);
+            this.TCTRL.Size = new System.Drawing.Size(800, 505);
             this.TCTRL.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.TCTRL.TabIndex = 4;
             // 
@@ -816,9 +796,8 @@ namespace CapacitySensor
             this.PageHome.Controls.Add(this.label5);
             this.PageHome.Controls.Add(this.pictureBox3);
             this.PageHome.Location = new System.Drawing.Point(4, 34);
-            this.PageHome.Margin = new System.Windows.Forms.Padding(4);
             this.PageHome.Name = "PageHome";
-            this.PageHome.Size = new System.Drawing.Size(1058, 582);
+            this.PageHome.Size = new System.Drawing.Size(792, 467);
             this.PageHome.TabIndex = 7;
             this.PageHome.Text = "Home";
             this.PageHome.UseVisualStyleBackColor = true;
@@ -828,10 +807,9 @@ namespace CapacitySensor
             this.label46.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label46.Location = new System.Drawing.Point(383, 414);
-            this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label46.Location = new System.Drawing.Point(287, 336);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(291, 24);
+            this.label46.Size = new System.Drawing.Size(236, 19);
             this.label46.TabIndex = 15;
             this.label46.Text = "Computer Electronic Systems";
             // 
@@ -840,10 +818,9 @@ namespace CapacitySensor
             this.label47.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label47.Location = new System.Drawing.Point(307, 414);
-            this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label47.Location = new System.Drawing.Point(230, 336);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(72, 23);
+            this.label47.Size = new System.Drawing.Size(57, 18);
             this.label47.TabIndex = 14;
             this.label47.Text = "Profile:";
             // 
@@ -852,10 +829,9 @@ namespace CapacitySensor
             this.label44.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label44.Location = new System.Drawing.Point(383, 382);
-            this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label44.Location = new System.Drawing.Point(287, 310);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(357, 24);
+            this.label44.Size = new System.Drawing.Size(290, 19);
             this.label44.TabIndex = 13;
             this.label44.Text = "Electronics and Telecommunications";
             // 
@@ -864,10 +840,9 @@ namespace CapacitySensor
             this.label45.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label45.Location = new System.Drawing.Point(245, 382);
-            this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label45.Location = new System.Drawing.Point(184, 310);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(134, 23);
+            this.label45.Size = new System.Drawing.Size(104, 18);
             this.label45.TabIndex = 12;
             this.label45.Text = "Field of study:";
             // 
@@ -876,10 +851,9 @@ namespace CapacitySensor
             this.label42.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label42.Location = new System.Drawing.Point(383, 353);
-            this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label42.Location = new System.Drawing.Point(287, 287);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(76, 24);
+            this.label42.Size = new System.Drawing.Size(63, 19);
             this.label42.TabIndex = 11;
             this.label42.Text = "179991";
             // 
@@ -888,10 +862,9 @@ namespace CapacitySensor
             this.label43.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label43.Location = new System.Drawing.Point(343, 353);
-            this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label43.Location = new System.Drawing.Point(257, 287);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(36, 23);
+            this.label43.Size = new System.Drawing.Size(27, 18);
             this.label43.TabIndex = 10;
             this.label43.Text = "ID:";
             // 
@@ -900,10 +873,9 @@ namespace CapacitySensor
             this.label35.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label35.Location = new System.Drawing.Point(383, 324);
-            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label35.Location = new System.Drawing.Point(287, 263);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(202, 24);
+            this.label35.Size = new System.Drawing.Size(167, 19);
             this.label35.TabIndex = 9;
             this.label35.Text = "Arkadiusz Borowicki";
             // 
@@ -912,10 +884,9 @@ namespace CapacitySensor
             this.label39.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label39.Location = new System.Drawing.Point(109, 324);
-            this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label39.Location = new System.Drawing.Point(82, 263);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(270, 23);
+            this.label39.Size = new System.Drawing.Size(213, 18);
             this.label39.TabIndex = 8;
             this.label39.Text = "Student\'s name and surname:";
             // 
@@ -924,10 +895,9 @@ namespace CapacitySensor
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label13.Location = new System.Drawing.Point(383, 516);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(287, 419);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(262, 24);
+            this.label13.Size = new System.Drawing.Size(213, 19);
             this.label13.TabIndex = 7;
             this.label13.Text = "dr hab. inż. Zbigniew Czaja";
             // 
@@ -936,10 +906,9 @@ namespace CapacitySensor
             this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label20.Location = new System.Drawing.Point(271, 516);
-            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Location = new System.Drawing.Point(203, 419);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(109, 23);
+            this.label20.Size = new System.Drawing.Size(87, 18);
             this.label20.TabIndex = 6;
             this.label20.Text = "Supervisor:";
             // 
@@ -947,10 +916,9 @@ namespace CapacitySensor
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(71, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(53, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(919, 247);
+            this.pictureBox2.Size = new System.Drawing.Size(689, 201);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -960,23 +928,21 @@ namespace CapacitySensor
             this.label30.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label30.Location = new System.Drawing.Point(383, 453);
-            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label30.Location = new System.Drawing.Point(287, 368);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(556, 48);
+            this.label30.Size = new System.Drawing.Size(438, 38);
             this.label30.TabIndex = 4;
-            this.label30.Text = "Smart capacitance sensor based on a phase delay circuit \r\nand a Arduino Micro mod" +
-    "ule";
+            this.label30.Text = "Measurement of sensor capacitance based on relaxation\r\noscillators and ATmega32U4" +
+    " microcontroller";
             // 
             // label31
             // 
             this.label31.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label31.Location = new System.Drawing.Point(239, 453);
-            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label31.Location = new System.Drawing.Point(179, 368);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(141, 23);
+            this.label31.Size = new System.Drawing.Size(108, 18);
             this.label31.TabIndex = 3;
             this.label31.Text = "Title of project:";
             // 
@@ -985,21 +951,20 @@ namespace CapacitySensor
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(284, 270);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(213, 219);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(433, 30);
+            this.label5.Size = new System.Drawing.Size(306, 24);
             this.label5.TabIndex = 0;
-            this.label5.Text = "ENGINEERING DIPLOMA PROJECT";
+            this.label5.Text = "MASTER\'S DIPLOMA PROJECT";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(777, 214);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Location = new System.Drawing.Point(583, 162);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(249, 247);
+            this.pictureBox3.Size = new System.Drawing.Size(187, 201);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 16;
             this.pictureBox3.TabStop = false;
@@ -1012,7 +977,7 @@ namespace CapacitySensor
             this.PageGenerals.Location = new System.Drawing.Point(4, 34);
             this.PageGenerals.Margin = new System.Windows.Forms.Padding(0);
             this.PageGenerals.Name = "PageGenerals";
-            this.PageGenerals.Size = new System.Drawing.Size(1058, 582);
+            this.PageGenerals.Size = new System.Drawing.Size(792, 467);
             this.PageGenerals.TabIndex = 2;
             this.PageGenerals.Text = "Generals";
             // 
@@ -1025,10 +990,10 @@ namespace CapacitySensor
             this.panel23.Controls.Add(this.panel27);
             this.panel23.Controls.Add(this.PNL_BTM_GEN2);
             this.panel23.Controls.Add(this.label12);
-            this.panel23.Location = new System.Drawing.Point(4, 313);
+            this.panel23.Location = new System.Drawing.Point(3, 254);
             this.panel23.Margin = new System.Windows.Forms.Padding(0);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(1048, 196);
+            this.panel23.Size = new System.Drawing.Size(786, 159);
             this.panel23.TabIndex = 30;
             // 
             // panel24
@@ -1039,46 +1004,9 @@ namespace CapacitySensor
             this.panel24.Controls.Add(this.BTN_Calibrate);
             this.panel24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel24.Location = new System.Drawing.Point(1, 1);
-            this.panel24.Margin = new System.Windows.Forms.Padding(4);
             this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(1046, 163);
+            this.panel24.Size = new System.Drawing.Size(784, 45);
             this.panel24.TabIndex = 5;
-            // 
-            // LBL_GEN3
-            // 
-            this.LBL_GEN3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.LBL_GEN3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_GEN3.Location = new System.Drawing.Point(206, 119);
-            this.LBL_GEN3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.LBL_GEN3.Name = "LBL_GEN3";
-            this.LBL_GEN3.Size = new System.Drawing.Size(600, 31);
-            this.LBL_GEN3.TabIndex = 50;
-            this.LBL_GEN3.Text = "3. Device expose the LOW state on the signal pin";
-            this.LBL_GEN3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LBL_GEN2
-            // 
-            this.LBL_GEN2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.LBL_GEN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_GEN2.Location = new System.Drawing.Point(206, 90);
-            this.LBL_GEN2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.LBL_GEN2.Name = "LBL_GEN2";
-            this.LBL_GEN2.Size = new System.Drawing.Size(600, 31);
-            this.LBL_GEN2.TabIndex = 49;
-            this.LBL_GEN2.Text = "2. Device expose the HIGH state on the signal pin";
-            this.LBL_GEN2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LBL_GEN1
-            // 
-            this.LBL_GEN1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.LBL_GEN1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_GEN1.Location = new System.Drawing.Point(206, 62);
-            this.LBL_GEN1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.LBL_GEN1.Name = "LBL_GEN1";
-            this.LBL_GEN1.Size = new System.Drawing.Size(600, 31);
-            this.LBL_GEN1.TabIndex = 48;
-            this.LBL_GEN1.Text = "1. Device generates a signal with a frequency of 1 MHz ";
-            this.LBL_GEN1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BTN_Calibrate
             // 
@@ -1089,10 +1017,9 @@ namespace CapacitySensor
             this.BTN_Calibrate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_Calibrate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_Calibrate.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Calibrate.Location = new System.Drawing.Point(10, 11);
-            this.BTN_Calibrate.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Calibrate.Location = new System.Drawing.Point(5, 8);
             this.BTN_Calibrate.Name = "BTN_Calibrate";
-            this.BTN_Calibrate.Size = new System.Drawing.Size(1029, 37);
+            this.BTN_Calibrate.Size = new System.Drawing.Size(772, 30);
             this.BTN_Calibrate.TabIndex = 47;
             this.BTN_Calibrate.Text = "Calibrate Device";
             this.BTN_Calibrate.UseVisualStyleBackColor = false;
@@ -1102,10 +1029,10 @@ namespace CapacitySensor
             // 
             this.panel25.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel25.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel25.Location = new System.Drawing.Point(1047, 1);
-            this.panel25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel25.Location = new System.Drawing.Point(785, 1);
+            this.panel25.Margin = new System.Windows.Forms.Padding(2);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(1, 163);
+            this.panel25.Size = new System.Drawing.Size(1, 45);
             this.panel25.TabIndex = 4;
             // 
             // panel26
@@ -1113,9 +1040,9 @@ namespace CapacitySensor
             this.panel26.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel26.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel26.Location = new System.Drawing.Point(0, 1);
-            this.panel26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel26.Margin = new System.Windows.Forms.Padding(2);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(1, 163);
+            this.panel26.Size = new System.Drawing.Size(1, 45);
             this.panel26.TabIndex = 3;
             // 
             // panel27
@@ -1123,30 +1050,30 @@ namespace CapacitySensor
             this.panel27.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel27.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel27.Location = new System.Drawing.Point(0, 0);
-            this.panel27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel27.Margin = new System.Windows.Forms.Padding(2);
             this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(1048, 1);
+            this.panel27.Size = new System.Drawing.Size(786, 1);
             this.panel27.TabIndex = 2;
             // 
             // PNL_BTM_GEN2
             // 
             this.PNL_BTM_GEN2.BackColor = System.Drawing.Color.Red;
             this.PNL_BTM_GEN2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PNL_BTM_GEN2.Location = new System.Drawing.Point(0, 164);
-            this.PNL_BTM_GEN2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PNL_BTM_GEN2.Location = new System.Drawing.Point(0, 46);
+            this.PNL_BTM_GEN2.Margin = new System.Windows.Forms.Padding(2);
             this.PNL_BTM_GEN2.Name = "PNL_BTM_GEN2";
-            this.PNL_BTM_GEN2.Size = new System.Drawing.Size(1048, 2);
+            this.PNL_BTM_GEN2.Size = new System.Drawing.Size(786, 2);
             this.PNL_BTM_GEN2.TabIndex = 1;
             // 
             // label12
             // 
             this.label12.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label12.Location = new System.Drawing.Point(0, 166);
+            this.label12.Location = new System.Drawing.Point(0, 48);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(1048, 30);
+            this.label12.Size = new System.Drawing.Size(786, 111);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Calibartion";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel5
@@ -1158,10 +1085,10 @@ namespace CapacitySensor
             this.panel5.Controls.Add(this.panel111);
             this.panel5.Controls.Add(this.PNL_BTM_GEN1);
             this.panel5.Controls.Add(this.label14);
-            this.panel5.Location = new System.Drawing.Point(4, 57);
+            this.panel5.Location = new System.Drawing.Point(3, 46);
             this.panel5.Margin = new System.Windows.Forms.Padding(0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1048, 196);
+            this.panel5.Size = new System.Drawing.Size(786, 159);
             this.panel5.TabIndex = 29;
             // 
             // panel22
@@ -1172,19 +1099,17 @@ namespace CapacitySensor
             this.panel22.Controls.Add(this.BTN_ExportXML);
             this.panel22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel22.Location = new System.Drawing.Point(1, 1);
-            this.panel22.Margin = new System.Windows.Forms.Padding(4);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(1046, 163);
+            this.panel22.Size = new System.Drawing.Size(784, 132);
             this.panel22.TabIndex = 5;
             // 
             // label48
             // 
             this.label48.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label48.Location = new System.Drawing.Point(228, 135);
-            this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label48.Location = new System.Drawing.Point(171, 110);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(600, 25);
+            this.label48.Size = new System.Drawing.Size(450, 20);
             this.label48.TabIndex = 51;
             this.label48.Text = "All Files are saving on Current Desktop Directory";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1198,10 +1123,9 @@ namespace CapacitySensor
             this.BTN_ExportTXT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_ExportTXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_ExportTXT.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_ExportTXT.Location = new System.Drawing.Point(10, 54);
-            this.BTN_ExportTXT.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_ExportTXT.Location = new System.Drawing.Point(5, 44);
             this.BTN_ExportTXT.Name = "BTN_ExportTXT";
-            this.BTN_ExportTXT.Size = new System.Drawing.Size(1029, 37);
+            this.BTN_ExportTXT.Size = new System.Drawing.Size(772, 30);
             this.BTN_ExportTXT.TabIndex = 49;
             this.BTN_ExportTXT.Text = "Export Logs to TXT file";
             this.BTN_ExportTXT.UseVisualStyleBackColor = false;
@@ -1216,10 +1140,9 @@ namespace CapacitySensor
             this.BTN_MatlabLast.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_MatlabLast.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_MatlabLast.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_MatlabLast.Location = new System.Drawing.Point(10, 6);
-            this.BTN_MatlabLast.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_MatlabLast.Location = new System.Drawing.Point(5, 5);
             this.BTN_MatlabLast.Name = "BTN_MatlabLast";
-            this.BTN_MatlabLast.Size = new System.Drawing.Size(1029, 37);
+            this.BTN_MatlabLast.Size = new System.Drawing.Size(772, 30);
             this.BTN_MatlabLast.TabIndex = 48;
             this.BTN_MatlabLast.Text = "Generate Matlab Script From Last Measure";
             this.BTN_MatlabLast.UseVisualStyleBackColor = false;
@@ -1234,10 +1157,9 @@ namespace CapacitySensor
             this.BTN_ExportXML.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_ExportXML.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_ExportXML.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_ExportXML.Location = new System.Drawing.Point(10, 96);
-            this.BTN_ExportXML.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_ExportXML.Location = new System.Drawing.Point(5, 78);
             this.BTN_ExportXML.Name = "BTN_ExportXML";
-            this.BTN_ExportXML.Size = new System.Drawing.Size(1029, 37);
+            this.BTN_ExportXML.Size = new System.Drawing.Size(772, 30);
             this.BTN_ExportXML.TabIndex = 47;
             this.BTN_ExportXML.Text = "Export Logs to XML file";
             this.BTN_ExportXML.UseVisualStyleBackColor = false;
@@ -1247,10 +1169,10 @@ namespace CapacitySensor
             // 
             this.panel107.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel107.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel107.Location = new System.Drawing.Point(1047, 1);
-            this.panel107.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel107.Location = new System.Drawing.Point(785, 1);
+            this.panel107.Margin = new System.Windows.Forms.Padding(2);
             this.panel107.Name = "panel107";
-            this.panel107.Size = new System.Drawing.Size(1, 163);
+            this.panel107.Size = new System.Drawing.Size(1, 132);
             this.panel107.TabIndex = 4;
             // 
             // panel110
@@ -1258,9 +1180,9 @@ namespace CapacitySensor
             this.panel110.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel110.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel110.Location = new System.Drawing.Point(0, 1);
-            this.panel110.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel110.Margin = new System.Windows.Forms.Padding(2);
             this.panel110.Name = "panel110";
-            this.panel110.Size = new System.Drawing.Size(1, 163);
+            this.panel110.Size = new System.Drawing.Size(1, 132);
             this.panel110.TabIndex = 3;
             // 
             // panel111
@@ -1268,28 +1190,29 @@ namespace CapacitySensor
             this.panel111.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel111.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel111.Location = new System.Drawing.Point(0, 0);
-            this.panel111.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel111.Margin = new System.Windows.Forms.Padding(2);
             this.panel111.Name = "panel111";
-            this.panel111.Size = new System.Drawing.Size(1048, 1);
+            this.panel111.Size = new System.Drawing.Size(786, 1);
             this.panel111.TabIndex = 2;
             // 
             // PNL_BTM_GEN1
             // 
             this.PNL_BTM_GEN1.BackColor = System.Drawing.Color.Red;
             this.PNL_BTM_GEN1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PNL_BTM_GEN1.Location = new System.Drawing.Point(0, 164);
-            this.PNL_BTM_GEN1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PNL_BTM_GEN1.Location = new System.Drawing.Point(0, 133);
+            this.PNL_BTM_GEN1.Margin = new System.Windows.Forms.Padding(2);
             this.PNL_BTM_GEN1.Name = "PNL_BTM_GEN1";
-            this.PNL_BTM_GEN1.Size = new System.Drawing.Size(1048, 2);
+            this.PNL_BTM_GEN1.Size = new System.Drawing.Size(786, 2);
             this.PNL_BTM_GEN1.TabIndex = 1;
             // 
             // label14
             // 
             this.label14.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label14.Location = new System.Drawing.Point(0, 166);
+            this.label14.Location = new System.Drawing.Point(0, 135);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(1048, 30);
+            this.label14.Size = new System.Drawing.Size(786, 24);
             this.label14.TabIndex = 0;
             this.label14.Text = "Data Export";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1303,7 +1226,7 @@ namespace CapacitySensor
             this.PageCalibration.Location = new System.Drawing.Point(4, 34);
             this.PageCalibration.Margin = new System.Windows.Forms.Padding(0);
             this.PageCalibration.Name = "PageCalibration";
-            this.PageCalibration.Size = new System.Drawing.Size(1058, 582);
+            this.PageCalibration.Size = new System.Drawing.Size(792, 467);
             this.PageCalibration.TabIndex = 1;
             this.PageCalibration.Text = "Calibration";
             this.PageCalibration.UseVisualStyleBackColor = true;
@@ -1320,10 +1243,10 @@ namespace CapacitySensor
             this.PNL_CapVal.Controls.Add(this.panel37);
             this.PNL_CapVal.Controls.Add(this.PanelCal1);
             this.PNL_CapVal.Controls.Add(this.LBL_BTM_CAL1);
-            this.PNL_CapVal.Location = new System.Drawing.Point(319, -15);
+            this.PNL_CapVal.Location = new System.Drawing.Point(239, -12);
             this.PNL_CapVal.Margin = new System.Windows.Forms.Padding(0);
             this.PNL_CapVal.Name = "PNL_CapVal";
-            this.PNL_CapVal.Size = new System.Drawing.Size(267, 151);
+            this.PNL_CapVal.Size = new System.Drawing.Size(200, 123);
             this.PNL_CapVal.TabIndex = 31;
             // 
             // PNL_C_MIN
@@ -1334,10 +1257,10 @@ namespace CapacitySensor
             this.PNL_C_MIN.Controls.Add(this.panel66);
             this.PNL_C_MIN.Controls.Add(this.panel67);
             this.PNL_C_MIN.Controls.Add(this.panel68);
-            this.PNL_C_MIN.Location = new System.Drawing.Point(96, 21);
-            this.PNL_C_MIN.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_C_MIN.Location = new System.Drawing.Point(72, 17);
+            this.PNL_C_MIN.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_C_MIN.Name = "PNL_C_MIN";
-            this.PNL_C_MIN.Size = new System.Drawing.Size(160, 34);
+            this.PNL_C_MIN.Size = new System.Drawing.Size(120, 28);
             this.PNL_C_MIN.TabIndex = 26;
             // 
             // LBL_CMIN
@@ -1345,9 +1268,8 @@ namespace CapacitySensor
             this.LBL_CMIN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBL_CMIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LBL_CMIN.Location = new System.Drawing.Point(1, 1);
-            this.LBL_CMIN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBL_CMIN.Name = "LBL_CMIN";
-            this.LBL_CMIN.Size = new System.Drawing.Size(158, 32);
+            this.LBL_CMIN.Size = new System.Drawing.Size(118, 26);
             this.LBL_CMIN.TabIndex = 4;
             this.LBL_CMIN.Text = "98,4 pF";
             this.LBL_CMIN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1356,10 +1278,9 @@ namespace CapacitySensor
             // 
             this.panel65.BackColor = System.Drawing.Color.Coral;
             this.panel65.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel65.Location = new System.Drawing.Point(159, 1);
-            this.panel65.Margin = new System.Windows.Forms.Padding(4);
+            this.panel65.Location = new System.Drawing.Point(119, 1);
             this.panel65.Name = "panel65";
-            this.panel65.Size = new System.Drawing.Size(1, 32);
+            this.panel65.Size = new System.Drawing.Size(1, 26);
             this.panel65.TabIndex = 3;
             // 
             // panel66
@@ -1367,19 +1288,17 @@ namespace CapacitySensor
             this.panel66.BackColor = System.Drawing.Color.Coral;
             this.panel66.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel66.Location = new System.Drawing.Point(0, 1);
-            this.panel66.Margin = new System.Windows.Forms.Padding(4);
             this.panel66.Name = "panel66";
-            this.panel66.Size = new System.Drawing.Size(1, 32);
+            this.panel66.Size = new System.Drawing.Size(1, 26);
             this.panel66.TabIndex = 2;
             // 
             // panel67
             // 
             this.panel67.BackColor = System.Drawing.Color.Coral;
             this.panel67.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel67.Location = new System.Drawing.Point(0, 33);
-            this.panel67.Margin = new System.Windows.Forms.Padding(4);
+            this.panel67.Location = new System.Drawing.Point(0, 27);
             this.panel67.Name = "panel67";
-            this.panel67.Size = new System.Drawing.Size(160, 1);
+            this.panel67.Size = new System.Drawing.Size(120, 1);
             this.panel67.TabIndex = 1;
             // 
             // panel68
@@ -1387,9 +1306,8 @@ namespace CapacitySensor
             this.panel68.BackColor = System.Drawing.Color.Coral;
             this.panel68.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel68.Location = new System.Drawing.Point(0, 0);
-            this.panel68.Margin = new System.Windows.Forms.Padding(4);
             this.panel68.Name = "panel68";
-            this.panel68.Size = new System.Drawing.Size(160, 1);
+            this.panel68.Size = new System.Drawing.Size(120, 1);
             this.panel68.TabIndex = 0;
             // 
             // label26
@@ -1397,10 +1315,9 @@ namespace CapacitySensor
             this.label26.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label26.Location = new System.Drawing.Point(20, 25);
-            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label26.Location = new System.Drawing.Point(15, 20);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(51, 25);
+            this.label26.Size = new System.Drawing.Size(41, 20);
             this.label26.TabIndex = 25;
             this.label26.Text = "MIN";
             // 
@@ -1412,10 +1329,10 @@ namespace CapacitySensor
             this.PNL_C_MAX.Controls.Add(this.panel41);
             this.PNL_C_MAX.Controls.Add(this.panel42);
             this.PNL_C_MAX.Controls.Add(this.panel43);
-            this.PNL_C_MAX.Location = new System.Drawing.Point(96, 68);
-            this.PNL_C_MAX.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_C_MAX.Location = new System.Drawing.Point(72, 55);
+            this.PNL_C_MAX.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_C_MAX.Name = "PNL_C_MAX";
-            this.PNL_C_MAX.Size = new System.Drawing.Size(160, 34);
+            this.PNL_C_MAX.Size = new System.Drawing.Size(120, 28);
             this.PNL_C_MAX.TabIndex = 24;
             // 
             // LBL_CMAX
@@ -1423,9 +1340,8 @@ namespace CapacitySensor
             this.LBL_CMAX.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LBL_CMAX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LBL_CMAX.Location = new System.Drawing.Point(1, 1);
-            this.LBL_CMAX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBL_CMAX.Name = "LBL_CMAX";
-            this.LBL_CMAX.Size = new System.Drawing.Size(158, 32);
+            this.LBL_CMAX.Size = new System.Drawing.Size(118, 26);
             this.LBL_CMAX.TabIndex = 5;
             this.LBL_CMAX.Text = "340,9 pF";
             this.LBL_CMAX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1434,10 +1350,9 @@ namespace CapacitySensor
             // 
             this.panel40.BackColor = System.Drawing.Color.Coral;
             this.panel40.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel40.Location = new System.Drawing.Point(159, 1);
-            this.panel40.Margin = new System.Windows.Forms.Padding(4);
+            this.panel40.Location = new System.Drawing.Point(119, 1);
             this.panel40.Name = "panel40";
-            this.panel40.Size = new System.Drawing.Size(1, 32);
+            this.panel40.Size = new System.Drawing.Size(1, 26);
             this.panel40.TabIndex = 3;
             // 
             // panel41
@@ -1445,19 +1360,17 @@ namespace CapacitySensor
             this.panel41.BackColor = System.Drawing.Color.Coral;
             this.panel41.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel41.Location = new System.Drawing.Point(0, 1);
-            this.panel41.Margin = new System.Windows.Forms.Padding(4);
             this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(1, 32);
+            this.panel41.Size = new System.Drawing.Size(1, 26);
             this.panel41.TabIndex = 2;
             // 
             // panel42
             // 
             this.panel42.BackColor = System.Drawing.Color.Coral;
             this.panel42.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel42.Location = new System.Drawing.Point(0, 33);
-            this.panel42.Margin = new System.Windows.Forms.Padding(4);
+            this.panel42.Location = new System.Drawing.Point(0, 27);
             this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(160, 1);
+            this.panel42.Size = new System.Drawing.Size(120, 1);
             this.panel42.TabIndex = 1;
             // 
             // panel43
@@ -1465,9 +1378,8 @@ namespace CapacitySensor
             this.panel43.BackColor = System.Drawing.Color.Coral;
             this.panel43.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel43.Location = new System.Drawing.Point(0, 0);
-            this.panel43.Margin = new System.Windows.Forms.Padding(4);
             this.panel43.Name = "panel43";
-            this.panel43.Size = new System.Drawing.Size(160, 1);
+            this.panel43.Size = new System.Drawing.Size(120, 1);
             this.panel43.TabIndex = 0;
             // 
             // label25
@@ -1475,10 +1387,9 @@ namespace CapacitySensor
             this.label25.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label25.Location = new System.Drawing.Point(17, 71);
-            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label25.Location = new System.Drawing.Point(13, 58);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(60, 25);
+            this.label25.Size = new System.Drawing.Size(47, 20);
             this.label25.TabIndex = 23;
             this.label25.Text = "MAX";
             // 
@@ -1486,10 +1397,10 @@ namespace CapacitySensor
             // 
             this.panel35.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel35.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel35.Location = new System.Drawing.Point(266, 1);
-            this.panel35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel35.Location = new System.Drawing.Point(199, 1);
+            this.panel35.Margin = new System.Windows.Forms.Padding(2);
             this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(1, 118);
+            this.panel35.Size = new System.Drawing.Size(1, 96);
             this.panel35.TabIndex = 4;
             // 
             // panel36
@@ -1497,9 +1408,9 @@ namespace CapacitySensor
             this.panel36.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel36.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel36.Location = new System.Drawing.Point(0, 1);
-            this.panel36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel36.Margin = new System.Windows.Forms.Padding(2);
             this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(1, 118);
+            this.panel36.Size = new System.Drawing.Size(1, 96);
             this.panel36.TabIndex = 3;
             // 
             // panel37
@@ -1507,28 +1418,29 @@ namespace CapacitySensor
             this.panel37.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel37.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel37.Location = new System.Drawing.Point(0, 0);
-            this.panel37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel37.Margin = new System.Windows.Forms.Padding(2);
             this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(267, 1);
+            this.panel37.Size = new System.Drawing.Size(200, 1);
             this.panel37.TabIndex = 2;
             // 
             // PanelCal1
             // 
             this.PanelCal1.BackColor = System.Drawing.Color.Red;
             this.PanelCal1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelCal1.Location = new System.Drawing.Point(0, 119);
-            this.PanelCal1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelCal1.Location = new System.Drawing.Point(0, 97);
+            this.PanelCal1.Margin = new System.Windows.Forms.Padding(2);
             this.PanelCal1.Name = "PanelCal1";
-            this.PanelCal1.Size = new System.Drawing.Size(267, 2);
+            this.PanelCal1.Size = new System.Drawing.Size(200, 2);
             this.PanelCal1.TabIndex = 1;
             // 
             // LBL_BTM_CAL1
             // 
             this.LBL_BTM_CAL1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.LBL_BTM_CAL1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_BTM_CAL1.Location = new System.Drawing.Point(0, 121);
+            this.LBL_BTM_CAL1.Location = new System.Drawing.Point(0, 99);
+            this.LBL_BTM_CAL1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBL_BTM_CAL1.Name = "LBL_BTM_CAL1";
-            this.LBL_BTM_CAL1.Size = new System.Drawing.Size(267, 30);
+            this.LBL_BTM_CAL1.Size = new System.Drawing.Size(200, 24);
             this.LBL_BTM_CAL1.TabIndex = 0;
             this.LBL_BTM_CAL1.Text = "Measured capacity values";
             this.LBL_BTM_CAL1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1544,10 +1456,10 @@ namespace CapacitySensor
             this.PNL_CorrChart.Controls.Add(this.panel33);
             this.PNL_CorrChart.Controls.Add(this.PanelCal4);
             this.PNL_CorrChart.Controls.Add(this.LBL_BTM_CAL4);
-            this.PNL_CorrChart.Location = new System.Drawing.Point(593, 6);
+            this.PNL_CorrChart.Location = new System.Drawing.Point(445, 5);
             this.PNL_CorrChart.Margin = new System.Windows.Forms.Padding(0);
             this.PNL_CorrChart.Name = "PNL_CorrChart";
-            this.PNL_CorrChart.Size = new System.Drawing.Size(458, 563);
+            this.PNL_CorrChart.Size = new System.Drawing.Size(344, 457);
             this.PNL_CorrChart.TabIndex = 30;
             // 
             // CorrChart
@@ -1556,45 +1468,44 @@ namespace CapacitySensor
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CorrChart.BackColor = System.Drawing.SystemColors.Control;
-            chartArea4.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
-            chartArea4.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea4.AxisX.Title = "Capacity befor correction [pF]";
-            chartArea4.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            chartArea4.AxisY.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
-            chartArea4.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea4.AxisY.IsStartedFromZero = false;
-            chartArea4.AxisY.Title = "Capacity after correction [pF]";
-            chartArea4.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            chartArea4.AxisY2.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Lines;
-            chartArea4.AxisY2.LineWidth = 5;
-            chartArea4.Name = "Area";
-            this.CorrChart.ChartAreas.Add(chartArea4);
-            this.CorrChart.Location = new System.Drawing.Point(1, 68);
-            this.CorrChart.Margin = new System.Windows.Forms.Padding(4);
+            chartArea19.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
+            chartArea19.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea19.AxisX.Title = "Capacity befor correction [pF]";
+            chartArea19.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            chartArea19.AxisY.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
+            chartArea19.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea19.AxisY.IsStartedFromZero = false;
+            chartArea19.AxisY.Title = "Capacity after correction [pF]";
+            chartArea19.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            chartArea19.AxisY2.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Lines;
+            chartArea19.AxisY2.LineWidth = 5;
+            chartArea19.Name = "Area";
+            this.CorrChart.ChartAreas.Add(chartArea19);
+            this.CorrChart.Location = new System.Drawing.Point(1, 55);
             this.CorrChart.Name = "CorrChart";
             this.CorrChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.CorrChart.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.Coral};
-            series7.BorderWidth = 2;
-            series7.ChartArea = "Area";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series7.Name = "Capacity";
-            this.CorrChart.Series.Add(series7);
-            this.CorrChart.Size = new System.Drawing.Size(454, 397);
+            series37.BorderWidth = 2;
+            series37.ChartArea = "Area";
+            series37.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series37.Name = "Capacity";
+            this.CorrChart.Series.Add(series37);
+            this.CorrChart.Size = new System.Drawing.Size(340, 323);
             this.CorrChart.TabIndex = 5;
             this.CorrChart.Text = "Chart";
-            title2.Name = "Title";
-            title2.Text = "Capacity correction";
-            this.CorrChart.Titles.Add(title2);
+            title7.Name = "Title";
+            title7.Text = "Capacity correction";
+            this.CorrChart.Titles.Add(title7);
             // 
             // panel31
             // 
             this.panel31.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel31.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel31.Location = new System.Drawing.Point(457, 1);
-            this.panel31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel31.Location = new System.Drawing.Point(343, 1);
+            this.panel31.Margin = new System.Windows.Forms.Padding(2);
             this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(1, 530);
+            this.panel31.Size = new System.Drawing.Size(1, 430);
             this.panel31.TabIndex = 4;
             // 
             // panel32
@@ -1602,9 +1513,9 @@ namespace CapacitySensor
             this.panel32.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel32.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel32.Location = new System.Drawing.Point(0, 1);
-            this.panel32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel32.Margin = new System.Windows.Forms.Padding(2);
             this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(1, 530);
+            this.panel32.Size = new System.Drawing.Size(1, 430);
             this.panel32.TabIndex = 3;
             // 
             // panel33
@@ -1612,28 +1523,29 @@ namespace CapacitySensor
             this.panel33.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel33.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel33.Location = new System.Drawing.Point(0, 0);
-            this.panel33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel33.Margin = new System.Windows.Forms.Padding(2);
             this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(458, 1);
+            this.panel33.Size = new System.Drawing.Size(344, 1);
             this.panel33.TabIndex = 2;
             // 
             // PanelCal4
             // 
             this.PanelCal4.BackColor = System.Drawing.Color.Red;
             this.PanelCal4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelCal4.Location = new System.Drawing.Point(0, 531);
-            this.PanelCal4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelCal4.Location = new System.Drawing.Point(0, 431);
+            this.PanelCal4.Margin = new System.Windows.Forms.Padding(2);
             this.PanelCal4.Name = "PanelCal4";
-            this.PanelCal4.Size = new System.Drawing.Size(458, 2);
+            this.PanelCal4.Size = new System.Drawing.Size(344, 2);
             this.PanelCal4.TabIndex = 1;
             // 
             // LBL_BTM_CAL4
             // 
             this.LBL_BTM_CAL4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.LBL_BTM_CAL4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_BTM_CAL4.Location = new System.Drawing.Point(0, 533);
+            this.LBL_BTM_CAL4.Location = new System.Drawing.Point(0, 433);
+            this.LBL_BTM_CAL4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBL_BTM_CAL4.Name = "LBL_BTM_CAL4";
-            this.LBL_BTM_CAL4.Size = new System.Drawing.Size(458, 30);
+            this.LBL_BTM_CAL4.Size = new System.Drawing.Size(344, 24);
             this.LBL_BTM_CAL4.TabIndex = 0;
             this.LBL_BTM_CAL4.Text = "Correction chart";
             this.LBL_BTM_CAL4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1664,10 +1576,10 @@ namespace CapacitySensor
             this.PNL_Const.Controls.Add(this.panel88);
             this.PNL_Const.Controls.Add(this.PanelCal2);
             this.PNL_Const.Controls.Add(this.LBL_BTM_CAL3);
-            this.PNL_Const.Location = new System.Drawing.Point(4, -15);
+            this.PNL_Const.Location = new System.Drawing.Point(3, -12);
             this.PNL_Const.Margin = new System.Windows.Forms.Padding(0);
             this.PNL_Const.Name = "PNL_Const";
-            this.PNL_Const.Size = new System.Drawing.Size(307, 599);
+            this.PNL_Const.Size = new System.Drawing.Size(230, 487);
             this.PNL_Const.TabIndex = 28;
             // 
             // PNL_R_MEAS
@@ -1678,10 +1590,10 @@ namespace CapacitySensor
             this.PNL_R_MEAS.Controls.Add(this.panel54);
             this.PNL_R_MEAS.Controls.Add(this.panel59);
             this.PNL_R_MEAS.Controls.Add(this.panel69);
-            this.PNL_R_MEAS.Location = new System.Drawing.Point(127, 393);
-            this.PNL_R_MEAS.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_R_MEAS.Location = new System.Drawing.Point(95, 319);
+            this.PNL_R_MEAS.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_R_MEAS.Name = "PNL_R_MEAS";
-            this.PNL_R_MEAS.Size = new System.Drawing.Size(160, 34);
+            this.PNL_R_MEAS.Size = new System.Drawing.Size(120, 28);
             this.PNL_R_MEAS.TabIndex = 20;
             // 
             // NUM_R_MEAS
@@ -1698,8 +1610,8 @@ namespace CapacitySensor
             0,
             0,
             196608});
-            this.NUM_R_MEAS.Location = new System.Drawing.Point(4, 4);
-            this.NUM_R_MEAS.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.NUM_R_MEAS.Location = new System.Drawing.Point(3, 3);
+            this.NUM_R_MEAS.Margin = new System.Windows.Forms.Padding(5);
             this.NUM_R_MEAS.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -1711,7 +1623,7 @@ namespace CapacitySensor
             0,
             196608});
             this.NUM_R_MEAS.Name = "NUM_R_MEAS";
-            this.NUM_R_MEAS.Size = new System.Drawing.Size(152, 26);
+            this.NUM_R_MEAS.Size = new System.Drawing.Size(114, 22);
             this.NUM_R_MEAS.TabIndex = 17;
             this.NUM_R_MEAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NUM_R_MEAS.Value = new decimal(new int[] {
@@ -1725,10 +1637,9 @@ namespace CapacitySensor
             // 
             this.panel49.BackColor = System.Drawing.Color.Coral;
             this.panel49.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel49.Location = new System.Drawing.Point(159, 1);
-            this.panel49.Margin = new System.Windows.Forms.Padding(4);
+            this.panel49.Location = new System.Drawing.Point(119, 1);
             this.panel49.Name = "panel49";
-            this.panel49.Size = new System.Drawing.Size(1, 32);
+            this.panel49.Size = new System.Drawing.Size(1, 26);
             this.panel49.TabIndex = 3;
             // 
             // panel54
@@ -1736,19 +1647,17 @@ namespace CapacitySensor
             this.panel54.BackColor = System.Drawing.Color.Coral;
             this.panel54.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel54.Location = new System.Drawing.Point(0, 1);
-            this.panel54.Margin = new System.Windows.Forms.Padding(4);
             this.panel54.Name = "panel54";
-            this.panel54.Size = new System.Drawing.Size(1, 32);
+            this.panel54.Size = new System.Drawing.Size(1, 26);
             this.panel54.TabIndex = 2;
             // 
             // panel59
             // 
             this.panel59.BackColor = System.Drawing.Color.Coral;
             this.panel59.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel59.Location = new System.Drawing.Point(0, 33);
-            this.panel59.Margin = new System.Windows.Forms.Padding(4);
+            this.panel59.Location = new System.Drawing.Point(0, 27);
             this.panel59.Name = "panel59";
-            this.panel59.Size = new System.Drawing.Size(160, 1);
+            this.panel59.Size = new System.Drawing.Size(120, 1);
             this.panel59.TabIndex = 1;
             // 
             // panel69
@@ -1756,9 +1665,8 @@ namespace CapacitySensor
             this.panel69.BackColor = System.Drawing.Color.Coral;
             this.panel69.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel69.Location = new System.Drawing.Point(0, 0);
-            this.panel69.Margin = new System.Windows.Forms.Padding(4);
             this.panel69.Name = "panel69";
-            this.panel69.Size = new System.Drawing.Size(160, 1);
+            this.panel69.Size = new System.Drawing.Size(120, 1);
             this.panel69.TabIndex = 0;
             // 
             // LBL_R_MEAS
@@ -1766,10 +1674,9 @@ namespace CapacitySensor
             this.LBL_R_MEAS.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_R_MEAS.AutoSize = true;
             this.LBL_R_MEAS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_R_MEAS.Location = new System.Drawing.Point(13, 396);
-            this.LBL_R_MEAS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_R_MEAS.Location = new System.Drawing.Point(10, 322);
             this.LBL_R_MEAS.Name = "LBL_R_MEAS";
-            this.LBL_R_MEAS.Size = new System.Drawing.Size(100, 25);
+            this.LBL_R_MEAS.Size = new System.Drawing.Size(82, 20);
             this.LBL_R_MEAS.TabIndex = 19;
             this.LBL_R_MEAS.Text = "R_MEAS";
             // 
@@ -1781,10 +1688,10 @@ namespace CapacitySensor
             this.PNL_L_VOUT.Controls.Add(this.panel75);
             this.PNL_L_VOUT.Controls.Add(this.panel76);
             this.PNL_L_VOUT.Controls.Add(this.panel77);
-            this.PNL_L_VOUT.Location = new System.Drawing.Point(127, 286);
-            this.PNL_L_VOUT.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_L_VOUT.Location = new System.Drawing.Point(95, 232);
+            this.PNL_L_VOUT.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_L_VOUT.Name = "PNL_L_VOUT";
-            this.PNL_L_VOUT.Size = new System.Drawing.Size(160, 34);
+            this.PNL_L_VOUT.Size = new System.Drawing.Size(120, 28);
             this.PNL_L_VOUT.TabIndex = 24;
             // 
             // NUM_L_VOUT
@@ -1801,15 +1708,15 @@ namespace CapacitySensor
             0,
             0,
             262144});
-            this.NUM_L_VOUT.Location = new System.Drawing.Point(4, 4);
-            this.NUM_L_VOUT.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.NUM_L_VOUT.Location = new System.Drawing.Point(3, 3);
+            this.NUM_L_VOUT.Margin = new System.Windows.Forms.Padding(5);
             this.NUM_L_VOUT.Maximum = new decimal(new int[] {
             2,
             0,
             0,
             0});
             this.NUM_L_VOUT.Name = "NUM_L_VOUT";
-            this.NUM_L_VOUT.Size = new System.Drawing.Size(152, 26);
+            this.NUM_L_VOUT.Size = new System.Drawing.Size(114, 22);
             this.NUM_L_VOUT.TabIndex = 17;
             this.NUM_L_VOUT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NUM_L_VOUT.ValueChanged += new System.EventHandler(this.Numeric_ValueChanged);
@@ -1818,10 +1725,9 @@ namespace CapacitySensor
             // 
             this.panel74.BackColor = System.Drawing.Color.Coral;
             this.panel74.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel74.Location = new System.Drawing.Point(159, 1);
-            this.panel74.Margin = new System.Windows.Forms.Padding(4);
+            this.panel74.Location = new System.Drawing.Point(119, 1);
             this.panel74.Name = "panel74";
-            this.panel74.Size = new System.Drawing.Size(1, 32);
+            this.panel74.Size = new System.Drawing.Size(1, 26);
             this.panel74.TabIndex = 3;
             // 
             // panel75
@@ -1829,19 +1735,17 @@ namespace CapacitySensor
             this.panel75.BackColor = System.Drawing.Color.Coral;
             this.panel75.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel75.Location = new System.Drawing.Point(0, 1);
-            this.panel75.Margin = new System.Windows.Forms.Padding(4);
             this.panel75.Name = "panel75";
-            this.panel75.Size = new System.Drawing.Size(1, 32);
+            this.panel75.Size = new System.Drawing.Size(1, 26);
             this.panel75.TabIndex = 2;
             // 
             // panel76
             // 
             this.panel76.BackColor = System.Drawing.Color.Coral;
             this.panel76.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel76.Location = new System.Drawing.Point(0, 33);
-            this.panel76.Margin = new System.Windows.Forms.Padding(4);
+            this.panel76.Location = new System.Drawing.Point(0, 27);
             this.panel76.Name = "panel76";
-            this.panel76.Size = new System.Drawing.Size(160, 1);
+            this.panel76.Size = new System.Drawing.Size(120, 1);
             this.panel76.TabIndex = 1;
             // 
             // panel77
@@ -1849,9 +1753,8 @@ namespace CapacitySensor
             this.panel77.BackColor = System.Drawing.Color.Coral;
             this.panel77.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel77.Location = new System.Drawing.Point(0, 0);
-            this.panel77.Margin = new System.Windows.Forms.Padding(4);
             this.panel77.Name = "panel77";
-            this.panel77.Size = new System.Drawing.Size(160, 1);
+            this.panel77.Size = new System.Drawing.Size(120, 1);
             this.panel77.TabIndex = 0;
             // 
             // LBL_L_VOUT
@@ -1859,10 +1762,9 @@ namespace CapacitySensor
             this.LBL_L_VOUT.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_L_VOUT.AutoSize = true;
             this.LBL_L_VOUT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_L_VOUT.Location = new System.Drawing.Point(16, 289);
-            this.LBL_L_VOUT.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_L_VOUT.Location = new System.Drawing.Point(12, 235);
             this.LBL_L_VOUT.Name = "LBL_L_VOUT";
-            this.LBL_L_VOUT.Size = new System.Drawing.Size(97, 25);
+            this.LBL_L_VOUT.Size = new System.Drawing.Size(77, 20);
             this.LBL_L_VOUT.TabIndex = 23;
             this.LBL_L_VOUT.Text = "L_VOUT";
             // 
@@ -1874,10 +1776,10 @@ namespace CapacitySensor
             this.PNL_H_VOUT.Controls.Add(this.panel79);
             this.PNL_H_VOUT.Controls.Add(this.panel80);
             this.PNL_H_VOUT.Controls.Add(this.panel81);
-            this.PNL_H_VOUT.Location = new System.Drawing.Point(127, 204);
-            this.PNL_H_VOUT.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_H_VOUT.Location = new System.Drawing.Point(95, 166);
+            this.PNL_H_VOUT.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_H_VOUT.Name = "PNL_H_VOUT";
-            this.PNL_H_VOUT.Size = new System.Drawing.Size(160, 34);
+            this.PNL_H_VOUT.Size = new System.Drawing.Size(120, 28);
             this.PNL_H_VOUT.TabIndex = 22;
             // 
             // NUM_H_VOUT
@@ -1894,8 +1796,8 @@ namespace CapacitySensor
             0,
             0,
             262144});
-            this.NUM_H_VOUT.Location = new System.Drawing.Point(4, 4);
-            this.NUM_H_VOUT.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.NUM_H_VOUT.Location = new System.Drawing.Point(3, 3);
+            this.NUM_H_VOUT.Margin = new System.Windows.Forms.Padding(5);
             this.NUM_H_VOUT.Maximum = new decimal(new int[] {
             6,
             0,
@@ -1907,7 +1809,7 @@ namespace CapacitySensor
             0,
             65536});
             this.NUM_H_VOUT.Name = "NUM_H_VOUT";
-            this.NUM_H_VOUT.Size = new System.Drawing.Size(152, 26);
+            this.NUM_H_VOUT.Size = new System.Drawing.Size(114, 22);
             this.NUM_H_VOUT.TabIndex = 17;
             this.NUM_H_VOUT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NUM_H_VOUT.Value = new decimal(new int[] {
@@ -1921,10 +1823,9 @@ namespace CapacitySensor
             // 
             this.panel78.BackColor = System.Drawing.Color.Coral;
             this.panel78.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel78.Location = new System.Drawing.Point(159, 1);
-            this.panel78.Margin = new System.Windows.Forms.Padding(4);
+            this.panel78.Location = new System.Drawing.Point(119, 1);
             this.panel78.Name = "panel78";
-            this.panel78.Size = new System.Drawing.Size(1, 32);
+            this.panel78.Size = new System.Drawing.Size(1, 26);
             this.panel78.TabIndex = 3;
             // 
             // panel79
@@ -1932,19 +1833,17 @@ namespace CapacitySensor
             this.panel79.BackColor = System.Drawing.Color.Coral;
             this.panel79.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel79.Location = new System.Drawing.Point(0, 1);
-            this.panel79.Margin = new System.Windows.Forms.Padding(4);
             this.panel79.Name = "panel79";
-            this.panel79.Size = new System.Drawing.Size(1, 32);
+            this.panel79.Size = new System.Drawing.Size(1, 26);
             this.panel79.TabIndex = 2;
             // 
             // panel80
             // 
             this.panel80.BackColor = System.Drawing.Color.Coral;
             this.panel80.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel80.Location = new System.Drawing.Point(0, 33);
-            this.panel80.Margin = new System.Windows.Forms.Padding(4);
+            this.panel80.Location = new System.Drawing.Point(0, 27);
             this.panel80.Name = "panel80";
-            this.panel80.Size = new System.Drawing.Size(160, 1);
+            this.panel80.Size = new System.Drawing.Size(120, 1);
             this.panel80.TabIndex = 1;
             // 
             // panel81
@@ -1952,9 +1851,8 @@ namespace CapacitySensor
             this.panel81.BackColor = System.Drawing.Color.Coral;
             this.panel81.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel81.Location = new System.Drawing.Point(0, 0);
-            this.panel81.Margin = new System.Windows.Forms.Padding(4);
             this.panel81.Name = "panel81";
-            this.panel81.Size = new System.Drawing.Size(160, 1);
+            this.panel81.Size = new System.Drawing.Size(120, 1);
             this.panel81.TabIndex = 0;
             // 
             // LBL_H_VOUT
@@ -1962,10 +1860,9 @@ namespace CapacitySensor
             this.LBL_H_VOUT.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_H_VOUT.AutoSize = true;
             this.LBL_H_VOUT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_H_VOUT.Location = new System.Drawing.Point(15, 208);
-            this.LBL_H_VOUT.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_H_VOUT.Location = new System.Drawing.Point(11, 169);
             this.LBL_H_VOUT.Name = "LBL_H_VOUT";
-            this.LBL_H_VOUT.Size = new System.Drawing.Size(100, 25);
+            this.LBL_H_VOUT.Size = new System.Drawing.Size(80, 20);
             this.LBL_H_VOUT.TabIndex = 21;
             this.LBL_H_VOUT.Text = "H_VOUT";
             // 
@@ -1977,10 +1874,10 @@ namespace CapacitySensor
             this.PNL_L_THR.Controls.Add(this.panel71);
             this.PNL_L_THR.Controls.Add(this.panel72);
             this.PNL_L_THR.Controls.Add(this.panel73);
-            this.PNL_L_THR.Location = new System.Drawing.Point(127, 123);
-            this.PNL_L_THR.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_L_THR.Location = new System.Drawing.Point(95, 100);
+            this.PNL_L_THR.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_L_THR.Name = "PNL_L_THR";
-            this.PNL_L_THR.Size = new System.Drawing.Size(160, 34);
+            this.PNL_L_THR.Size = new System.Drawing.Size(120, 28);
             this.PNL_L_THR.TabIndex = 20;
             // 
             // NUM_L_THR
@@ -1997,8 +1894,8 @@ namespace CapacitySensor
             0,
             0,
             262144});
-            this.NUM_L_THR.Location = new System.Drawing.Point(4, 4);
-            this.NUM_L_THR.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.NUM_L_THR.Location = new System.Drawing.Point(3, 3);
+            this.NUM_L_THR.Margin = new System.Windows.Forms.Padding(5);
             this.NUM_L_THR.Maximum = new decimal(new int[] {
             6,
             0,
@@ -2010,7 +1907,7 @@ namespace CapacitySensor
             0,
             65536});
             this.NUM_L_THR.Name = "NUM_L_THR";
-            this.NUM_L_THR.Size = new System.Drawing.Size(152, 26);
+            this.NUM_L_THR.Size = new System.Drawing.Size(114, 22);
             this.NUM_L_THR.TabIndex = 17;
             this.NUM_L_THR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NUM_L_THR.Value = new decimal(new int[] {
@@ -2024,10 +1921,9 @@ namespace CapacitySensor
             // 
             this.panel70.BackColor = System.Drawing.Color.Coral;
             this.panel70.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel70.Location = new System.Drawing.Point(159, 1);
-            this.panel70.Margin = new System.Windows.Forms.Padding(4);
+            this.panel70.Location = new System.Drawing.Point(119, 1);
             this.panel70.Name = "panel70";
-            this.panel70.Size = new System.Drawing.Size(1, 32);
+            this.panel70.Size = new System.Drawing.Size(1, 26);
             this.panel70.TabIndex = 3;
             // 
             // panel71
@@ -2035,19 +1931,17 @@ namespace CapacitySensor
             this.panel71.BackColor = System.Drawing.Color.Coral;
             this.panel71.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel71.Location = new System.Drawing.Point(0, 1);
-            this.panel71.Margin = new System.Windows.Forms.Padding(4);
             this.panel71.Name = "panel71";
-            this.panel71.Size = new System.Drawing.Size(1, 32);
+            this.panel71.Size = new System.Drawing.Size(1, 26);
             this.panel71.TabIndex = 2;
             // 
             // panel72
             // 
             this.panel72.BackColor = System.Drawing.Color.Coral;
             this.panel72.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel72.Location = new System.Drawing.Point(0, 33);
-            this.panel72.Margin = new System.Windows.Forms.Padding(4);
+            this.panel72.Location = new System.Drawing.Point(0, 27);
             this.panel72.Name = "panel72";
-            this.panel72.Size = new System.Drawing.Size(160, 1);
+            this.panel72.Size = new System.Drawing.Size(120, 1);
             this.panel72.TabIndex = 1;
             // 
             // panel73
@@ -2055,9 +1949,8 @@ namespace CapacitySensor
             this.panel73.BackColor = System.Drawing.Color.Coral;
             this.panel73.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel73.Location = new System.Drawing.Point(0, 0);
-            this.panel73.Margin = new System.Windows.Forms.Padding(4);
             this.panel73.Name = "panel73";
-            this.panel73.Size = new System.Drawing.Size(160, 1);
+            this.panel73.Size = new System.Drawing.Size(120, 1);
             this.panel73.TabIndex = 0;
             // 
             // LBL_L_THR
@@ -2065,10 +1958,9 @@ namespace CapacitySensor
             this.LBL_L_THR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_L_THR.AutoSize = true;
             this.LBL_L_THR.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_L_THR.Location = new System.Drawing.Point(31, 127);
-            this.LBL_L_THR.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_L_THR.Location = new System.Drawing.Point(23, 103);
             this.LBL_L_THR.Name = "LBL_L_THR";
-            this.LBL_L_THR.Size = new System.Drawing.Size(79, 25);
+            this.LBL_L_THR.Size = new System.Drawing.Size(65, 20);
             this.LBL_L_THR.TabIndex = 19;
             this.LBL_L_THR.Text = "L_THR";
             // 
@@ -2080,10 +1972,10 @@ namespace CapacitySensor
             this.PNL_H_THR.Controls.Add(this.panel83);
             this.PNL_H_THR.Controls.Add(this.panel84);
             this.PNL_H_THR.Controls.Add(this.panel85);
-            this.PNL_H_THR.Location = new System.Drawing.Point(127, 42);
-            this.PNL_H_THR.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_H_THR.Location = new System.Drawing.Point(95, 34);
+            this.PNL_H_THR.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_H_THR.Name = "PNL_H_THR";
-            this.PNL_H_THR.Size = new System.Drawing.Size(160, 34);
+            this.PNL_H_THR.Size = new System.Drawing.Size(120, 28);
             this.PNL_H_THR.TabIndex = 18;
             // 
             // NUM_H_THR
@@ -2100,8 +1992,8 @@ namespace CapacitySensor
             0,
             0,
             262144});
-            this.NUM_H_THR.Location = new System.Drawing.Point(4, 4);
-            this.NUM_H_THR.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.NUM_H_THR.Location = new System.Drawing.Point(3, 3);
+            this.NUM_H_THR.Margin = new System.Windows.Forms.Padding(5);
             this.NUM_H_THR.Maximum = new decimal(new int[] {
             6,
             0,
@@ -2113,7 +2005,7 @@ namespace CapacitySensor
             0,
             65536});
             this.NUM_H_THR.Name = "NUM_H_THR";
-            this.NUM_H_THR.Size = new System.Drawing.Size(152, 26);
+            this.NUM_H_THR.Size = new System.Drawing.Size(114, 22);
             this.NUM_H_THR.TabIndex = 17;
             this.NUM_H_THR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NUM_H_THR.Value = new decimal(new int[] {
@@ -2127,10 +2019,9 @@ namespace CapacitySensor
             // 
             this.panel82.BackColor = System.Drawing.Color.Coral;
             this.panel82.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel82.Location = new System.Drawing.Point(159, 1);
-            this.panel82.Margin = new System.Windows.Forms.Padding(4);
+            this.panel82.Location = new System.Drawing.Point(119, 1);
             this.panel82.Name = "panel82";
-            this.panel82.Size = new System.Drawing.Size(1, 32);
+            this.panel82.Size = new System.Drawing.Size(1, 26);
             this.panel82.TabIndex = 3;
             // 
             // panel83
@@ -2138,19 +2029,17 @@ namespace CapacitySensor
             this.panel83.BackColor = System.Drawing.Color.Coral;
             this.panel83.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel83.Location = new System.Drawing.Point(0, 1);
-            this.panel83.Margin = new System.Windows.Forms.Padding(4);
             this.panel83.Name = "panel83";
-            this.panel83.Size = new System.Drawing.Size(1, 32);
+            this.panel83.Size = new System.Drawing.Size(1, 26);
             this.panel83.TabIndex = 2;
             // 
             // panel84
             // 
             this.panel84.BackColor = System.Drawing.Color.Coral;
             this.panel84.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel84.Location = new System.Drawing.Point(0, 33);
-            this.panel84.Margin = new System.Windows.Forms.Padding(4);
+            this.panel84.Location = new System.Drawing.Point(0, 27);
             this.panel84.Name = "panel84";
-            this.panel84.Size = new System.Drawing.Size(160, 1);
+            this.panel84.Size = new System.Drawing.Size(120, 1);
             this.panel84.TabIndex = 1;
             // 
             // panel85
@@ -2158,9 +2047,8 @@ namespace CapacitySensor
             this.panel85.BackColor = System.Drawing.Color.Coral;
             this.panel85.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel85.Location = new System.Drawing.Point(0, 0);
-            this.panel85.Margin = new System.Windows.Forms.Padding(4);
             this.panel85.Name = "panel85";
-            this.panel85.Size = new System.Drawing.Size(160, 1);
+            this.panel85.Size = new System.Drawing.Size(120, 1);
             this.panel85.TabIndex = 0;
             // 
             // LBL_H_THR
@@ -2168,10 +2056,9 @@ namespace CapacitySensor
             this.LBL_H_THR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_H_THR.AutoSize = true;
             this.LBL_H_THR.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_H_THR.Location = new System.Drawing.Point(29, 46);
-            this.LBL_H_THR.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_H_THR.Location = new System.Drawing.Point(22, 37);
             this.LBL_H_THR.Name = "LBL_H_THR";
-            this.LBL_H_THR.Size = new System.Drawing.Size(82, 25);
+            this.LBL_H_THR.Size = new System.Drawing.Size(68, 20);
             this.LBL_H_THR.TabIndex = 16;
             this.LBL_H_THR.Text = "H_THR";
             // 
@@ -2179,10 +2066,9 @@ namespace CapacitySensor
             // 
             this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label15.Location = new System.Drawing.Point(7, 325);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(5, 264);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(293, 62);
+            this.label15.Size = new System.Drawing.Size(220, 50);
             this.label15.TabIndex = 15;
             this.label15.Text = "Resistance of the \r\nmeasuring resistor [kΩ]";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2191,10 +2077,9 @@ namespace CapacitySensor
             // 
             this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label16.Location = new System.Drawing.Point(7, 249);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(5, 202);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(293, 31);
+            this.label16.Size = new System.Drawing.Size(220, 25);
             this.label16.TabIndex = 14;
             this.label16.Text = "Low buffer output voltage [V]";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2203,10 +2088,9 @@ namespace CapacitySensor
             // 
             this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label17.Location = new System.Drawing.Point(7, 167);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Location = new System.Drawing.Point(5, 136);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(293, 31);
+            this.label17.Size = new System.Drawing.Size(220, 25);
             this.label17.TabIndex = 13;
             this.label17.Text = "High buffer output voltage [V]";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2215,10 +2099,9 @@ namespace CapacitySensor
             // 
             this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label18.Location = new System.Drawing.Point(7, 86);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Location = new System.Drawing.Point(5, 70);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(293, 31);
+            this.label18.Size = new System.Drawing.Size(220, 25);
             this.label18.TabIndex = 12;
             this.label18.Text = "Low threshold voltage [V]";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2227,10 +2110,9 @@ namespace CapacitySensor
             // 
             this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label19.Location = new System.Drawing.Point(7, 5);
-            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Location = new System.Drawing.Point(5, 4);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(293, 31);
+            this.label19.Size = new System.Drawing.Size(220, 25);
             this.label19.TabIndex = 5;
             this.label19.Text = "High threshold voltage [V]";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2244,10 +2126,9 @@ namespace CapacitySensor
             this.BTN_ReadConst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_ReadConst.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_ReadConst.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_ReadConst.Location = new System.Drawing.Point(7, 436);
-            this.BTN_ReadConst.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_ReadConst.Location = new System.Drawing.Point(5, 354);
             this.BTN_ReadConst.Name = "BTN_ReadConst";
-            this.BTN_ReadConst.Size = new System.Drawing.Size(293, 37);
+            this.BTN_ReadConst.Size = new System.Drawing.Size(220, 30);
             this.BTN_ReadConst.TabIndex = 11;
             this.BTN_ReadConst.Text = "Read current values";
             this.BTN_ReadConst.UseVisualStyleBackColor = false;
@@ -2262,10 +2143,9 @@ namespace CapacitySensor
             this.BTN_ReadConstDef.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_ReadConstDef.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_ReadConstDef.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_ReadConstDef.Location = new System.Drawing.Point(7, 480);
-            this.BTN_ReadConstDef.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_ReadConstDef.Location = new System.Drawing.Point(5, 390);
             this.BTN_ReadConstDef.Name = "BTN_ReadConstDef";
-            this.BTN_ReadConstDef.Size = new System.Drawing.Size(293, 37);
+            this.BTN_ReadConstDef.Size = new System.Drawing.Size(220, 30);
             this.BTN_ReadConstDef.TabIndex = 10;
             this.BTN_ReadConstDef.Text = "Read default values";
             this.BTN_ReadConstDef.UseVisualStyleBackColor = false;
@@ -2280,10 +2160,9 @@ namespace CapacitySensor
             this.BTN_SetConst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_SetConst.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_SetConst.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_SetConst.Location = new System.Drawing.Point(7, 524);
-            this.BTN_SetConst.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_SetConst.Location = new System.Drawing.Point(5, 426);
             this.BTN_SetConst.Name = "BTN_SetConst";
-            this.BTN_SetConst.Size = new System.Drawing.Size(293, 37);
+            this.BTN_SetConst.Size = new System.Drawing.Size(220, 30);
             this.BTN_SetConst.TabIndex = 9;
             this.BTN_SetConst.Text = "Set values";
             this.BTN_SetConst.UseVisualStyleBackColor = false;
@@ -2293,10 +2172,10 @@ namespace CapacitySensor
             // 
             this.panel86.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel86.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel86.Location = new System.Drawing.Point(306, 1);
-            this.panel86.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel86.Location = new System.Drawing.Point(229, 1);
+            this.panel86.Margin = new System.Windows.Forms.Padding(2);
             this.panel86.Name = "panel86";
-            this.panel86.Size = new System.Drawing.Size(1, 566);
+            this.panel86.Size = new System.Drawing.Size(1, 460);
             this.panel86.TabIndex = 4;
             // 
             // panel87
@@ -2304,9 +2183,9 @@ namespace CapacitySensor
             this.panel87.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel87.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel87.Location = new System.Drawing.Point(0, 1);
-            this.panel87.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel87.Margin = new System.Windows.Forms.Padding(2);
             this.panel87.Name = "panel87";
-            this.panel87.Size = new System.Drawing.Size(1, 566);
+            this.panel87.Size = new System.Drawing.Size(1, 460);
             this.panel87.TabIndex = 3;
             // 
             // panel88
@@ -2314,28 +2193,29 @@ namespace CapacitySensor
             this.panel88.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel88.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel88.Location = new System.Drawing.Point(0, 0);
-            this.panel88.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel88.Margin = new System.Windows.Forms.Padding(2);
             this.panel88.Name = "panel88";
-            this.panel88.Size = new System.Drawing.Size(307, 1);
+            this.panel88.Size = new System.Drawing.Size(230, 1);
             this.panel88.TabIndex = 2;
             // 
             // PanelCal2
             // 
             this.PanelCal2.BackColor = System.Drawing.Color.Red;
             this.PanelCal2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelCal2.Location = new System.Drawing.Point(0, 567);
-            this.PanelCal2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelCal2.Location = new System.Drawing.Point(0, 461);
+            this.PanelCal2.Margin = new System.Windows.Forms.Padding(2);
             this.PanelCal2.Name = "PanelCal2";
-            this.PanelCal2.Size = new System.Drawing.Size(307, 2);
+            this.PanelCal2.Size = new System.Drawing.Size(230, 2);
             this.PanelCal2.TabIndex = 1;
             // 
             // LBL_BTM_CAL3
             // 
             this.LBL_BTM_CAL3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.LBL_BTM_CAL3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_BTM_CAL3.Location = new System.Drawing.Point(0, 569);
+            this.LBL_BTM_CAL3.Location = new System.Drawing.Point(0, 463);
+            this.LBL_BTM_CAL3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBL_BTM_CAL3.Name = "LBL_BTM_CAL3";
-            this.LBL_BTM_CAL3.Size = new System.Drawing.Size(307, 30);
+            this.LBL_BTM_CAL3.Size = new System.Drawing.Size(230, 24);
             this.LBL_BTM_CAL3.TabIndex = 0;
             this.LBL_BTM_CAL3.Text = "Constants";
             this.LBL_BTM_CAL3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2373,10 +2253,10 @@ namespace CapacitySensor
             this.PNL_Corr.Controls.Add(this.label50);
             this.PNL_Corr.Controls.Add(this.label49);
             this.PNL_Corr.Controls.Add(this.label51);
-            this.PNL_Corr.Location = new System.Drawing.Point(319, 152);
+            this.PNL_Corr.Location = new System.Drawing.Point(239, 124);
             this.PNL_Corr.Margin = new System.Windows.Forms.Padding(0);
             this.PNL_Corr.Name = "PNL_Corr";
-            this.PNL_Corr.Size = new System.Drawing.Size(267, 434);
+            this.PNL_Corr.Size = new System.Drawing.Size(200, 353);
             this.PNL_Corr.TabIndex = 29;
             // 
             // label27
@@ -2385,10 +2265,9 @@ namespace CapacitySensor
             this.label27.AutoEllipsis = true;
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label27.Location = new System.Drawing.Point(129, 38);
-            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label27.Location = new System.Drawing.Point(97, 31);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(16, 17);
+            this.label27.Size = new System.Drawing.Size(13, 13);
             this.label27.TabIndex = 46;
             this.label27.Text = "2";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2398,10 +2277,9 @@ namespace CapacitySensor
             this.label28.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label28.Location = new System.Drawing.Point(25, 59);
-            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label28.Location = new System.Drawing.Point(19, 48);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(16, 17);
+            this.label28.Size = new System.Drawing.Size(13, 13);
             this.label28.TabIndex = 45;
             this.label28.Text = "3";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2411,10 +2289,9 @@ namespace CapacitySensor
             this.label29.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label29.Location = new System.Drawing.Point(52, 37);
-            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label29.Location = new System.Drawing.Point(39, 30);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(16, 17);
+            this.label29.Size = new System.Drawing.Size(13, 13);
             this.label29.TabIndex = 44;
             this.label29.Text = "3";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2425,10 +2302,9 @@ namespace CapacitySensor
             this.label21.AutoEllipsis = true;
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label21.Location = new System.Drawing.Point(100, 59);
-            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Location = new System.Drawing.Point(75, 48);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(16, 17);
+            this.label21.Size = new System.Drawing.Size(13, 13);
             this.label21.TabIndex = 43;
             this.label21.Text = "2";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2440,10 +2316,9 @@ namespace CapacitySensor
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label24.Location = new System.Drawing.Point(176, 62);
-            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label24.Location = new System.Drawing.Point(132, 50);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(16, 17);
+            this.label24.Size = new System.Drawing.Size(13, 13);
             this.label24.TabIndex = 42;
             this.label24.Text = "1";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2453,10 +2328,9 @@ namespace CapacitySensor
             this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label22.Location = new System.Drawing.Point(247, 62);
-            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Location = new System.Drawing.Point(185, 50);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(16, 17);
+            this.label22.Size = new System.Drawing.Size(13, 13);
             this.label22.TabIndex = 41;
             this.label22.Text = "0";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2466,10 +2340,9 @@ namespace CapacitySensor
             this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label23.Location = new System.Drawing.Point(1, 6);
-            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label23.Location = new System.Drawing.Point(1, 5);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(264, 62);
+            this.label23.Size = new System.Drawing.Size(198, 50);
             this.label23.TabIndex = 25;
             this.label23.Text = "Cx (Cp) [F] = \r\n\r\na   Cp  + a   Cp  + a   Cp + a";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2479,10 +2352,9 @@ namespace CapacitySensor
             this.LBL_A0_.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_A0_.AutoSize = true;
             this.LBL_A0_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_A0_.Location = new System.Drawing.Point(27, 101);
-            this.LBL_A0_.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_A0_.Location = new System.Drawing.Point(20, 82);
             this.LBL_A0_.Name = "LBL_A0_";
-            this.LBL_A0_.Size = new System.Drawing.Size(16, 18);
+            this.LBL_A0_.Size = new System.Drawing.Size(14, 15);
             this.LBL_A0_.TabIndex = 40;
             this.LBL_A0_.Text = "0";
             this.LBL_A0_.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2492,10 +2364,9 @@ namespace CapacitySensor
             this.LBL_A1_.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_A1_.AutoSize = true;
             this.LBL_A1_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_A1_.Location = new System.Drawing.Point(27, 148);
-            this.LBL_A1_.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_A1_.Location = new System.Drawing.Point(20, 120);
             this.LBL_A1_.Name = "LBL_A1_";
-            this.LBL_A1_.Size = new System.Drawing.Size(16, 18);
+            this.LBL_A1_.Size = new System.Drawing.Size(14, 15);
             this.LBL_A1_.TabIndex = 37;
             this.LBL_A1_.Text = "1";
             this.LBL_A1_.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2508,10 +2379,10 @@ namespace CapacitySensor
             this.PNL_A0.Controls.Add(this.panel61);
             this.PNL_A0.Controls.Add(this.panel62);
             this.PNL_A0.Controls.Add(this.panel63);
-            this.PNL_A0.Location = new System.Drawing.Point(49, 85);
-            this.PNL_A0.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_A0.Location = new System.Drawing.Point(37, 69);
+            this.PNL_A0.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_A0.Name = "PNL_A0";
-            this.PNL_A0.Size = new System.Drawing.Size(160, 34);
+            this.PNL_A0.Size = new System.Drawing.Size(120, 28);
             this.PNL_A0.TabIndex = 39;
             // 
             // NUM_A0
@@ -2528,8 +2399,8 @@ namespace CapacitySensor
             0,
             0,
             196608});
-            this.NUM_A0.Location = new System.Drawing.Point(4, 4);
-            this.NUM_A0.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.NUM_A0.Location = new System.Drawing.Point(3, 3);
+            this.NUM_A0.Margin = new System.Windows.Forms.Padding(5);
             this.NUM_A0.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -2541,7 +2412,7 @@ namespace CapacitySensor
             0,
             -2147483648});
             this.NUM_A0.Name = "NUM_A0";
-            this.NUM_A0.Size = new System.Drawing.Size(152, 26);
+            this.NUM_A0.Size = new System.Drawing.Size(114, 22);
             this.NUM_A0.TabIndex = 17;
             this.NUM_A0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NUM_A0.ValueChanged += new System.EventHandler(this.Numeric_ValueChanged);
@@ -2550,10 +2421,9 @@ namespace CapacitySensor
             // 
             this.panel60.BackColor = System.Drawing.Color.Coral;
             this.panel60.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel60.Location = new System.Drawing.Point(159, 1);
-            this.panel60.Margin = new System.Windows.Forms.Padding(4);
+            this.panel60.Location = new System.Drawing.Point(119, 1);
             this.panel60.Name = "panel60";
-            this.panel60.Size = new System.Drawing.Size(1, 32);
+            this.panel60.Size = new System.Drawing.Size(1, 26);
             this.panel60.TabIndex = 3;
             // 
             // panel61
@@ -2561,19 +2431,17 @@ namespace CapacitySensor
             this.panel61.BackColor = System.Drawing.Color.Coral;
             this.panel61.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel61.Location = new System.Drawing.Point(0, 1);
-            this.panel61.Margin = new System.Windows.Forms.Padding(4);
             this.panel61.Name = "panel61";
-            this.panel61.Size = new System.Drawing.Size(1, 32);
+            this.panel61.Size = new System.Drawing.Size(1, 26);
             this.panel61.TabIndex = 2;
             // 
             // panel62
             // 
             this.panel62.BackColor = System.Drawing.Color.Coral;
             this.panel62.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel62.Location = new System.Drawing.Point(0, 33);
-            this.panel62.Margin = new System.Windows.Forms.Padding(4);
+            this.panel62.Location = new System.Drawing.Point(0, 27);
             this.panel62.Name = "panel62";
-            this.panel62.Size = new System.Drawing.Size(160, 1);
+            this.panel62.Size = new System.Drawing.Size(120, 1);
             this.panel62.TabIndex = 1;
             // 
             // panel63
@@ -2581,9 +2449,8 @@ namespace CapacitySensor
             this.panel63.BackColor = System.Drawing.Color.Coral;
             this.panel63.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel63.Location = new System.Drawing.Point(0, 0);
-            this.panel63.Margin = new System.Windows.Forms.Padding(4);
             this.panel63.Name = "panel63";
-            this.panel63.Size = new System.Drawing.Size(160, 1);
+            this.panel63.Size = new System.Drawing.Size(120, 1);
             this.panel63.TabIndex = 0;
             // 
             // LBL_A0
@@ -2591,10 +2458,9 @@ namespace CapacitySensor
             this.LBL_A0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_A0.AutoSize = true;
             this.LBL_A0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_A0.Location = new System.Drawing.Point(8, 89);
-            this.LBL_A0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_A0.Location = new System.Drawing.Point(6, 72);
             this.LBL_A0.Name = "LBL_A0";
-            this.LBL_A0.Size = new System.Drawing.Size(24, 25);
+            this.LBL_A0.Size = new System.Drawing.Size(19, 20);
             this.LBL_A0.TabIndex = 38;
             this.LBL_A0.Text = "a";
             this.LBL_A0.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -2604,10 +2470,9 @@ namespace CapacitySensor
             this.LBL_A2_.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_A2_.AutoSize = true;
             this.LBL_A2_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_A2_.Location = new System.Drawing.Point(27, 194);
-            this.LBL_A2_.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_A2_.Location = new System.Drawing.Point(20, 158);
             this.LBL_A2_.Name = "LBL_A2_";
-            this.LBL_A2_.Size = new System.Drawing.Size(16, 18);
+            this.LBL_A2_.Size = new System.Drawing.Size(14, 15);
             this.LBL_A2_.TabIndex = 34;
             this.LBL_A2_.Text = "2";
             this.LBL_A2_.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2620,10 +2485,10 @@ namespace CapacitySensor
             this.PNL_A1.Controls.Add(this.panel56);
             this.PNL_A1.Controls.Add(this.panel57);
             this.PNL_A1.Controls.Add(this.panel58);
-            this.PNL_A1.Location = new System.Drawing.Point(49, 132);
-            this.PNL_A1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_A1.Location = new System.Drawing.Point(37, 107);
+            this.PNL_A1.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_A1.Name = "PNL_A1";
-            this.PNL_A1.Size = new System.Drawing.Size(160, 34);
+            this.PNL_A1.Size = new System.Drawing.Size(120, 28);
             this.PNL_A1.TabIndex = 36;
             // 
             // NUM_A1
@@ -2640,8 +2505,8 @@ namespace CapacitySensor
             0,
             0,
             196608});
-            this.NUM_A1.Location = new System.Drawing.Point(4, 4);
-            this.NUM_A1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.NUM_A1.Location = new System.Drawing.Point(3, 3);
+            this.NUM_A1.Margin = new System.Windows.Forms.Padding(5);
             this.NUM_A1.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -2653,7 +2518,7 @@ namespace CapacitySensor
             0,
             -2147483648});
             this.NUM_A1.Name = "NUM_A1";
-            this.NUM_A1.Size = new System.Drawing.Size(152, 26);
+            this.NUM_A1.Size = new System.Drawing.Size(114, 22);
             this.NUM_A1.TabIndex = 17;
             this.NUM_A1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NUM_A1.Value = new decimal(new int[] {
@@ -2667,10 +2532,9 @@ namespace CapacitySensor
             // 
             this.panel55.BackColor = System.Drawing.Color.Coral;
             this.panel55.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel55.Location = new System.Drawing.Point(159, 1);
-            this.panel55.Margin = new System.Windows.Forms.Padding(4);
+            this.panel55.Location = new System.Drawing.Point(119, 1);
             this.panel55.Name = "panel55";
-            this.panel55.Size = new System.Drawing.Size(1, 32);
+            this.panel55.Size = new System.Drawing.Size(1, 26);
             this.panel55.TabIndex = 3;
             // 
             // panel56
@@ -2678,19 +2542,17 @@ namespace CapacitySensor
             this.panel56.BackColor = System.Drawing.Color.Coral;
             this.panel56.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel56.Location = new System.Drawing.Point(0, 1);
-            this.panel56.Margin = new System.Windows.Forms.Padding(4);
             this.panel56.Name = "panel56";
-            this.panel56.Size = new System.Drawing.Size(1, 32);
+            this.panel56.Size = new System.Drawing.Size(1, 26);
             this.panel56.TabIndex = 2;
             // 
             // panel57
             // 
             this.panel57.BackColor = System.Drawing.Color.Coral;
             this.panel57.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel57.Location = new System.Drawing.Point(0, 33);
-            this.panel57.Margin = new System.Windows.Forms.Padding(4);
+            this.panel57.Location = new System.Drawing.Point(0, 27);
             this.panel57.Name = "panel57";
-            this.panel57.Size = new System.Drawing.Size(160, 1);
+            this.panel57.Size = new System.Drawing.Size(120, 1);
             this.panel57.TabIndex = 1;
             // 
             // panel58
@@ -2698,9 +2560,8 @@ namespace CapacitySensor
             this.panel58.BackColor = System.Drawing.Color.Coral;
             this.panel58.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel58.Location = new System.Drawing.Point(0, 0);
-            this.panel58.Margin = new System.Windows.Forms.Padding(4);
             this.panel58.Name = "panel58";
-            this.panel58.Size = new System.Drawing.Size(160, 1);
+            this.panel58.Size = new System.Drawing.Size(120, 1);
             this.panel58.TabIndex = 0;
             // 
             // LBL_A1
@@ -2708,10 +2569,9 @@ namespace CapacitySensor
             this.LBL_A1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_A1.AutoSize = true;
             this.LBL_A1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_A1.Location = new System.Drawing.Point(8, 135);
-            this.LBL_A1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_A1.Location = new System.Drawing.Point(6, 110);
             this.LBL_A1.Name = "LBL_A1";
-            this.LBL_A1.Size = new System.Drawing.Size(24, 25);
+            this.LBL_A1.Size = new System.Drawing.Size(19, 20);
             this.LBL_A1.TabIndex = 35;
             this.LBL_A1.Text = "a";
             // 
@@ -2720,10 +2580,9 @@ namespace CapacitySensor
             this.LBL_A3_.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_A3_.AutoSize = true;
             this.LBL_A3_.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_A3_.Location = new System.Drawing.Point(27, 241);
-            this.LBL_A3_.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_A3_.Location = new System.Drawing.Point(20, 196);
             this.LBL_A3_.Name = "LBL_A3_";
-            this.LBL_A3_.Size = new System.Drawing.Size(16, 18);
+            this.LBL_A3_.Size = new System.Drawing.Size(14, 15);
             this.LBL_A3_.TabIndex = 31;
             this.LBL_A3_.Text = "3";
             this.LBL_A3_.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2736,10 +2595,10 @@ namespace CapacitySensor
             this.PNL_A2.Controls.Add(this.panel51);
             this.PNL_A2.Controls.Add(this.panel52);
             this.PNL_A2.Controls.Add(this.panel53);
-            this.PNL_A2.Location = new System.Drawing.Point(49, 178);
-            this.PNL_A2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_A2.Location = new System.Drawing.Point(37, 145);
+            this.PNL_A2.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_A2.Name = "PNL_A2";
-            this.PNL_A2.Size = new System.Drawing.Size(160, 34);
+            this.PNL_A2.Size = new System.Drawing.Size(120, 28);
             this.PNL_A2.TabIndex = 33;
             // 
             // NUM_A2
@@ -2756,8 +2615,8 @@ namespace CapacitySensor
             0,
             0,
             196608});
-            this.NUM_A2.Location = new System.Drawing.Point(4, 4);
-            this.NUM_A2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.NUM_A2.Location = new System.Drawing.Point(3, 3);
+            this.NUM_A2.Margin = new System.Windows.Forms.Padding(5);
             this.NUM_A2.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -2769,7 +2628,7 @@ namespace CapacitySensor
             0,
             -2147483648});
             this.NUM_A2.Name = "NUM_A2";
-            this.NUM_A2.Size = new System.Drawing.Size(152, 26);
+            this.NUM_A2.Size = new System.Drawing.Size(114, 22);
             this.NUM_A2.TabIndex = 17;
             this.NUM_A2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NUM_A2.ValueChanged += new System.EventHandler(this.Numeric_ValueChanged);
@@ -2778,10 +2637,9 @@ namespace CapacitySensor
             // 
             this.panel50.BackColor = System.Drawing.Color.Coral;
             this.panel50.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel50.Location = new System.Drawing.Point(159, 1);
-            this.panel50.Margin = new System.Windows.Forms.Padding(4);
+            this.panel50.Location = new System.Drawing.Point(119, 1);
             this.panel50.Name = "panel50";
-            this.panel50.Size = new System.Drawing.Size(1, 32);
+            this.panel50.Size = new System.Drawing.Size(1, 26);
             this.panel50.TabIndex = 3;
             // 
             // panel51
@@ -2789,19 +2647,17 @@ namespace CapacitySensor
             this.panel51.BackColor = System.Drawing.Color.Coral;
             this.panel51.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel51.Location = new System.Drawing.Point(0, 1);
-            this.panel51.Margin = new System.Windows.Forms.Padding(4);
             this.panel51.Name = "panel51";
-            this.panel51.Size = new System.Drawing.Size(1, 32);
+            this.panel51.Size = new System.Drawing.Size(1, 26);
             this.panel51.TabIndex = 2;
             // 
             // panel52
             // 
             this.panel52.BackColor = System.Drawing.Color.Coral;
             this.panel52.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel52.Location = new System.Drawing.Point(0, 33);
-            this.panel52.Margin = new System.Windows.Forms.Padding(4);
+            this.panel52.Location = new System.Drawing.Point(0, 27);
             this.panel52.Name = "panel52";
-            this.panel52.Size = new System.Drawing.Size(160, 1);
+            this.panel52.Size = new System.Drawing.Size(120, 1);
             this.panel52.TabIndex = 1;
             // 
             // panel53
@@ -2809,9 +2665,8 @@ namespace CapacitySensor
             this.panel53.BackColor = System.Drawing.Color.Coral;
             this.panel53.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel53.Location = new System.Drawing.Point(0, 0);
-            this.panel53.Margin = new System.Windows.Forms.Padding(4);
             this.panel53.Name = "panel53";
-            this.panel53.Size = new System.Drawing.Size(160, 1);
+            this.panel53.Size = new System.Drawing.Size(120, 1);
             this.panel53.TabIndex = 0;
             // 
             // LBL_A2
@@ -2819,10 +2674,9 @@ namespace CapacitySensor
             this.LBL_A2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_A2.AutoSize = true;
             this.LBL_A2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_A2.Location = new System.Drawing.Point(8, 182);
-            this.LBL_A2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_A2.Location = new System.Drawing.Point(6, 148);
             this.LBL_A2.Name = "LBL_A2";
-            this.LBL_A2.Size = new System.Drawing.Size(24, 25);
+            this.LBL_A2.Size = new System.Drawing.Size(19, 20);
             this.LBL_A2.TabIndex = 32;
             this.LBL_A2.Text = "a";
             // 
@@ -2834,10 +2688,10 @@ namespace CapacitySensor
             this.PNL_A3.Controls.Add(this.panel46);
             this.PNL_A3.Controls.Add(this.panel47);
             this.PNL_A3.Controls.Add(this.panel48);
-            this.PNL_A3.Location = new System.Drawing.Point(49, 225);
-            this.PNL_A3.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_A3.Location = new System.Drawing.Point(37, 183);
+            this.PNL_A3.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_A3.Name = "PNL_A3";
-            this.PNL_A3.Size = new System.Drawing.Size(160, 34);
+            this.PNL_A3.Size = new System.Drawing.Size(120, 28);
             this.PNL_A3.TabIndex = 30;
             // 
             // NUM_A3
@@ -2854,8 +2708,8 @@ namespace CapacitySensor
             0,
             0,
             196608});
-            this.NUM_A3.Location = new System.Drawing.Point(4, 4);
-            this.NUM_A3.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.NUM_A3.Location = new System.Drawing.Point(3, 3);
+            this.NUM_A3.Margin = new System.Windows.Forms.Padding(5);
             this.NUM_A3.Maximum = new decimal(new int[] {
             1661992960,
             1808227885,
@@ -2867,7 +2721,7 @@ namespace CapacitySensor
             5,
             -2147483648});
             this.NUM_A3.Name = "NUM_A3";
-            this.NUM_A3.Size = new System.Drawing.Size(152, 26);
+            this.NUM_A3.Size = new System.Drawing.Size(114, 22);
             this.NUM_A3.TabIndex = 17;
             this.NUM_A3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NUM_A3.ValueChanged += new System.EventHandler(this.Numeric_ValueChanged);
@@ -2876,10 +2730,9 @@ namespace CapacitySensor
             // 
             this.panel45.BackColor = System.Drawing.Color.Coral;
             this.panel45.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel45.Location = new System.Drawing.Point(159, 1);
-            this.panel45.Margin = new System.Windows.Forms.Padding(4);
+            this.panel45.Location = new System.Drawing.Point(119, 1);
             this.panel45.Name = "panel45";
-            this.panel45.Size = new System.Drawing.Size(1, 32);
+            this.panel45.Size = new System.Drawing.Size(1, 26);
             this.panel45.TabIndex = 3;
             // 
             // panel46
@@ -2887,19 +2740,17 @@ namespace CapacitySensor
             this.panel46.BackColor = System.Drawing.Color.Coral;
             this.panel46.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel46.Location = new System.Drawing.Point(0, 1);
-            this.panel46.Margin = new System.Windows.Forms.Padding(4);
             this.panel46.Name = "panel46";
-            this.panel46.Size = new System.Drawing.Size(1, 32);
+            this.panel46.Size = new System.Drawing.Size(1, 26);
             this.panel46.TabIndex = 2;
             // 
             // panel47
             // 
             this.panel47.BackColor = System.Drawing.Color.Coral;
             this.panel47.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel47.Location = new System.Drawing.Point(0, 33);
-            this.panel47.Margin = new System.Windows.Forms.Padding(4);
+            this.panel47.Location = new System.Drawing.Point(0, 27);
             this.panel47.Name = "panel47";
-            this.panel47.Size = new System.Drawing.Size(160, 1);
+            this.panel47.Size = new System.Drawing.Size(120, 1);
             this.panel47.TabIndex = 1;
             // 
             // panel48
@@ -2907,9 +2758,8 @@ namespace CapacitySensor
             this.panel48.BackColor = System.Drawing.Color.Coral;
             this.panel48.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel48.Location = new System.Drawing.Point(0, 0);
-            this.panel48.Margin = new System.Windows.Forms.Padding(4);
             this.panel48.Name = "panel48";
-            this.panel48.Size = new System.Drawing.Size(160, 1);
+            this.panel48.Size = new System.Drawing.Size(120, 1);
             this.panel48.TabIndex = 0;
             // 
             // LBL_A3
@@ -2917,10 +2767,9 @@ namespace CapacitySensor
             this.LBL_A3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_A3.AutoSize = true;
             this.LBL_A3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_A3.Location = new System.Drawing.Point(8, 229);
-            this.LBL_A3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_A3.Location = new System.Drawing.Point(6, 186);
             this.LBL_A3.Name = "LBL_A3";
-            this.LBL_A3.Size = new System.Drawing.Size(24, 25);
+            this.LBL_A3.Size = new System.Drawing.Size(19, 20);
             this.LBL_A3.TabIndex = 29;
             this.LBL_A3.Text = "a";
             // 
@@ -2933,10 +2782,9 @@ namespace CapacitySensor
             this.BTN_ReadCorr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_ReadCorr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_ReadCorr.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_ReadCorr.Location = new System.Drawing.Point(7, 271);
-            this.BTN_ReadCorr.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_ReadCorr.Location = new System.Drawing.Point(5, 220);
             this.BTN_ReadCorr.Name = "BTN_ReadCorr";
-            this.BTN_ReadCorr.Size = new System.Drawing.Size(253, 37);
+            this.BTN_ReadCorr.Size = new System.Drawing.Size(190, 30);
             this.BTN_ReadCorr.TabIndex = 27;
             this.BTN_ReadCorr.Text = "Read current values";
             this.BTN_ReadCorr.UseVisualStyleBackColor = false;
@@ -2951,10 +2799,9 @@ namespace CapacitySensor
             this.BTN_ReadCorrDef.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_ReadCorrDef.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_ReadCorrDef.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_ReadCorrDef.Location = new System.Drawing.Point(7, 315);
-            this.BTN_ReadCorrDef.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_ReadCorrDef.Location = new System.Drawing.Point(5, 256);
             this.BTN_ReadCorrDef.Name = "BTN_ReadCorrDef";
-            this.BTN_ReadCorrDef.Size = new System.Drawing.Size(253, 37);
+            this.BTN_ReadCorrDef.Size = new System.Drawing.Size(190, 30);
             this.BTN_ReadCorrDef.TabIndex = 26;
             this.BTN_ReadCorrDef.Text = "Read default values";
             this.BTN_ReadCorrDef.UseVisualStyleBackColor = false;
@@ -2964,10 +2811,10 @@ namespace CapacitySensor
             // 
             this.panel28.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel28.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel28.Location = new System.Drawing.Point(266, 1);
-            this.panel28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel28.Location = new System.Drawing.Point(199, 1);
+            this.panel28.Margin = new System.Windows.Forms.Padding(2);
             this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(1, 401);
+            this.panel28.Size = new System.Drawing.Size(1, 326);
             this.panel28.TabIndex = 4;
             // 
             // BTN_SetCorr
@@ -2979,10 +2826,9 @@ namespace CapacitySensor
             this.BTN_SetCorr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_SetCorr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_SetCorr.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_SetCorr.Location = new System.Drawing.Point(7, 359);
-            this.BTN_SetCorr.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_SetCorr.Location = new System.Drawing.Point(5, 292);
             this.BTN_SetCorr.Name = "BTN_SetCorr";
-            this.BTN_SetCorr.Size = new System.Drawing.Size(253, 37);
+            this.BTN_SetCorr.Size = new System.Drawing.Size(190, 30);
             this.BTN_SetCorr.TabIndex = 25;
             this.BTN_SetCorr.Text = "Set values";
             this.BTN_SetCorr.UseVisualStyleBackColor = false;
@@ -2993,9 +2839,9 @@ namespace CapacitySensor
             this.panel29.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel29.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel29.Location = new System.Drawing.Point(0, 1);
-            this.panel29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel29.Margin = new System.Windows.Forms.Padding(2);
             this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(1, 401);
+            this.panel29.Size = new System.Drawing.Size(1, 326);
             this.panel29.TabIndex = 3;
             // 
             // panel44
@@ -3003,28 +2849,29 @@ namespace CapacitySensor
             this.panel44.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel44.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel44.Location = new System.Drawing.Point(0, 0);
-            this.panel44.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel44.Margin = new System.Windows.Forms.Padding(2);
             this.panel44.Name = "panel44";
-            this.panel44.Size = new System.Drawing.Size(267, 1);
+            this.panel44.Size = new System.Drawing.Size(200, 1);
             this.panel44.TabIndex = 2;
             // 
             // PanelCal3
             // 
             this.PanelCal3.BackColor = System.Drawing.Color.Red;
             this.PanelCal3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelCal3.Location = new System.Drawing.Point(0, 402);
-            this.PanelCal3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelCal3.Location = new System.Drawing.Point(0, 327);
+            this.PanelCal3.Margin = new System.Windows.Forms.Padding(2);
             this.PanelCal3.Name = "PanelCal3";
-            this.PanelCal3.Size = new System.Drawing.Size(267, 2);
+            this.PanelCal3.Size = new System.Drawing.Size(200, 2);
             this.PanelCal3.TabIndex = 1;
             // 
             // LBL_BTM_CAL2
             // 
             this.LBL_BTM_CAL2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.LBL_BTM_CAL2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_BTM_CAL2.Location = new System.Drawing.Point(0, 404);
+            this.LBL_BTM_CAL2.Location = new System.Drawing.Point(0, 329);
+            this.LBL_BTM_CAL2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBL_BTM_CAL2.Name = "LBL_BTM_CAL2";
-            this.LBL_BTM_CAL2.Size = new System.Drawing.Size(267, 30);
+            this.LBL_BTM_CAL2.Size = new System.Drawing.Size(200, 24);
             this.LBL_BTM_CAL2.TabIndex = 0;
             this.LBL_BTM_CAL2.Text = "Correction";
             this.LBL_BTM_CAL2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3034,10 +2881,9 @@ namespace CapacitySensor
             this.label50.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label50.Location = new System.Drawing.Point(208, 181);
-            this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label50.Location = new System.Drawing.Point(156, 147);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(50, 25);
+            this.label50.Size = new System.Drawing.Size(41, 20);
             this.label50.TabIndex = 48;
             this.label50.Text = "E10";
             this.label50.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -3047,10 +2893,9 @@ namespace CapacitySensor
             this.label49.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label49.Location = new System.Drawing.Point(208, 228);
-            this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label49.Location = new System.Drawing.Point(156, 185);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(50, 25);
+            this.label49.Size = new System.Drawing.Size(41, 20);
             this.label49.TabIndex = 47;
             this.label49.Text = "E19";
             this.label49.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -3060,10 +2905,9 @@ namespace CapacitySensor
             this.label51.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label51.Location = new System.Drawing.Point(208, 89);
-            this.label51.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label51.Location = new System.Drawing.Point(156, 72);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(58, 25);
+            this.label51.Size = new System.Drawing.Size(47, 20);
             this.label51.TabIndex = 49;
             this.label51.Text = "E-10";
             this.label51.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -3076,10 +2920,9 @@ namespace CapacitySensor
             this.PageMeasurement.Controls.Add(this.PNL_Temperature);
             this.PageMeasurement.Controls.Add(this.PNL_Capacity);
             this.PageMeasurement.Location = new System.Drawing.Point(4, 34);
-            this.PageMeasurement.Margin = new System.Windows.Forms.Padding(4);
             this.PageMeasurement.Name = "PageMeasurement";
-            this.PageMeasurement.Padding = new System.Windows.Forms.Padding(4);
-            this.PageMeasurement.Size = new System.Drawing.Size(1058, 582);
+            this.PageMeasurement.Padding = new System.Windows.Forms.Padding(3);
+            this.PageMeasurement.Size = new System.Drawing.Size(792, 467);
             this.PageMeasurement.TabIndex = 3;
             this.PageMeasurement.Text = "Measurement";
             this.PageMeasurement.UseVisualStyleBackColor = true;
@@ -3094,10 +2937,10 @@ namespace CapacitySensor
             this.PNL_DewPoint.Controls.Add(this.panel18);
             this.PNL_DewPoint.Controls.Add(this.PanelMeas4);
             this.PNL_DewPoint.Controls.Add(this.label11);
-            this.PNL_DewPoint.Location = new System.Drawing.Point(792, 3);
+            this.PNL_DewPoint.Location = new System.Drawing.Point(594, 2);
             this.PNL_DewPoint.Margin = new System.Windows.Forms.Padding(0);
             this.PNL_DewPoint.Name = "PNL_DewPoint";
-            this.PNL_DewPoint.Size = new System.Drawing.Size(260, 144);
+            this.PNL_DewPoint.Size = new System.Drawing.Size(195, 117);
             this.PNL_DewPoint.TabIndex = 32;
             // 
             // LBL_DP
@@ -3107,7 +2950,7 @@ namespace CapacitySensor
             this.LBL_DP.Location = new System.Drawing.Point(1, 1);
             this.LBL_DP.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_DP.Name = "LBL_DP";
-            this.LBL_DP.Size = new System.Drawing.Size(258, 111);
+            this.LBL_DP.Size = new System.Drawing.Size(193, 90);
             this.LBL_DP.TabIndex = 7;
             this.LBL_DP.Text = "-";
             this.LBL_DP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3119,7 +2962,7 @@ namespace CapacitySensor
             this.label10.Location = new System.Drawing.Point(1, 1);
             this.label10.Margin = new System.Windows.Forms.Padding(0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(258, 111);
+            this.label10.Size = new System.Drawing.Size(193, 90);
             this.label10.TabIndex = 5;
             this.label10.Text = "24,5 oC";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3128,10 +2971,10 @@ namespace CapacitySensor
             // 
             this.panel16.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel16.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel16.Location = new System.Drawing.Point(259, 1);
-            this.panel16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel16.Location = new System.Drawing.Point(194, 1);
+            this.panel16.Margin = new System.Windows.Forms.Padding(2);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(1, 111);
+            this.panel16.Size = new System.Drawing.Size(1, 90);
             this.panel16.TabIndex = 4;
             // 
             // panel17
@@ -3139,9 +2982,9 @@ namespace CapacitySensor
             this.panel17.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel17.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel17.Location = new System.Drawing.Point(0, 1);
-            this.panel17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel17.Margin = new System.Windows.Forms.Padding(2);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(1, 111);
+            this.panel17.Size = new System.Drawing.Size(1, 90);
             this.panel17.TabIndex = 3;
             // 
             // panel18
@@ -3149,28 +2992,29 @@ namespace CapacitySensor
             this.panel18.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel18.Location = new System.Drawing.Point(0, 0);
-            this.panel18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel18.Margin = new System.Windows.Forms.Padding(2);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(260, 1);
+            this.panel18.Size = new System.Drawing.Size(195, 1);
             this.panel18.TabIndex = 2;
             // 
             // PanelMeas4
             // 
             this.PanelMeas4.BackColor = System.Drawing.Color.Red;
             this.PanelMeas4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelMeas4.Location = new System.Drawing.Point(0, 112);
-            this.PanelMeas4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelMeas4.Location = new System.Drawing.Point(0, 91);
+            this.PanelMeas4.Margin = new System.Windows.Forms.Padding(2);
             this.PanelMeas4.Name = "PanelMeas4";
-            this.PanelMeas4.Size = new System.Drawing.Size(260, 2);
+            this.PanelMeas4.Size = new System.Drawing.Size(195, 2);
             this.PanelMeas4.TabIndex = 1;
             // 
             // label11
             // 
             this.label11.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label11.Location = new System.Drawing.Point(0, 114);
+            this.label11.Location = new System.Drawing.Point(0, 93);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(260, 30);
+            this.label11.Size = new System.Drawing.Size(195, 24);
             this.label11.TabIndex = 0;
             this.label11.Text = "Dew Point";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3185,10 +3029,10 @@ namespace CapacitySensor
             this.PNL_Humidity.Controls.Add(this.panel13);
             this.PNL_Humidity.Controls.Add(this.PanelMeas3);
             this.PNL_Humidity.Controls.Add(this.label8);
-            this.PNL_Humidity.Location = new System.Drawing.Point(529, 3);
+            this.PNL_Humidity.Location = new System.Drawing.Point(397, 2);
             this.PNL_Humidity.Margin = new System.Windows.Forms.Padding(0);
             this.PNL_Humidity.Name = "PNL_Humidity";
-            this.PNL_Humidity.Size = new System.Drawing.Size(260, 144);
+            this.PNL_Humidity.Size = new System.Drawing.Size(195, 117);
             this.PNL_Humidity.TabIndex = 31;
             // 
             // LBL_RH
@@ -3198,7 +3042,7 @@ namespace CapacitySensor
             this.LBL_RH.Location = new System.Drawing.Point(1, 1);
             this.LBL_RH.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_RH.Name = "LBL_RH";
-            this.LBL_RH.Size = new System.Drawing.Size(258, 111);
+            this.LBL_RH.Size = new System.Drawing.Size(193, 90);
             this.LBL_RH.TabIndex = 7;
             this.LBL_RH.Text = "-";
             this.LBL_RH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3210,7 +3054,7 @@ namespace CapacitySensor
             this.label7.Location = new System.Drawing.Point(1, 1);
             this.label7.Margin = new System.Windows.Forms.Padding(0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(258, 111);
+            this.label7.Size = new System.Drawing.Size(193, 90);
             this.label7.TabIndex = 5;
             this.label7.Text = "24,5 oC";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3219,10 +3063,10 @@ namespace CapacitySensor
             // 
             this.panel11.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(259, 1);
-            this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel11.Location = new System.Drawing.Point(194, 1);
+            this.panel11.Margin = new System.Windows.Forms.Padding(2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1, 111);
+            this.panel11.Size = new System.Drawing.Size(1, 90);
             this.panel11.TabIndex = 4;
             // 
             // panel12
@@ -3230,9 +3074,9 @@ namespace CapacitySensor
             this.panel12.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel12.Location = new System.Drawing.Point(0, 1);
-            this.panel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel12.Margin = new System.Windows.Forms.Padding(2);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(1, 111);
+            this.panel12.Size = new System.Drawing.Size(1, 90);
             this.panel12.TabIndex = 3;
             // 
             // panel13
@@ -3240,28 +3084,29 @@ namespace CapacitySensor
             this.panel13.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel13.Location = new System.Drawing.Point(0, 0);
-            this.panel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel13.Margin = new System.Windows.Forms.Padding(2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(260, 1);
+            this.panel13.Size = new System.Drawing.Size(195, 1);
             this.panel13.TabIndex = 2;
             // 
             // PanelMeas3
             // 
             this.PanelMeas3.BackColor = System.Drawing.Color.Red;
             this.PanelMeas3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelMeas3.Location = new System.Drawing.Point(0, 112);
-            this.PanelMeas3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelMeas3.Location = new System.Drawing.Point(0, 91);
+            this.PanelMeas3.Margin = new System.Windows.Forms.Padding(2);
             this.PanelMeas3.Name = "PanelMeas3";
-            this.PanelMeas3.Size = new System.Drawing.Size(260, 2);
+            this.PanelMeas3.Size = new System.Drawing.Size(195, 2);
             this.PanelMeas3.TabIndex = 1;
             // 
             // label8
             // 
             this.label8.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label8.Location = new System.Drawing.Point(0, 114);
+            this.label8.Location = new System.Drawing.Point(0, 93);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(260, 30);
+            this.label8.Size = new System.Drawing.Size(195, 24);
             this.label8.TabIndex = 0;
             this.label8.Text = "Humidity";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3275,10 +3120,10 @@ namespace CapacitySensor
             this.PNL_MeasurementGlobal.Controls.Add(this.panel20);
             this.PNL_MeasurementGlobal.Controls.Add(this.PanelMeas5);
             this.PNL_MeasurementGlobal.Controls.Add(this.label9);
-            this.PNL_MeasurementGlobal.Location = new System.Drawing.Point(4, 149);
+            this.PNL_MeasurementGlobal.Location = new System.Drawing.Point(3, 121);
             this.PNL_MeasurementGlobal.Margin = new System.Windows.Forms.Padding(0);
             this.PNL_MeasurementGlobal.Name = "PNL_MeasurementGlobal";
-            this.PNL_MeasurementGlobal.Size = new System.Drawing.Size(1048, 431);
+            this.PNL_MeasurementGlobal.Size = new System.Drawing.Size(786, 350);
             this.PNL_MeasurementGlobal.TabIndex = 28;
             // 
             // PNL_Measurement
@@ -3293,9 +3138,8 @@ namespace CapacitySensor
             this.PNL_Measurement.Controls.Add(this.BTN_MeasBegin);
             this.PNL_Measurement.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PNL_Measurement.Location = new System.Drawing.Point(1, 1);
-            this.PNL_Measurement.Margin = new System.Windows.Forms.Padding(4);
             this.PNL_Measurement.Name = "PNL_Measurement";
-            this.PNL_Measurement.Size = new System.Drawing.Size(1046, 398);
+            this.PNL_Measurement.Size = new System.Drawing.Size(784, 323);
             this.PNL_Measurement.TabIndex = 5;
             // 
             // PNL_Del_Meas
@@ -3306,10 +3150,10 @@ namespace CapacitySensor
             this.PNL_Del_Meas.Controls.Add(this.panel10);
             this.PNL_Del_Meas.Controls.Add(this.panel15);
             this.PNL_Del_Meas.Controls.Add(this.panel21);
-            this.PNL_Del_Meas.Location = new System.Drawing.Point(605, 191);
-            this.PNL_Del_Meas.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_Del_Meas.Location = new System.Drawing.Point(454, 155);
+            this.PNL_Del_Meas.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_Del_Meas.Name = "PNL_Del_Meas";
-            this.PNL_Del_Meas.Size = new System.Drawing.Size(160, 34);
+            this.PNL_Del_Meas.Size = new System.Drawing.Size(120, 28);
             this.PNL_Del_Meas.TabIndex = 52;
             // 
             // Del_Meas
@@ -3326,15 +3170,15 @@ namespace CapacitySensor
             0,
             0,
             65536});
-            this.Del_Meas.Location = new System.Drawing.Point(4, 4);
-            this.Del_Meas.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.Del_Meas.Location = new System.Drawing.Point(3, 3);
+            this.Del_Meas.Margin = new System.Windows.Forms.Padding(5);
             this.Del_Meas.Maximum = new decimal(new int[] {
             60,
             0,
             0,
             0});
             this.Del_Meas.Name = "Del_Meas";
-            this.Del_Meas.Size = new System.Drawing.Size(152, 26);
+            this.Del_Meas.Size = new System.Drawing.Size(114, 22);
             this.Del_Meas.TabIndex = 17;
             this.Del_Meas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Del_Meas.Value = new decimal(new int[] {
@@ -3347,10 +3191,9 @@ namespace CapacitySensor
             // 
             this.panel9.BackColor = System.Drawing.Color.Coral;
             this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel9.Location = new System.Drawing.Point(159, 1);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4);
+            this.panel9.Location = new System.Drawing.Point(119, 1);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1, 32);
+            this.panel9.Size = new System.Drawing.Size(1, 26);
             this.panel9.TabIndex = 3;
             // 
             // panel10
@@ -3358,19 +3201,17 @@ namespace CapacitySensor
             this.panel10.BackColor = System.Drawing.Color.Coral;
             this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel10.Location = new System.Drawing.Point(0, 1);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1, 32);
+            this.panel10.Size = new System.Drawing.Size(1, 26);
             this.panel10.TabIndex = 2;
             // 
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.Coral;
             this.panel15.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel15.Location = new System.Drawing.Point(0, 33);
-            this.panel15.Margin = new System.Windows.Forms.Padding(4);
+            this.panel15.Location = new System.Drawing.Point(0, 27);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(160, 1);
+            this.panel15.Size = new System.Drawing.Size(120, 1);
             this.panel15.TabIndex = 1;
             // 
             // panel21
@@ -3378,9 +3219,8 @@ namespace CapacitySensor
             this.panel21.BackColor = System.Drawing.Color.Coral;
             this.panel21.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel21.Location = new System.Drawing.Point(0, 0);
-            this.panel21.Margin = new System.Windows.Forms.Padding(4);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(160, 1);
+            this.panel21.Size = new System.Drawing.Size(120, 1);
             this.panel21.TabIndex = 0;
             // 
             // CBOX_MulMeas
@@ -3392,10 +3232,9 @@ namespace CapacitySensor
             this.CBOX_MulMeas.FlatAppearance.BorderSize = 0;
             this.CBOX_MulMeas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CBOX_MulMeas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.CBOX_MulMeas.Location = new System.Drawing.Point(366, 97);
-            this.CBOX_MulMeas.Margin = new System.Windows.Forms.Padding(4);
+            this.CBOX_MulMeas.Location = new System.Drawing.Point(274, 79);
             this.CBOX_MulMeas.Name = "CBOX_MulMeas";
-            this.CBOX_MulMeas.Size = new System.Drawing.Size(329, 37);
+            this.CBOX_MulMeas.Size = new System.Drawing.Size(247, 30);
             this.CBOX_MulMeas.TabIndex = 53;
             this.CBOX_MulMeas.Text = "Use Multiple Measurements";
             this.CBOX_MulMeas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3407,10 +3246,9 @@ namespace CapacitySensor
             this.LBL_Del_Meas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_Del_Meas.AutoSize = true;
             this.LBL_Del_Meas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_Del_Meas.Location = new System.Drawing.Point(214, 194);
-            this.LBL_Del_Meas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Del_Meas.Location = new System.Drawing.Point(160, 158);
             this.LBL_Del_Meas.Name = "LBL_Del_Meas";
-            this.LBL_Del_Meas.Size = new System.Drawing.Size(332, 25);
+            this.LBL_Del_Meas.Size = new System.Drawing.Size(272, 20);
             this.LBL_Del_Meas.TabIndex = 52;
             this.LBL_Del_Meas.Text = "Time between measurements [s]:";
             // 
@@ -3422,10 +3260,10 @@ namespace CapacitySensor
             this.PNL_N_Meas.Controls.Add(this.panel34);
             this.PNL_N_Meas.Controls.Add(this.panel38);
             this.PNL_N_Meas.Controls.Add(this.panel39);
-            this.PNL_N_Meas.Location = new System.Drawing.Point(605, 144);
-            this.PNL_N_Meas.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.PNL_N_Meas.Location = new System.Drawing.Point(454, 117);
+            this.PNL_N_Meas.Margin = new System.Windows.Forms.Padding(5);
             this.PNL_N_Meas.Name = "PNL_N_Meas";
-            this.PNL_N_Meas.Size = new System.Drawing.Size(160, 34);
+            this.PNL_N_Meas.Size = new System.Drawing.Size(120, 28);
             this.PNL_N_Meas.TabIndex = 51;
             // 
             // N_Meas
@@ -3436,8 +3274,8 @@ namespace CapacitySensor
             this.N_Meas.BackColor = System.Drawing.SystemColors.Control;
             this.N_Meas.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.N_Meas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.N_Meas.Location = new System.Drawing.Point(4, 4);
-            this.N_Meas.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.N_Meas.Location = new System.Drawing.Point(3, 3);
+            this.N_Meas.Margin = new System.Windows.Forms.Padding(5);
             this.N_Meas.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -3449,7 +3287,7 @@ namespace CapacitySensor
             0,
             0});
             this.N_Meas.Name = "N_Meas";
-            this.N_Meas.Size = new System.Drawing.Size(152, 26);
+            this.N_Meas.Size = new System.Drawing.Size(114, 22);
             this.N_Meas.TabIndex = 17;
             this.N_Meas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.N_Meas.Value = new decimal(new int[] {
@@ -3463,10 +3301,9 @@ namespace CapacitySensor
             // 
             this.panel30.BackColor = System.Drawing.Color.Coral;
             this.panel30.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel30.Location = new System.Drawing.Point(159, 1);
-            this.panel30.Margin = new System.Windows.Forms.Padding(4);
+            this.panel30.Location = new System.Drawing.Point(119, 1);
             this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(1, 32);
+            this.panel30.Size = new System.Drawing.Size(1, 26);
             this.panel30.TabIndex = 3;
             // 
             // panel34
@@ -3474,19 +3311,17 @@ namespace CapacitySensor
             this.panel34.BackColor = System.Drawing.Color.Coral;
             this.panel34.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel34.Location = new System.Drawing.Point(0, 1);
-            this.panel34.Margin = new System.Windows.Forms.Padding(4);
             this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(1, 32);
+            this.panel34.Size = new System.Drawing.Size(1, 26);
             this.panel34.TabIndex = 2;
             // 
             // panel38
             // 
             this.panel38.BackColor = System.Drawing.Color.Coral;
             this.panel38.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel38.Location = new System.Drawing.Point(0, 33);
-            this.panel38.Margin = new System.Windows.Forms.Padding(4);
+            this.panel38.Location = new System.Drawing.Point(0, 27);
             this.panel38.Name = "panel38";
-            this.panel38.Size = new System.Drawing.Size(160, 1);
+            this.panel38.Size = new System.Drawing.Size(120, 1);
             this.panel38.TabIndex = 1;
             // 
             // panel39
@@ -3494,9 +3329,8 @@ namespace CapacitySensor
             this.panel39.BackColor = System.Drawing.Color.Coral;
             this.panel39.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel39.Location = new System.Drawing.Point(0, 0);
-            this.panel39.Margin = new System.Windows.Forms.Padding(4);
             this.panel39.Name = "panel39";
-            this.panel39.Size = new System.Drawing.Size(160, 1);
+            this.panel39.Size = new System.Drawing.Size(120, 1);
             this.panel39.TabIndex = 0;
             // 
             // LBL_N_Meas
@@ -3504,10 +3338,9 @@ namespace CapacitySensor
             this.LBL_N_Meas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LBL_N_Meas.AutoSize = true;
             this.LBL_N_Meas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_N_Meas.Location = new System.Drawing.Point(286, 148);
-            this.LBL_N_Meas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_N_Meas.Location = new System.Drawing.Point(214, 120);
             this.LBL_N_Meas.Name = "LBL_N_Meas";
-            this.LBL_N_Meas.Size = new System.Drawing.Size(265, 25);
+            this.LBL_N_Meas.Size = new System.Drawing.Size(220, 20);
             this.LBL_N_Meas.TabIndex = 50;
             this.LBL_N_Meas.Text = "Number of measurements:";
             // 
@@ -3520,10 +3353,9 @@ namespace CapacitySensor
             this.BTN_MeasT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_MeasT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_MeasT.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_MeasT.Location = new System.Drawing.Point(14, 276);
-            this.BTN_MeasT.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_MeasT.Location = new System.Drawing.Point(10, 224);
             this.BTN_MeasT.Name = "BTN_MeasT";
-            this.BTN_MeasT.Size = new System.Drawing.Size(1029, 37);
+            this.BTN_MeasT.Size = new System.Drawing.Size(772, 30);
             this.BTN_MeasT.TabIndex = 49;
             this.BTN_MeasT.Text = "Measure temperature and humidity only";
             this.BTN_MeasT.UseVisualStyleBackColor = false;
@@ -3540,10 +3372,9 @@ namespace CapacitySensor
             this.CBOX_DewpointCalc.FlatAppearance.BorderSize = 0;
             this.CBOX_DewpointCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.CBOX_DewpointCalc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.CBOX_DewpointCalc.Location = new System.Drawing.Point(366, 23);
-            this.CBOX_DewpointCalc.Margin = new System.Windows.Forms.Padding(4);
+            this.CBOX_DewpointCalc.Location = new System.Drawing.Point(274, 19);
             this.CBOX_DewpointCalc.Name = "CBOX_DewpointCalc";
-            this.CBOX_DewpointCalc.Size = new System.Drawing.Size(329, 37);
+            this.CBOX_DewpointCalc.Size = new System.Drawing.Size(247, 30);
             this.CBOX_DewpointCalc.TabIndex = 46;
             this.CBOX_DewpointCalc.Text = "Show Dew Points on Charts";
             this.CBOX_DewpointCalc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3558,10 +3389,9 @@ namespace CapacitySensor
             this.BTN_MeasBegin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_MeasBegin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_MeasBegin.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_MeasBegin.Location = new System.Drawing.Point(14, 343);
-            this.BTN_MeasBegin.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_MeasBegin.Location = new System.Drawing.Point(10, 279);
             this.BTN_MeasBegin.Name = "BTN_MeasBegin";
-            this.BTN_MeasBegin.Size = new System.Drawing.Size(1029, 37);
+            this.BTN_MeasBegin.Size = new System.Drawing.Size(772, 30);
             this.BTN_MeasBegin.TabIndex = 47;
             this.BTN_MeasBegin.Text = "Full measurement";
             this.BTN_MeasBegin.UseVisualStyleBackColor = false;
@@ -3571,10 +3401,10 @@ namespace CapacitySensor
             // 
             this.panel14.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel14.Location = new System.Drawing.Point(1047, 1);
-            this.panel14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel14.Location = new System.Drawing.Point(785, 1);
+            this.panel14.Margin = new System.Windows.Forms.Padding(2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(1, 398);
+            this.panel14.Size = new System.Drawing.Size(1, 323);
             this.panel14.TabIndex = 4;
             // 
             // panel19
@@ -3582,9 +3412,9 @@ namespace CapacitySensor
             this.panel19.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel19.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel19.Location = new System.Drawing.Point(0, 1);
-            this.panel19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel19.Margin = new System.Windows.Forms.Padding(2);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(1, 398);
+            this.panel19.Size = new System.Drawing.Size(1, 323);
             this.panel19.TabIndex = 3;
             // 
             // panel20
@@ -3592,28 +3422,29 @@ namespace CapacitySensor
             this.panel20.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel20.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel20.Location = new System.Drawing.Point(0, 0);
-            this.panel20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel20.Margin = new System.Windows.Forms.Padding(2);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(1048, 1);
+            this.panel20.Size = new System.Drawing.Size(786, 1);
             this.panel20.TabIndex = 2;
             // 
             // PanelMeas5
             // 
             this.PanelMeas5.BackColor = System.Drawing.Color.Red;
             this.PanelMeas5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelMeas5.Location = new System.Drawing.Point(0, 399);
-            this.PanelMeas5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelMeas5.Location = new System.Drawing.Point(0, 324);
+            this.PanelMeas5.Margin = new System.Windows.Forms.Padding(2);
             this.PanelMeas5.Name = "PanelMeas5";
-            this.PanelMeas5.Size = new System.Drawing.Size(1048, 2);
+            this.PanelMeas5.Size = new System.Drawing.Size(786, 2);
             this.PanelMeas5.TabIndex = 1;
             // 
             // label9
             // 
             this.label9.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label9.Location = new System.Drawing.Point(0, 401);
+            this.label9.Location = new System.Drawing.Point(0, 326);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(1048, 30);
+            this.label9.Size = new System.Drawing.Size(786, 24);
             this.label9.TabIndex = 0;
             this.label9.Text = "Measurement Settings";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3628,10 +3459,10 @@ namespace CapacitySensor
             this.PNL_Temperature.Controls.Add(this.panel8);
             this.PNL_Temperature.Controls.Add(this.PanelMeas2);
             this.PNL_Temperature.Controls.Add(this.label6);
-            this.PNL_Temperature.Location = new System.Drawing.Point(267, 3);
+            this.PNL_Temperature.Location = new System.Drawing.Point(200, 2);
             this.PNL_Temperature.Margin = new System.Windows.Forms.Padding(0);
             this.PNL_Temperature.Name = "PNL_Temperature";
-            this.PNL_Temperature.Size = new System.Drawing.Size(260, 144);
+            this.PNL_Temperature.Size = new System.Drawing.Size(195, 117);
             this.PNL_Temperature.TabIndex = 29;
             // 
             // LBL_T
@@ -3641,7 +3472,7 @@ namespace CapacitySensor
             this.LBL_T.Location = new System.Drawing.Point(1, 1);
             this.LBL_T.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_T.Name = "LBL_T";
-            this.LBL_T.Size = new System.Drawing.Size(258, 111);
+            this.LBL_T.Size = new System.Drawing.Size(193, 90);
             this.LBL_T.TabIndex = 7;
             this.LBL_T.Text = "-";
             this.LBL_T.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3653,7 +3484,7 @@ namespace CapacitySensor
             this.label4.Location = new System.Drawing.Point(1, 1);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(258, 111);
+            this.label4.Size = new System.Drawing.Size(193, 90);
             this.label4.TabIndex = 5;
             this.label4.Text = "24,5 oC";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3662,10 +3493,10 @@ namespace CapacitySensor
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(259, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(194, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1, 111);
+            this.panel1.Size = new System.Drawing.Size(1, 90);
             this.panel1.TabIndex = 4;
             // 
             // panel7
@@ -3673,9 +3504,9 @@ namespace CapacitySensor
             this.panel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel7.Location = new System.Drawing.Point(0, 1);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1, 111);
+            this.panel7.Size = new System.Drawing.Size(1, 90);
             this.panel7.TabIndex = 3;
             // 
             // panel8
@@ -3683,28 +3514,29 @@ namespace CapacitySensor
             this.panel8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(260, 1);
+            this.panel8.Size = new System.Drawing.Size(195, 1);
             this.panel8.TabIndex = 2;
             // 
             // PanelMeas2
             // 
             this.PanelMeas2.BackColor = System.Drawing.Color.Red;
             this.PanelMeas2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelMeas2.Location = new System.Drawing.Point(0, 112);
-            this.PanelMeas2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelMeas2.Location = new System.Drawing.Point(0, 91);
+            this.PanelMeas2.Margin = new System.Windows.Forms.Padding(2);
             this.PanelMeas2.Name = "PanelMeas2";
-            this.PanelMeas2.Size = new System.Drawing.Size(260, 2);
+            this.PanelMeas2.Size = new System.Drawing.Size(195, 2);
             this.PanelMeas2.TabIndex = 1;
             // 
             // label6
             // 
             this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(0, 114);
+            this.label6.Location = new System.Drawing.Point(0, 93);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(260, 30);
+            this.label6.Size = new System.Drawing.Size(195, 24);
             this.label6.TabIndex = 0;
             this.label6.Text = "Temperature";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3719,10 +3551,10 @@ namespace CapacitySensor
             this.PNL_Capacity.Controls.Add(this.panel4);
             this.PNL_Capacity.Controls.Add(this.PanelMeas1);
             this.PNL_Capacity.Controls.Add(this.label3);
-            this.PNL_Capacity.Location = new System.Drawing.Point(4, 3);
+            this.PNL_Capacity.Location = new System.Drawing.Point(3, 2);
             this.PNL_Capacity.Margin = new System.Windows.Forms.Padding(0);
             this.PNL_Capacity.Name = "PNL_Capacity";
-            this.PNL_Capacity.Size = new System.Drawing.Size(260, 144);
+            this.PNL_Capacity.Size = new System.Drawing.Size(195, 117);
             this.PNL_Capacity.TabIndex = 27;
             // 
             // LBL_C
@@ -3732,7 +3564,7 @@ namespace CapacitySensor
             this.LBL_C.Location = new System.Drawing.Point(1, 1);
             this.LBL_C.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_C.Name = "LBL_C";
-            this.LBL_C.Size = new System.Drawing.Size(258, 111);
+            this.LBL_C.Size = new System.Drawing.Size(193, 90);
             this.LBL_C.TabIndex = 7;
             this.LBL_C.Text = "-";
             this.LBL_C.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3744,7 +3576,7 @@ namespace CapacitySensor
             this.label2.Location = new System.Drawing.Point(1, 1);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(258, 111);
+            this.label2.Size = new System.Drawing.Size(193, 90);
             this.label2.TabIndex = 5;
             this.label2.Text = "24,5 oC";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3753,10 +3585,10 @@ namespace CapacitySensor
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(259, 1);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Location = new System.Drawing.Point(194, 1);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1, 111);
+            this.panel2.Size = new System.Drawing.Size(1, 90);
             this.panel2.TabIndex = 4;
             // 
             // panel3
@@ -3764,9 +3596,9 @@ namespace CapacitySensor
             this.panel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 1);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1, 111);
+            this.panel3.Size = new System.Drawing.Size(1, 90);
             this.panel3.TabIndex = 3;
             // 
             // panel4
@@ -3774,28 +3606,29 @@ namespace CapacitySensor
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(260, 1);
+            this.panel4.Size = new System.Drawing.Size(195, 1);
             this.panel4.TabIndex = 2;
             // 
             // PanelMeas1
             // 
             this.PanelMeas1.BackColor = System.Drawing.Color.Red;
             this.PanelMeas1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelMeas1.Location = new System.Drawing.Point(0, 112);
-            this.PanelMeas1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelMeas1.Location = new System.Drawing.Point(0, 91);
+            this.PanelMeas1.Margin = new System.Windows.Forms.Padding(2);
             this.PanelMeas1.Name = "PanelMeas1";
-            this.PanelMeas1.Size = new System.Drawing.Size(260, 2);
+            this.PanelMeas1.Size = new System.Drawing.Size(195, 2);
             this.PanelMeas1.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(0, 114);
+            this.label3.Location = new System.Drawing.Point(0, 93);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(260, 30);
+            this.label3.Size = new System.Drawing.Size(195, 24);
             this.label3.TabIndex = 0;
             this.label3.Text = "Capacity";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3808,10 +3641,9 @@ namespace CapacitySensor
             this.PageCharts.Controls.Add(this.panel109);
             this.PageCharts.Controls.Add(this.tableLayoutPanel1);
             this.PageCharts.Location = new System.Drawing.Point(4, 34);
-            this.PageCharts.Margin = new System.Windows.Forms.Padding(4);
             this.PageCharts.Name = "PageCharts";
-            this.PageCharts.Padding = new System.Windows.Forms.Padding(4, 25, 4, 25);
-            this.PageCharts.Size = new System.Drawing.Size(1058, 582);
+            this.PageCharts.Padding = new System.Windows.Forms.Padding(3, 20, 3, 20);
+            this.PageCharts.Size = new System.Drawing.Size(792, 467);
             this.PageCharts.TabIndex = 4;
             this.PageCharts.Text = "Charts";
             this.PageCharts.UseVisualStyleBackColor = true;
@@ -3826,10 +3658,10 @@ namespace CapacitySensor
             this.panel96.Controls.Add(this.panel99);
             this.panel96.Controls.Add(this.PanelCharts4);
             this.panel96.Controls.Add(this.label37);
-            this.panel96.Location = new System.Drawing.Point(3, 430);
+            this.panel96.Location = new System.Drawing.Point(2, 349);
             this.panel96.Margin = new System.Windows.Forms.Padding(0);
             this.panel96.Name = "panel96";
-            this.panel96.Size = new System.Drawing.Size(208, 139);
+            this.panel96.Size = new System.Drawing.Size(156, 113);
             this.panel96.TabIndex = 27;
             // 
             // LBL_DP_Charts
@@ -3839,7 +3671,7 @@ namespace CapacitySensor
             this.LBL_DP_Charts.Location = new System.Drawing.Point(1, 1);
             this.LBL_DP_Charts.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_DP_Charts.Name = "LBL_DP_Charts";
-            this.LBL_DP_Charts.Size = new System.Drawing.Size(206, 106);
+            this.LBL_DP_Charts.Size = new System.Drawing.Size(154, 86);
             this.LBL_DP_Charts.TabIndex = 7;
             this.LBL_DP_Charts.Text = "-";
             this.LBL_DP_Charts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3851,7 +3683,7 @@ namespace CapacitySensor
             this.label36.Location = new System.Drawing.Point(1, 1);
             this.label36.Margin = new System.Windows.Forms.Padding(0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(206, 106);
+            this.label36.Size = new System.Drawing.Size(154, 86);
             this.label36.TabIndex = 5;
             this.label36.Text = "24,5 oC";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3860,10 +3692,10 @@ namespace CapacitySensor
             // 
             this.panel97.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel97.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel97.Location = new System.Drawing.Point(207, 1);
-            this.panel97.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel97.Location = new System.Drawing.Point(155, 1);
+            this.panel97.Margin = new System.Windows.Forms.Padding(2);
             this.panel97.Name = "panel97";
-            this.panel97.Size = new System.Drawing.Size(1, 106);
+            this.panel97.Size = new System.Drawing.Size(1, 86);
             this.panel97.TabIndex = 4;
             // 
             // panel98
@@ -3871,9 +3703,9 @@ namespace CapacitySensor
             this.panel98.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel98.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel98.Location = new System.Drawing.Point(0, 1);
-            this.panel98.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel98.Margin = new System.Windows.Forms.Padding(2);
             this.panel98.Name = "panel98";
-            this.panel98.Size = new System.Drawing.Size(1, 106);
+            this.panel98.Size = new System.Drawing.Size(1, 86);
             this.panel98.TabIndex = 3;
             // 
             // panel99
@@ -3881,28 +3713,29 @@ namespace CapacitySensor
             this.panel99.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel99.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel99.Location = new System.Drawing.Point(0, 0);
-            this.panel99.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel99.Margin = new System.Windows.Forms.Padding(2);
             this.panel99.Name = "panel99";
-            this.panel99.Size = new System.Drawing.Size(208, 1);
+            this.panel99.Size = new System.Drawing.Size(156, 1);
             this.panel99.TabIndex = 2;
             // 
             // PanelCharts4
             // 
             this.PanelCharts4.BackColor = System.Drawing.Color.Red;
             this.PanelCharts4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelCharts4.Location = new System.Drawing.Point(0, 107);
-            this.PanelCharts4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelCharts4.Location = new System.Drawing.Point(0, 87);
+            this.PanelCharts4.Margin = new System.Windows.Forms.Padding(2);
             this.PanelCharts4.Name = "PanelCharts4";
-            this.PanelCharts4.Size = new System.Drawing.Size(208, 2);
+            this.PanelCharts4.Size = new System.Drawing.Size(156, 2);
             this.PanelCharts4.TabIndex = 1;
             // 
             // label37
             // 
             this.label37.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label37.Location = new System.Drawing.Point(0, 109);
+            this.label37.Location = new System.Drawing.Point(0, 89);
+            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(208, 30);
+            this.label37.Size = new System.Drawing.Size(156, 24);
             this.label37.TabIndex = 0;
             this.label37.Text = "Dew Point";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3917,10 +3750,10 @@ namespace CapacitySensor
             this.panel103.Controls.Add(this.panel92);
             this.panel103.Controls.Add(this.PanelCharts2);
             this.panel103.Controls.Add(this.label38);
-            this.panel103.Location = new System.Drawing.Point(3, 146);
+            this.panel103.Location = new System.Drawing.Point(2, 119);
             this.panel103.Margin = new System.Windows.Forms.Padding(0);
             this.panel103.Name = "panel103";
-            this.panel103.Size = new System.Drawing.Size(208, 139);
+            this.panel103.Size = new System.Drawing.Size(156, 113);
             this.panel103.TabIndex = 25;
             // 
             // LBL_T_Charts
@@ -3930,7 +3763,7 @@ namespace CapacitySensor
             this.LBL_T_Charts.Location = new System.Drawing.Point(1, 1);
             this.LBL_T_Charts.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_T_Charts.Name = "LBL_T_Charts";
-            this.LBL_T_Charts.Size = new System.Drawing.Size(206, 106);
+            this.LBL_T_Charts.Size = new System.Drawing.Size(154, 86);
             this.LBL_T_Charts.TabIndex = 7;
             this.LBL_T_Charts.Text = "-";
             this.LBL_T_Charts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3942,7 +3775,7 @@ namespace CapacitySensor
             this.label32.Location = new System.Drawing.Point(1, 1);
             this.label32.Margin = new System.Windows.Forms.Padding(0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(206, 106);
+            this.label32.Size = new System.Drawing.Size(154, 86);
             this.label32.TabIndex = 5;
             this.label32.Text = "24,5 oC";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3951,10 +3784,10 @@ namespace CapacitySensor
             // 
             this.panel90.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel90.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel90.Location = new System.Drawing.Point(207, 1);
-            this.panel90.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel90.Location = new System.Drawing.Point(155, 1);
+            this.panel90.Margin = new System.Windows.Forms.Padding(2);
             this.panel90.Name = "panel90";
-            this.panel90.Size = new System.Drawing.Size(1, 106);
+            this.panel90.Size = new System.Drawing.Size(1, 86);
             this.panel90.TabIndex = 4;
             // 
             // panel91
@@ -3962,9 +3795,9 @@ namespace CapacitySensor
             this.panel91.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel91.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel91.Location = new System.Drawing.Point(0, 1);
-            this.panel91.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel91.Margin = new System.Windows.Forms.Padding(2);
             this.panel91.Name = "panel91";
-            this.panel91.Size = new System.Drawing.Size(1, 106);
+            this.panel91.Size = new System.Drawing.Size(1, 86);
             this.panel91.TabIndex = 3;
             // 
             // panel92
@@ -3972,28 +3805,29 @@ namespace CapacitySensor
             this.panel92.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel92.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel92.Location = new System.Drawing.Point(0, 0);
-            this.panel92.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel92.Margin = new System.Windows.Forms.Padding(2);
             this.panel92.Name = "panel92";
-            this.panel92.Size = new System.Drawing.Size(208, 1);
+            this.panel92.Size = new System.Drawing.Size(156, 1);
             this.panel92.TabIndex = 2;
             // 
             // PanelCharts2
             // 
             this.PanelCharts2.BackColor = System.Drawing.Color.Red;
             this.PanelCharts2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelCharts2.Location = new System.Drawing.Point(0, 107);
-            this.PanelCharts2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelCharts2.Location = new System.Drawing.Point(0, 87);
+            this.PanelCharts2.Margin = new System.Windows.Forms.Padding(2);
             this.PanelCharts2.Name = "PanelCharts2";
-            this.PanelCharts2.Size = new System.Drawing.Size(208, 2);
+            this.PanelCharts2.Size = new System.Drawing.Size(156, 2);
             this.PanelCharts2.TabIndex = 1;
             // 
             // label38
             // 
             this.label38.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label38.Location = new System.Drawing.Point(0, 109);
+            this.label38.Location = new System.Drawing.Point(0, 89);
+            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(208, 30);
+            this.label38.Size = new System.Drawing.Size(156, 24);
             this.label38.TabIndex = 0;
             this.label38.Text = "Temperature";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4008,10 +3842,10 @@ namespace CapacitySensor
             this.panel108.Controls.Add(this.panel106);
             this.panel108.Controls.Add(this.PanelCharts1);
             this.panel108.Controls.Add(this.label41);
-            this.panel108.Location = new System.Drawing.Point(3, 6);
+            this.panel108.Location = new System.Drawing.Point(2, 5);
             this.panel108.Margin = new System.Windows.Forms.Padding(0);
             this.panel108.Name = "panel108";
-            this.panel108.Size = new System.Drawing.Size(208, 139);
+            this.panel108.Size = new System.Drawing.Size(156, 113);
             this.panel108.TabIndex = 24;
             // 
             // LBL_C_Charts
@@ -4021,7 +3855,7 @@ namespace CapacitySensor
             this.LBL_C_Charts.Location = new System.Drawing.Point(1, 1);
             this.LBL_C_Charts.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_C_Charts.Name = "LBL_C_Charts";
-            this.LBL_C_Charts.Size = new System.Drawing.Size(206, 106);
+            this.LBL_C_Charts.Size = new System.Drawing.Size(154, 86);
             this.LBL_C_Charts.TabIndex = 7;
             this.LBL_C_Charts.Text = "-";
             this.LBL_C_Charts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4033,7 +3867,7 @@ namespace CapacitySensor
             this.label40.Location = new System.Drawing.Point(1, 1);
             this.label40.Margin = new System.Windows.Forms.Padding(0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(206, 106);
+            this.label40.Size = new System.Drawing.Size(154, 86);
             this.label40.TabIndex = 5;
             this.label40.Text = "24,5 oC";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4042,10 +3876,10 @@ namespace CapacitySensor
             // 
             this.panel104.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel104.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel104.Location = new System.Drawing.Point(207, 1);
-            this.panel104.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel104.Location = new System.Drawing.Point(155, 1);
+            this.panel104.Margin = new System.Windows.Forms.Padding(2);
             this.panel104.Name = "panel104";
-            this.panel104.Size = new System.Drawing.Size(1, 106);
+            this.panel104.Size = new System.Drawing.Size(1, 86);
             this.panel104.TabIndex = 4;
             // 
             // panel105
@@ -4053,9 +3887,9 @@ namespace CapacitySensor
             this.panel105.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel105.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel105.Location = new System.Drawing.Point(0, 1);
-            this.panel105.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel105.Margin = new System.Windows.Forms.Padding(2);
             this.panel105.Name = "panel105";
-            this.panel105.Size = new System.Drawing.Size(1, 106);
+            this.panel105.Size = new System.Drawing.Size(1, 86);
             this.panel105.TabIndex = 3;
             // 
             // panel106
@@ -4063,28 +3897,29 @@ namespace CapacitySensor
             this.panel106.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel106.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel106.Location = new System.Drawing.Point(0, 0);
-            this.panel106.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel106.Margin = new System.Windows.Forms.Padding(2);
             this.panel106.Name = "panel106";
-            this.panel106.Size = new System.Drawing.Size(208, 1);
+            this.panel106.Size = new System.Drawing.Size(156, 1);
             this.panel106.TabIndex = 2;
             // 
             // PanelCharts1
             // 
             this.PanelCharts1.BackColor = System.Drawing.Color.Red;
             this.PanelCharts1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelCharts1.Location = new System.Drawing.Point(0, 107);
-            this.PanelCharts1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelCharts1.Location = new System.Drawing.Point(0, 87);
+            this.PanelCharts1.Margin = new System.Windows.Forms.Padding(2);
             this.PanelCharts1.Name = "PanelCharts1";
-            this.PanelCharts1.Size = new System.Drawing.Size(208, 2);
+            this.PanelCharts1.Size = new System.Drawing.Size(156, 2);
             this.PanelCharts1.TabIndex = 1;
             // 
             // label41
             // 
             this.label41.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label41.Location = new System.Drawing.Point(0, 109);
+            this.label41.Location = new System.Drawing.Point(0, 89);
+            this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(208, 30);
+            this.label41.Size = new System.Drawing.Size(156, 24);
             this.label41.TabIndex = 0;
             this.label41.Text = "Capacity";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4099,10 +3934,10 @@ namespace CapacitySensor
             this.panel109.Controls.Add(this.panel95);
             this.panel109.Controls.Add(this.PanelCharts3);
             this.panel109.Controls.Add(this.label34);
-            this.panel109.Location = new System.Drawing.Point(3, 287);
+            this.panel109.Location = new System.Drawing.Point(2, 233);
             this.panel109.Margin = new System.Windows.Forms.Padding(0);
             this.panel109.Name = "panel109";
-            this.panel109.Size = new System.Drawing.Size(208, 142);
+            this.panel109.Size = new System.Drawing.Size(156, 115);
             this.panel109.TabIndex = 26;
             // 
             // LBL_RH_Charts
@@ -4112,7 +3947,7 @@ namespace CapacitySensor
             this.LBL_RH_Charts.Location = new System.Drawing.Point(1, 1);
             this.LBL_RH_Charts.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_RH_Charts.Name = "LBL_RH_Charts";
-            this.LBL_RH_Charts.Size = new System.Drawing.Size(206, 109);
+            this.LBL_RH_Charts.Size = new System.Drawing.Size(154, 88);
             this.LBL_RH_Charts.TabIndex = 7;
             this.LBL_RH_Charts.Text = "-";
             this.LBL_RH_Charts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4124,7 +3959,7 @@ namespace CapacitySensor
             this.label33.Location = new System.Drawing.Point(1, 1);
             this.label33.Margin = new System.Windows.Forms.Padding(0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(206, 109);
+            this.label33.Size = new System.Drawing.Size(154, 88);
             this.label33.TabIndex = 5;
             this.label33.Text = "24,5 oC";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4133,10 +3968,10 @@ namespace CapacitySensor
             // 
             this.panel93.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel93.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel93.Location = new System.Drawing.Point(207, 1);
-            this.panel93.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel93.Location = new System.Drawing.Point(155, 1);
+            this.panel93.Margin = new System.Windows.Forms.Padding(2);
             this.panel93.Name = "panel93";
-            this.panel93.Size = new System.Drawing.Size(1, 109);
+            this.panel93.Size = new System.Drawing.Size(1, 88);
             this.panel93.TabIndex = 4;
             // 
             // panel94
@@ -4144,9 +3979,9 @@ namespace CapacitySensor
             this.panel94.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel94.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel94.Location = new System.Drawing.Point(0, 1);
-            this.panel94.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel94.Margin = new System.Windows.Forms.Padding(2);
             this.panel94.Name = "panel94";
-            this.panel94.Size = new System.Drawing.Size(1, 109);
+            this.panel94.Size = new System.Drawing.Size(1, 88);
             this.panel94.TabIndex = 3;
             // 
             // panel95
@@ -4154,28 +3989,29 @@ namespace CapacitySensor
             this.panel95.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel95.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel95.Location = new System.Drawing.Point(0, 0);
-            this.panel95.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel95.Margin = new System.Windows.Forms.Padding(2);
             this.panel95.Name = "panel95";
-            this.panel95.Size = new System.Drawing.Size(208, 1);
+            this.panel95.Size = new System.Drawing.Size(156, 1);
             this.panel95.TabIndex = 2;
             // 
             // PanelCharts3
             // 
             this.PanelCharts3.BackColor = System.Drawing.Color.Red;
             this.PanelCharts3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelCharts3.Location = new System.Drawing.Point(0, 110);
-            this.PanelCharts3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelCharts3.Location = new System.Drawing.Point(0, 89);
+            this.PanelCharts3.Margin = new System.Windows.Forms.Padding(2);
             this.PanelCharts3.Name = "PanelCharts3";
-            this.PanelCharts3.Size = new System.Drawing.Size(208, 2);
+            this.PanelCharts3.Size = new System.Drawing.Size(156, 2);
             this.PanelCharts3.TabIndex = 1;
             // 
             // label34
             // 
             this.label34.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label34.Location = new System.Drawing.Point(0, 112);
+            this.label34.Location = new System.Drawing.Point(0, 91);
+            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(208, 30);
+            this.label34.Size = new System.Drawing.Size(156, 24);
             this.label34.TabIndex = 0;
             this.label34.Text = "Humidity";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4189,120 +4025,120 @@ namespace CapacitySensor
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.ChartCapacity, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.ChartTemperature, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(188, -2);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(141, -2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(867, 580);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(650, 471);
             this.tableLayoutPanel1.TabIndex = 23;
             // 
             // ChartCapacity
             // 
             this.ChartCapacity.BackColor = System.Drawing.SystemColors.Control;
-            chartArea5.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea5.AxisX.IsStartedFromZero = false;
-            chartArea5.AxisX.MajorGrid.IntervalOffset = 0D;
-            chartArea5.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea5.AxisX.MajorTickMark.Interval = 0D;
-            chartArea5.AxisX.Maximum = 60D;
-            chartArea5.AxisX.Minimum = 1D;
-            chartArea5.AxisX.Title = "Number of measurement";
-            chartArea5.AxisY.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
-            chartArea5.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea5.AxisY.IsStartedFromZero = false;
-            chartArea5.AxisY.MajorGrid.Enabled = false;
-            chartArea5.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea5.AxisY.Title = "Capacity [pF]";
-            chartArea5.AxisY2.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
-            chartArea5.AxisY2.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea5.AxisY2.IsStartedFromZero = false;
-            chartArea5.AxisY2.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea5.AxisY2.Title = "Humidity [%]";
-            chartArea5.Name = "ChartArea";
-            this.ChartCapacity.ChartAreas.Add(chartArea5);
+            chartArea20.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea20.AxisX.IsStartedFromZero = false;
+            chartArea20.AxisX.MajorGrid.IntervalOffset = 0D;
+            chartArea20.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea20.AxisX.MajorTickMark.Interval = 0D;
+            chartArea20.AxisX.Maximum = 60D;
+            chartArea20.AxisX.Minimum = 1D;
+            chartArea20.AxisX.Title = "Number of measurement";
+            chartArea20.AxisY.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
+            chartArea20.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea20.AxisY.IsStartedFromZero = false;
+            chartArea20.AxisY.MajorGrid.Enabled = false;
+            chartArea20.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea20.AxisY.Title = "Capacity [pF]";
+            chartArea20.AxisY2.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
+            chartArea20.AxisY2.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea20.AxisY2.IsStartedFromZero = false;
+            chartArea20.AxisY2.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea20.AxisY2.Title = "Humidity [%]";
+            chartArea20.Name = "ChartArea";
+            this.ChartCapacity.ChartAreas.Add(chartArea20);
             this.ChartCapacity.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Alignment = System.Drawing.StringAlignment.Center;
-            legend3.BackColor = System.Drawing.SystemColors.Control;
-            legend3.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend3.Name = "Legend2";
-            this.ChartCapacity.Legends.Add(legend3);
+            legend13.Alignment = System.Drawing.StringAlignment.Center;
+            legend13.BackColor = System.Drawing.SystemColors.Control;
+            legend13.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend13.Name = "Legend2";
+            this.ChartCapacity.Legends.Add(legend13);
             this.ChartCapacity.Location = new System.Drawing.Point(0, 0);
             this.ChartCapacity.Margin = new System.Windows.Forms.Padding(0);
             this.ChartCapacity.Name = "ChartCapacity";
-            series8.BorderWidth = 2;
-            series8.ChartArea = "ChartArea";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series8.Color = System.Drawing.Color.DimGray;
-            series8.Legend = "Legend2";
-            series8.Name = "Capacity";
-            series9.BorderWidth = 2;
-            series9.ChartArea = "ChartArea";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series9.Color = System.Drawing.Color.Orange;
-            series9.Legend = "Legend2";
-            series9.Name = "Humidity";
-            series9.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
-            this.ChartCapacity.Series.Add(series8);
-            this.ChartCapacity.Series.Add(series9);
-            this.ChartCapacity.Size = new System.Drawing.Size(867, 290);
+            series38.BorderWidth = 2;
+            series38.ChartArea = "ChartArea";
+            series38.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series38.Color = System.Drawing.Color.DimGray;
+            series38.Legend = "Legend2";
+            series38.Name = "Capacity";
+            series39.BorderWidth = 2;
+            series39.ChartArea = "ChartArea";
+            series39.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series39.Color = System.Drawing.Color.Orange;
+            series39.Legend = "Legend2";
+            series39.Name = "Humidity";
+            series39.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
+            this.ChartCapacity.Series.Add(series38);
+            this.ChartCapacity.Series.Add(series39);
+            this.ChartCapacity.Size = new System.Drawing.Size(650, 235);
             this.ChartCapacity.TabIndex = 3;
             this.ChartCapacity.Text = "chart2";
             // 
             // ChartTemperature
             // 
             this.ChartTemperature.BackColor = System.Drawing.SystemColors.Control;
-            chartArea6.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
-            chartArea6.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea6.AxisX.IsStartedFromZero = false;
-            chartArea6.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea6.AxisX.Maximum = 60D;
-            chartArea6.AxisX.Minimum = 1D;
-            chartArea6.AxisX.Title = "Number of measurement";
-            chartArea6.AxisY.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
-            chartArea6.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea6.AxisY.IsStartedFromZero = false;
-            chartArea6.AxisY.MajorGrid.IntervalOffset = 0D;
-            chartArea6.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea6.AxisY.Title = "Temperature [°C]";
-            chartArea6.AxisY2.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
-            chartArea6.AxisY2.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea6.AxisY2.IsStartedFromZero = false;
-            chartArea6.AxisY2.MajorGrid.Enabled = false;
-            chartArea6.AxisY2.Title = "Humidity [%]";
-            chartArea6.BorderWidth = 0;
-            chartArea6.Name = "ChartArea1";
-            this.ChartTemperature.ChartAreas.Add(chartArea6);
+            chartArea21.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
+            chartArea21.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea21.AxisX.IsStartedFromZero = false;
+            chartArea21.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea21.AxisX.Maximum = 60D;
+            chartArea21.AxisX.Minimum = 1D;
+            chartArea21.AxisX.Title = "Number of measurement";
+            chartArea21.AxisY.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
+            chartArea21.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea21.AxisY.IsStartedFromZero = false;
+            chartArea21.AxisY.MajorGrid.IntervalOffset = 0D;
+            chartArea21.AxisY.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea21.AxisY.Title = "Temperature [°C]";
+            chartArea21.AxisY2.ArrowStyle = System.Windows.Forms.DataVisualization.Charting.AxisArrowStyle.Triangle;
+            chartArea21.AxisY2.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea21.AxisY2.IsStartedFromZero = false;
+            chartArea21.AxisY2.MajorGrid.Enabled = false;
+            chartArea21.AxisY2.Title = "Humidity [%]";
+            chartArea21.BorderWidth = 0;
+            chartArea21.Name = "ChartArea1";
+            this.ChartTemperature.ChartAreas.Add(chartArea21);
             this.ChartTemperature.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Alignment = System.Drawing.StringAlignment.Center;
-            legend4.BackColor = System.Drawing.SystemColors.Control;
-            legend4.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend4.Name = "Legend1";
-            this.ChartTemperature.Legends.Add(legend4);
-            this.ChartTemperature.Location = new System.Drawing.Point(0, 290);
+            legend14.Alignment = System.Drawing.StringAlignment.Center;
+            legend14.BackColor = System.Drawing.SystemColors.Control;
+            legend14.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend14.Name = "Legend1";
+            this.ChartTemperature.Legends.Add(legend14);
+            this.ChartTemperature.Location = new System.Drawing.Point(0, 235);
             this.ChartTemperature.Margin = new System.Windows.Forms.Padding(0);
             this.ChartTemperature.Name = "ChartTemperature";
-            series10.BorderWidth = 2;
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series10.Legend = "Legend1";
-            series10.Name = "Temperature";
-            series11.BorderWidth = 2;
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series11.Legend = "Legend1";
-            series11.Name = "Humidity";
-            series11.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
-            series12.BorderWidth = 2;
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series12.Legend = "Legend1";
-            series12.Name = "Dewpoint";
-            this.ChartTemperature.Series.Add(series10);
-            this.ChartTemperature.Series.Add(series11);
-            this.ChartTemperature.Series.Add(series12);
-            this.ChartTemperature.Size = new System.Drawing.Size(867, 290);
+            series40.BorderWidth = 2;
+            series40.ChartArea = "ChartArea1";
+            series40.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series40.Legend = "Legend1";
+            series40.Name = "Temperature";
+            series41.BorderWidth = 2;
+            series41.ChartArea = "ChartArea1";
+            series41.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series41.Legend = "Legend1";
+            series41.Name = "Humidity";
+            series41.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
+            series42.BorderWidth = 2;
+            series42.ChartArea = "ChartArea1";
+            series42.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series42.Legend = "Legend1";
+            series42.Name = "Dewpoint";
+            this.ChartTemperature.Series.Add(series40);
+            this.ChartTemperature.Series.Add(series41);
+            this.ChartTemperature.Series.Add(series42);
+            this.ChartTemperature.Size = new System.Drawing.Size(650, 236);
             this.ChartTemperature.TabIndex = 2;
             this.ChartTemperature.Text = "chart1";
             // 
@@ -4314,10 +4150,9 @@ namespace CapacitySensor
             this.PageLogs.Controls.Add(this.TBOX_Logs);
             this.PageLogs.Controls.Add(this.BTN_Send);
             this.PageLogs.Location = new System.Drawing.Point(4, 34);
-            this.PageLogs.Margin = new System.Windows.Forms.Padding(4);
             this.PageLogs.Name = "PageLogs";
-            this.PageLogs.Padding = new System.Windows.Forms.Padding(4);
-            this.PageLogs.Size = new System.Drawing.Size(1058, 582);
+            this.PageLogs.Padding = new System.Windows.Forms.Padding(3);
+            this.PageLogs.Size = new System.Drawing.Size(792, 467);
             this.PageLogs.TabIndex = 5;
             this.PageLogs.Text = "Logs";
             this.PageLogs.UseVisualStyleBackColor = true;
@@ -4332,11 +4167,10 @@ namespace CapacitySensor
             this.TBOXFS_Logs.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.TBOXFS_Logs.DetectUrls = false;
             this.TBOXFS_Logs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.TBOXFS_Logs.Location = new System.Drawing.Point(8, 28);
-            this.TBOXFS_Logs.Margin = new System.Windows.Forms.Padding(4);
+            this.TBOXFS_Logs.Location = new System.Drawing.Point(6, 23);
             this.TBOXFS_Logs.MaxLength = 100;
             this.TBOXFS_Logs.Name = "TBOXFS_Logs";
-            this.TBOXFS_Logs.Size = new System.Drawing.Size(1040, 496);
+            this.TBOXFS_Logs.Size = new System.Drawing.Size(780, 403);
             this.TBOXFS_Logs.TabIndex = 7;
             this.TBOXFS_Logs.Text = "";
             this.TBOXFS_Logs.Visible = false;
@@ -4346,21 +4180,20 @@ namespace CapacitySensor
             this.TBOX_Send.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TBOX_Send.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.TBOX_Send.Location = new System.Drawing.Point(13, 532);
-            this.TBOX_Send.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.TBOX_Send.Location = new System.Drawing.Point(10, 432);
+            this.TBOX_Send.Margin = new System.Windows.Forms.Padding(5);
             this.TBOX_Send.MaxLength = 100;
             this.TBOX_Send.Name = "TBOX_Send";
-            this.TBOX_Send.Size = new System.Drawing.Size(799, 36);
+            this.TBOX_Send.Size = new System.Drawing.Size(600, 30);
             this.TBOX_Send.TabIndex = 6;
             // 
             // LBL_Columns
             // 
             this.LBL_Columns.AutoSize = true;
             this.LBL_Columns.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LBL_Columns.Location = new System.Drawing.Point(8, 4);
-            this.LBL_Columns.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Columns.Location = new System.Drawing.Point(6, 3);
             this.LBL_Columns.Name = "LBL_Columns";
-            this.LBL_Columns.Size = new System.Drawing.Size(493, 20);
+            this.LBL_Columns.Size = new System.Drawing.Size(403, 17);
             this.LBL_Columns.TabIndex = 5;
             this.LBL_Columns.Text = "From    Type      Date                                                  Message ";
             // 
@@ -4374,11 +4207,10 @@ namespace CapacitySensor
             this.TBOX_Logs.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.TBOX_Logs.DetectUrls = false;
             this.TBOX_Logs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.TBOX_Logs.Location = new System.Drawing.Point(8, 28);
-            this.TBOX_Logs.Margin = new System.Windows.Forms.Padding(4);
+            this.TBOX_Logs.Location = new System.Drawing.Point(6, 23);
             this.TBOX_Logs.MaxLength = 100;
             this.TBOX_Logs.Name = "TBOX_Logs";
-            this.TBOX_Logs.Size = new System.Drawing.Size(1040, 496);
+            this.TBOX_Logs.Size = new System.Drawing.Size(780, 403);
             this.TBOX_Logs.TabIndex = 4;
             this.TBOX_Logs.Text = "";
             // 
@@ -4391,10 +4223,9 @@ namespace CapacitySensor
             this.BTN_Send.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_Send.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BTN_Send.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BTN_Send.Location = new System.Drawing.Point(827, 532);
-            this.BTN_Send.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Send.Location = new System.Drawing.Point(620, 432);
             this.BTN_Send.Name = "BTN_Send";
-            this.BTN_Send.Size = new System.Drawing.Size(221, 37);
+            this.BTN_Send.Size = new System.Drawing.Size(166, 30);
             this.BTN_Send.TabIndex = 1;
             this.BTN_Send.Text = "Send";
             this.BTN_Send.UseVisualStyleBackColor = false;
@@ -4405,7 +4236,7 @@ namespace CapacitySensor
             this.PageAbout.Location = new System.Drawing.Point(4, 34);
             this.PageAbout.Margin = new System.Windows.Forms.Padding(0);
             this.PageAbout.Name = "PageAbout";
-            this.PageAbout.Size = new System.Drawing.Size(1058, 582);
+            this.PageAbout.Size = new System.Drawing.Size(792, 467);
             this.PageAbout.TabIndex = 6;
             this.PageAbout.Text = "About";
             this.PageAbout.UseVisualStyleBackColor = true;
@@ -4414,12 +4245,43 @@ namespace CapacitySensor
             // 
             this.TIM_Meas.Tick += new System.EventHandler(this.TIM_Meas_Tick);
             // 
+            // LBL_GEN3
+            // 
+            this.LBL_GEN3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LBL_GEN3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.LBL_GEN3.Location = new System.Drawing.Point(154, 53);
+            this.LBL_GEN3.Name = "LBL_GEN3";
+            this.LBL_GEN3.Size = new System.Drawing.Size(450, 25);
+            this.LBL_GEN3.TabIndex = 50;
+            this.LBL_GEN3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LBL_GEN3.Click += new System.EventHandler(this.LBL_GEN3_Click);
+            // 
+            // LBL_GEN2
+            // 
+            this.LBL_GEN2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LBL_GEN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.LBL_GEN2.Location = new System.Drawing.Point(154, 44);
+            this.LBL_GEN2.Name = "LBL_GEN2";
+            this.LBL_GEN2.Size = new System.Drawing.Size(450, 10);
+            this.LBL_GEN2.TabIndex = 49;
+            this.LBL_GEN2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LBL_GEN1
+            // 
+            this.LBL_GEN1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LBL_GEN1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.LBL_GEN1.Location = new System.Drawing.Point(154, 52);
+            this.LBL_GEN1.Name = "LBL_GEN1";
+            this.LBL_GEN1.Size = new System.Drawing.Size(450, 10);
+            this.LBL_GEN1.TabIndex = 48;
+            this.LBL_GEN1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(1333, 738);
+            this.ClientSize = new System.Drawing.Size(1000, 600);
             this.Controls.Add(this.TCTRL);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.PanelTitle);
@@ -4428,7 +4290,6 @@ namespace CapacitySensor
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Capacity Sensor";
@@ -4776,9 +4637,6 @@ namespace CapacitySensor
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label45;
         public System.Windows.Forms.Timer TIM_Meas;
-        private System.Windows.Forms.Label LBL_GEN3;
-        private System.Windows.Forms.Label LBL_GEN2;
-        private System.Windows.Forms.Label LBL_GEN1;
         public System.Windows.Forms.NumericUpDown NUM_R_MEAS;
         public System.Windows.Forms.NumericUpDown NUM_L_VOUT;
         public System.Windows.Forms.NumericUpDown NUM_H_VOUT;
@@ -4797,6 +4655,9 @@ namespace CapacitySensor
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label LBL_GEN3;
+        private System.Windows.Forms.Label LBL_GEN2;
+        private System.Windows.Forms.Label LBL_GEN1;
     }
 }
 

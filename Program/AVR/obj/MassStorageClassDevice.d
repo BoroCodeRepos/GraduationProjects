@@ -17,15 +17,15 @@ obj/MassStorageClassDevice.o: \
  LUFA/Drivers/USB/Class/Device/../../Core/USBMode.h \
  LUFA/Drivers/USB/Class/Device/../../Core/USBController.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/USBController_AVR8.h \
- c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h \
+ c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../USBMode.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../Events.h \
- c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h \
+ c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../USBMode.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../USBTask.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../USBInterrupt.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../AVR8/USBInterrupt_AVR8.h \
- c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h \
+ c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../AVR8/../USBMode.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../AVR8/../Events.h \
  LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../AVR8/../USBController.h \
@@ -67,7 +67,7 @@ obj/MassStorageClassDevice.o: \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/AudioClassDevice.h \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/../../USB.h \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/AudioClassCommon.h \
- c:\users\arek\eclipse-workspace\capacitysensor\lufa\drivers\usb\core\stddescriptors.h \
+ c:\users\boro\eclipse-workspace\capacitysensor\lufa\drivers\usb\core\stddescriptors.h \
  LUFA/Drivers/USB/Class/Device/../../Class/CCIDClass.h \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/CCIDClassDevice.h \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/CCIDClassCommon.h \
@@ -78,7 +78,7 @@ obj/MassStorageClassDevice.o: \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/HIDClassDevice.h \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/HIDClassCommon.h \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/HIDParser.h \
- c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h \
+ c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/HIDReportData.h \
  LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/HIDClassCommon.h \
  LUFA/Drivers/USB/Class/Device/../../Class/MassStorageClass.h \
@@ -132,13 +132,13 @@ LUFA/Drivers/USB/Class/Device/../../Core/USBController.h:
 
 LUFA/Drivers/USB/Class/Device/../../Core/AVR8/USBController_AVR8.h:
 
-c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h:
+c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h:
 
 LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../USBMode.h:
 
 LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../Events.h:
 
-c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h:
+c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h:
 
 LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../USBMode.h:
 
@@ -148,7 +148,7 @@ LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../USBInterrupt.h:
 
 LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../AVR8/USBInterrupt_AVR8.h:
 
-c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h:
+c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h:
 
 LUFA/Drivers/USB/Class/Device/../../Core/AVR8/../AVR8/../USBMode.h:
 
@@ -232,7 +232,7 @@ LUFA/Drivers/USB/Class/Device/../../Class/Device/../../USB.h:
 
 LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/AudioClassCommon.h:
 
-c:\users\arek\eclipse-workspace\capacitysensor\lufa\drivers\usb\core\stddescriptors.h:
+c:\users\boro\eclipse-workspace\capacitysensor\lufa\drivers\usb\core\stddescriptors.h:
 
 LUFA/Drivers/USB/Class/Device/../../Class/CCIDClass.h:
 
@@ -254,7 +254,7 @@ LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/HIDClassCommon.h:
 
 LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/HIDParser.h:
 
-c:\users\arek\eclipse-workspace\capacitysensor\lufa\common\common.h:
+c:\users\boro\eclipse-workspace\capacitysensor\lufa\common\common.h:
 
 LUFA/Drivers/USB/Class/Device/../../Class/Device/../Common/HIDReportData.h:
 

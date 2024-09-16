@@ -100,6 +100,13 @@ const CONSTANTS_t EEMEM Constants_EEMEM =
 	.L_VOUT  = 0.0000,
 	.R_MEAS  = 191100,
 };
+const CORRECTIONS_t EEMEM Corrections_EEMEM =
+{
+	.A0 =  3.2231,
+	.A1 = -4.4837,
+	.A2 =  2.7930,
+	.A3 = -4.6443,
+};
 #else
 const CONSTANTS_t EEMEM Constants_EEMEM;
 #endif
@@ -114,13 +121,7 @@ const CONSTANTS_t PROGMEM Constants_PROGMEM =
 };
 
 #if USE_DEFAULT_CORRECTIONS
-const CORRECTIONS_t EEMEM Corrections_EEMEM =
-{
-	.A0 =  3.2231,
-	.A1 = -4.4837,
-	.A2 =  2.7930,
-	.A3 = -4.6443,
-};
+
 #else
 const CORRECTIONS_t EEMEM Corrections_EEMEM;
 #endif

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Windows.Forms;
 using System.Xml;
 using System.IO;
+using System.Threading;
 
 namespace CapacitySensor
 {
@@ -50,6 +51,8 @@ namespace CapacitySensor
             ChartCapacity.Series["Humidity"].Points.AddXY(-1, 0);
             ChartTemperature.Series["Temperature"].Points.AddXY(-1, 0);
             ChartTemperature.Series["Humidity"].Points.AddXY(-1, 0);
+
+            DevCon();
         }
 
         private void BTN_Exit_Click(object sender, EventArgs e)
@@ -109,7 +112,7 @@ namespace CapacitySensor
                 if (NUM_L_THR.Value > NUM_H_THR.Value)
                     NUM_L_THR.Value = NUM_H_THR.Value;
         }
-        private void TIM_DevCon_Tick(object sender, EventArgs e)
+        private void DevCon()
         {
             bool DeviceState = Device.IsAvailable();
 
@@ -141,6 +144,39 @@ namespace CapacitySensor
                 LBL_Connection.ForeColor = Color.Maroon;
                 Device.Close();
             }
+        }
+        private void TIM_DevCon_Tick(object sender, EventArgs e)
+        {
+            /*bool DeviceState = Device.IsAvailable();
+
+            if (DeviceState && !IsConnected)
+            {
+                IsConnected = true;
+
+                if (Device.Open())
+                {
+                    GetConstantValues();
+                    GetCorrectionValues();
+                    CalcCapacityRange();
+                    CreateCorrectionChart();
+                    EnableMeasurementButtons();
+                    Footer("Connecting Successful", Color.Green);
+                    LBL_Connection.Text = $"Device: Connected ({Device.GetCurrentPortName()})";
+                    LBL_Connection.ForeColor = Color.Green;
+                    return;
+                }
+                Footer("Communication Error, check the USB cable connection.", Color.Maroon);
+                DisableMeasurementButtons();
+            }
+            else if (!DeviceState && IsConnected)
+            {
+                DisableMeasurementButtons();
+                Footer("Try to connect device to PC", Color.DodgerBlue);
+                IsConnected = false;
+                LBL_Connection.Text = "Device: Disconnected";
+                LBL_Connection.ForeColor = Color.Maroon;
+                Device.Close();
+            }*/
         }
         private void TIM_Meas_Tick(object sender, EventArgs e)
         {
@@ -358,7 +394,8 @@ namespace CapacitySensor
 
         private void GetConstantValues()
         {
-            if (Device.SendCommand(Device.Commands.GET_CONSTANTS, out string Received))
+            string Received;
+            if (Device.SendCommand(Device.Commands.GET_CONSTANTS, out Received))
             {
                 if (Received.Contains("NaN"))
                 {
@@ -385,7 +422,8 @@ namespace CapacitySensor
         }
         private void GetCorrectionValues()
         {
-            if (Device.SendCommand(Device.Commands.GET_CORRECTIONS, out string Received))
+            string Received;
+            if (Device.SendCommand(Device.Commands.GET_CORRECTIONS, out Received))
             {
                 if (Received.Contains("NaN"))
                 {
@@ -739,24 +777,12 @@ namespace CapacitySensor
         private void BTN_Calibrate_Click(object sender, EventArgs e)
         {
             Footer("Calibration Device", Color.Orange);
-            if (Device.SendCommand(Device.Commands.SET_GENERATIONS, out _))
+            if (Device.SendCommand(Device.Commands.ENABLE_MEAS_CIRCUIT, out _))
             {
                 Font f = LBL_GEN1.Font;
                 LBL_GEN1.Font = new Font(f, FontStyle.Bold);
-                MessageBox.Show("Generations 1MHz on Signal Pin", "Calibration", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Measurement Circuit Enabled!", "Calibration", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 LBL_GEN1.Font = new Font(f, FontStyle.Regular);
-                if (Device.SendCommand(Device.Commands.SET_H_VOUT, out _))
-                {
-                    LBL_GEN2.Font = new Font(f, FontStyle.Bold);
-                    MessageBox.Show("H_VOUT - High State on Signal Pin", "Calibration", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    LBL_GEN2.Font = new Font(f, FontStyle.Regular);
-                    if (Device.SendCommand(Device.Commands.SET_L_VOUT, out _))
-                    {
-                        LBL_GEN3.Font = new Font(f, FontStyle.Bold);
-                        MessageBox.Show("L_VOUT - Low State on Signal Pin", "Calibration", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LBL_GEN3.Font = new Font(f, FontStyle.Regular);
-                    }
-                }
             }
             if (!Device.SendCommand(Device.Commands.SET_NOMINAL, out _))
             {
@@ -907,8 +933,20 @@ namespace CapacitySensor
             Matlab.Generate();
         }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
 
+        }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LBL_GEN3_Click(object sender, EventArgs e)
+        {
+
+        }
 
         public void AppendLog(Logs.Log Log)
         {

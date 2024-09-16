@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{828B2CB9-62D9-474B-B7DC-50FA80469B6F}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>CapacitySensor2</RootNamespace>
     <AssemblyName>CapacitySensor2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
